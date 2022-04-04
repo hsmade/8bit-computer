@@ -1,8 +1,9 @@
 #define EEPROM_WE 5
 #define EEPROM_OE 3
+#define EEPROM_CE 12
 
 #define RA0 22
-#define RA18 40
+#define RA15 37
 
 #define RD0 44
 #define RD7 51

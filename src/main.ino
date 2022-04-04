@@ -3,14 +3,12 @@
 #include "bus-monitor.h"
 #include "firmware.h"
 
+unsigned long readStringFromSerial(int len);
 void readSerialCommand(byte in);
 
 void setup() {
-    eeprom_setup();
-
     Serial.begin(115200);
     delay(2);
-
 }
 
 void loop() {
@@ -24,11 +22,13 @@ void readSerialCommand(byte in)
     int firmware_index = 0;
     int progmem_index = 0;
     byte data;
+    long address;
 
     switch(in)  {
-        case 'E' : Serial.println("CMD: E"); eeprom_eraseChip(); Serial.println("Erased"); break;
+        case 'E' : Serial.println("CMD: E"); eeprom_setup();eeprom_eraseChip(); Serial.println("Erased"); break;
         case 'R' : Serial.println("CMD: R");
-            for(unsigned int i = 0; i < FIRMWARESIZE; ++i) {
+            eeprom_setup();
+            for(unsigned int i = 0; i < FIRMWARESIZE; i++) {
                 if (i%8 == 0) {
                     Serial.println();
                     char addrText[4];
@@ -40,7 +40,8 @@ void readSerialCommand(byte in)
             }
             break;
         case 'W' : Serial.println("CMD: W");
-            for(unsigned int i = 0; i < FIRMWARESIZE; ++i) {
+            eeprom_setup();
+            for(unsigned int i = 0; i < FIRMWARESIZE; i++) {
                 if (i % 32767 == 0) {
                     progmem_index = 0;
                     firmware_index++;
@@ -61,7 +62,30 @@ void readSerialCommand(byte in)
             break;
         case 'M' : Serial.println("CMD: M"); monitor_start(); break;
         case 'm' : Serial.println("CMD: m"); monitor_stop(); break;
+        case 'r' : Serial.println("CMD: read address: ");
+            address = readStringFromSerial(4);
+            Serial.print("got address: ");
+            Serial.println(address, HEX);
+            Serial.print("data: ");
+            setAddress(address);
+
+            eeprom_setCtrlPins();
+            Serial.println(eeprom_readData(address), HEX);
+            eeprom_unSetCtrlPins();
 
         default : Serial.println("E(rase); R(ead); W(rite); (M)onitor on; (m)onitor off;"); break;
     }
+}
+
+unsigned long readStringFromSerial(int len) {
+    char buffer[len+3];
+    buffer[0] = '0';
+    buffer[1] = 'x';
+    for (int i=2;i<len+2;i++) {
+        while(Serial.available() == 0);
+        buffer[i] = Serial.read();
+    }
+    buffer[len+2] = '\0';
+    long result = strtoul(buffer, NULL, 0);
+    return result;
 }

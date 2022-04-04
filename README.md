@@ -20,7 +20,7 @@ See [pins.h](include/pins.h)
 | 10     | CPU SYNC               |
 | 11     | CPU SO                 |
 | 12     | eeprom CE              |
-| 22..38 | Address lines A00..A16 |
+| 22..37 | Address lines A00..A15 |
 | 44..51 | Data lines DQ0..DQ7    |
 
 ## Memory map

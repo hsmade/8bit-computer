@@ -1,6 +1,7 @@
 //#include "bus.h"
 
 void eeprom_setCtrlPins();                                   //Setup control signals
+void eeprom_unSetCtrlPins();                                 //Setup control signals
 void eeprom_setByte(byte out);                               //Set data across D0-D7
 byte eeprom_readByte();                                      //Read byte across D0-D7
 void eeprom_writeByte(byte data, unsigned long address);     //Write a byte of data at a specific address
@@ -11,9 +12,15 @@ void eeprom_eraseChip();                                     //Executes the eras
 
 void eeprom_setup()
 {
-  setDataIn();
-  eeprom_setCtrlPins();
-  setAddrOut();
+    setDataIn();
+    eeprom_setCtrlPins();
+    setAddrOut();
+}
+
+void eeprom_teardown() {
+    eeprom_unSetCtrlPins();
+    setDataIn();
+    setAddrOut();
 }
 
 void eeprom_eraseChip()
@@ -97,9 +104,22 @@ void eeprom_setByte(byte out)
 
 void eeprom_setCtrlPins()
 {
+  pinMode(EEPROM_CE, OUTPUT);
   pinMode(EEPROM_WE, OUTPUT);
   pinMode(EEPROM_OE, OUTPUT);
 
+  digitalWrite(EEPROM_CE, LOW);
   digitalWrite(EEPROM_WE, HIGH);
   digitalWrite(EEPROM_OE, HIGH);
+}
+
+void eeprom_unSetCtrlPins()
+{
+  digitalWrite(EEPROM_CE, HIGH);
+  digitalWrite(EEPROM_WE, LOW);
+  digitalWrite(EEPROM_OE, LOW);
+
+  pinMode(EEPROM_CE, INPUT);
+  pinMode(EEPROM_WE, INPUT);
+  pinMode(EEPROM_OE, INPUT);
 }

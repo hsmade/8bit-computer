@@ -13,7 +13,7 @@ void setDataIn() {
 unsigned long getData() {
     unsigned long data = 0;
     int bit = 0;
-    for(int i = 0; i < 8; i++) {
+    for(int i = 7; i >= 0; i--) {
         bit = digitalRead(RD0 + i) ? 1 : 0;
         data = (data << 1) + bit;
     }
@@ -26,14 +26,14 @@ void setData(unsigned long data) {
 }
 
 void setAddress(unsigned long addr) {
-    for(int i = 0; i < 19; i++)
+    for(int i = 0; i < 16; i++)
         digitalWrite( RA0 + i , bitRead(addr, i) );
 }
 
 unsigned long getAddress() {
     unsigned long addr = 0;
     int bit = 0;
-    for(int i = 0; i < 19; i++) {
+    for(int i = 15; i >= 0; i--) {
         bit = digitalRead(RA0 + i) ? 1 : 0;
         addr = (addr << 1) + bit;
     }
@@ -41,14 +41,14 @@ unsigned long getAddress() {
 }
 
 void setAddrOut() {
-      for(int i = RA0; i <= RA18; i++) {
+      for(int i = RA0; i <= RA15; i++) {
             pinMode(i, OUTPUT);
             digitalWrite(i, LOW);
       }
 }
 
 void setAddrIn() {
-      for(int i = RA0; i <= RA18; i++) {
+      for(int i = RA0; i <= RA15; i++) {
             pinMode(i, INPUT);
       }
 }
