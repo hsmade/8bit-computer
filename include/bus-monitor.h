@@ -21,13 +21,13 @@ void monitor_stop() {
 
 void onClock() {
     Serial.print("A: ");
-    char[4] address;
-    sprintf(address, "%04X", getAddress())
+    char address[4];
+    sprintf(address, "%04X", getAddress());
     Serial.print(address);
 
     Serial.print("    D: ");
-    char[2] data;
-    sprintf(data, "%02X", getData())
+    char data[2];
+    sprintf(data, "%02X", getData());
     Serial.print(data);
 
     Serial.print("    RW: ");

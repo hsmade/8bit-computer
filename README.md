@@ -19,7 +19,8 @@ See [pins.h](include/pins.h)
 | 9      | CPU RDY                |
 | 10     | CPU SYNC               |
 | 11     | CPU SO                 |
-| 22..40 | Address lines A01..A18 |
+| 12     | eeprom CE              |
+| 22..38 | Address lines A00..A16 |
 | 44..51 | Data lines DQ0..DQ7    |
 
 ## Memory map
