@@ -3,12 +3,15 @@
 #include "bus-monitor.h"
 #include "firmware.h"
 
-unsigned long readStringFromSerial(int len);
+unsigned long readLongFromSerial(int len);
 void readSerialCommand(byte in);
 
 void setup() {
     Serial.begin(115200);
-    delay(2);
+
+    pinMode(CPU_RW, INPUT);
+    pinMode(CPU_CLOCK, INPUT);
+    pinMode(CPU_BE, OUTPUT);
 }
 
 void loop() {
@@ -63,7 +66,7 @@ void readSerialCommand(byte in)
         case 'M' : Serial.println("CMD: M"); monitor_start(); break;
         case 'm' : Serial.println("CMD: m"); monitor_stop(); break;
         case 'r' : Serial.println("CMD: read address: ");
-            address = readStringFromSerial(4);
+            address = readLongFromSerial(4);
             Serial.print("got address: ");
             Serial.println(address, HEX);
             Serial.print("data: ");
@@ -77,7 +80,7 @@ void readSerialCommand(byte in)
     }
 }
 
-unsigned long readStringFromSerial(int len) {
+unsigned long readLongFromSerial(int len) {
     char buffer[len+3];
     buffer[0] = '0';
     buffer[1] = 'x';

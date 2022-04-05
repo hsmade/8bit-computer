@@ -1,54 +1,54 @@
 #include "pins.h"
 
 void setDataOut() {
-    for(int i = RD0; i <= RD7; i++)
-        pinMode(i, OUTPUT);
+    for(int i = 0; i <= 7; i++)
+        pinMode(DATA_PINS[i], OUTPUT);
 }
 
 void setDataIn() {
-    for(int i = RD0; i <= RD7; i++)
-        pinMode(i, INPUT);
+    for(int i = 0; i <= 7; i++)
+        pinMode(DATA_PINS[i], INPUT);
 }
 
 unsigned long getData() {
     unsigned long data = 0;
     int bit = 0;
-    for(int i = 7; i >= 0; i--) {
-        bit = digitalRead(RD0 + i) ? 1 : 0;
+    for(int i=0; i <= 7; i++) {
+        bit = digitalRead(DATA_PINS[i]) ? 1 : 0;
         data = (data << 1) + bit;
     }
     return data;
 }
 
 void setData(unsigned long data) {
-    for(int i = 0; i < 9; i++)
-        digitalWrite( RD0 + i , bitRead(data, i) );
+    for(int i = 0; i <= 7; i++)
+        digitalWrite(DATA_PINS[i], bitRead(data, 7 - i));
 }
 
 void setAddress(unsigned long addr) {
-    for(int i = 0; i < 16; i++)
-        digitalWrite( RA0 + i , bitRead(addr, i) );
+    for(int i = 0; i <= 15; i++)
+        digitalWrite(ADDR_PINS[i], bitRead(addr, 15 - i));
 }
 
 unsigned long getAddress() {
     unsigned long addr = 0;
     int bit = 0;
-    for(int i = 15; i >= 0; i--) {
-        bit = digitalRead(RA0 + i) ? 1 : 0;
+    for(int i = 0; i <= 15; i++) {
+        bit = digitalRead(ADDR_PINS[15 - i]) ? 1 : 0;
         addr = (addr << 1) + bit;
     }
     return addr;
 }
 
 void setAddrOut() {
-      for(int i = RA0; i <= RA15; i++) {
-            pinMode(i, OUTPUT);
-            digitalWrite(i, LOW);
-      }
+    for(int i = 0; i <= 15; i++) {
+        pinMode(ADDR_PINS[i], OUTPUT);
+        digitalWrite(ADDR_PINS[i], LOW);
+    }
 }
 
 void setAddrIn() {
-      for(int i = RA0; i <= RA15; i++) {
-            pinMode(i, INPUT);
-      }
+    for(int i = 0; i <= 15; i++) {
+        pinMode(ADDR_PINS[i], INPUT);
+    }
 }

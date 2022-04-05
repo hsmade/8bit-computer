@@ -1,21 +1,18 @@
-//#include "bus.h"
-
 void onClock();
 
 void monitor_start() {
     setDataIn();
     setAddrIn();
 
-    pinMode(RW, INPUT);
-    pinMode(CLOCK, INPUT);
+    digitalWrite(CPU_BE, HIGH); // enable bus
 
-    attachInterrupt(digitalPinToInterrupt(CLOCK), onClock, RISING);
+    attachInterrupt(digitalPinToInterrupt(CPU_CLOCK), onClock, RISING);
 
     Serial.println("Monitor ON");
 }
 
 void monitor_stop() {
-    detachInterrupt(digitalPinToInterrupt(CLOCK));
+    detachInterrupt(digitalPinToInterrupt(CPU_CLOCK));
     Serial.println("Monitor OFF");
 }
 
@@ -26,8 +23,8 @@ void onClock() {
     sprintf(address, "%04X", addr);
     Serial.print(address);
     Serial.print(" b:");
-    for (int b = 15; b >=0; b--) {
-        Serial.print(bitRead(addr, b));
+    for (int i=0; i<=15; i++) {
+        Serial.print(bitRead(addr, 15 - i));
     }
 
     Serial.print("    D: ");
@@ -35,9 +32,7 @@ void onClock() {
     sprintf(data, "%02X", getData());
     Serial.print(data);
 
-    Serial.print("    RW: ");
-    Serial.print(digitalRead(RW) ? 'r' : 'w');
-
+    Serial.print(digitalRead(CPU_RW) ? "read" : "write");
     Serial.println();
 }
 

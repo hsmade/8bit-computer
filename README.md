@@ -5,23 +5,41 @@
 * platformio
 
 ## Arduino mega 2560 connections
-See [pins.h](include/pins.h)
+See [pins.h](include/pins.h) and the [Datasheet](https://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf)
 
-| Pin    | Connect to             |
-|--------|------------------------|
-| 2      | CPU Clock              |
-| 3      | eeprom OE              |
-| 4      | CPU RW                 |
-| 5      | eeprom WE              |
-| 6      | CPU Reset              |
-| 7      | CPU IRQ                |
-| 8      | CPU NMI                |
-| 9      | CPU RDY                |
-| 10     | CPU SYNC               |
-| 11     | CPU SO                 |
-| 12     | eeprom CE              |
-| 22..37 | Address lines A00..A15 |
-| 44..51 | Data lines DQ0..DQ7    |
+| Pin | Connect to | Function                                                  |
+|-----|------------|-----------------------------------------------------------|
+| 2   | CPU Phi2   | Clock                                                     |
+| 3   | CPU RW     | Indicates bus read/write by CPU <br/>HIGH=read, LOW=write |
+| 4   | CPU Reset  | When low for 2 clock cycles, resets CPU                   |
+| 5   | CPU BE     | When set to low, decouples the CPU from the bus           |
+| 8   | eeprom OE  | When low, enables the output on the eeprom                |
+| 9   | eeprom WE  | When low, enables writing on the eeprom                   |
+| 10  | eeprom CE  | When low, enables the eeprom                              |
+| 22  | CPU A15    |                                                           |
+| 24  | CPU A14    |                                                           |
+| 26  | CPU A13    |                                                           |
+| 28  | CPU A12    |                                                           |
+| 30  | CPU A11    |                                                           |
+| 32  | CPU A10    |                                                           |
+| 34  | CPU A9     |                                                           |
+| 36  | CPU A8     |                                                           |
+| 38  | CPU A7     |                                                           |
+| 40  | CPU A6     |                                                           |
+| 42  | CPU A5     |                                                           |
+| 44  | CPU A4     |                                                           |
+| 46  | CPU A3     |                                                           |
+| 48  | CPU A2     |                                                           |
+| 50  | CPU A1     |                                                           |
+| 52  | CPU A0     |                                                           |
+| 39  | CPU D7     |                                                           |
+| 41  | CPU D6     |                                                           |
+| 43  | CPU D5     |                                                           |
+| 45  | CPU D4     |                                                           |
+| 47  | CPU D3     |                                                           |
+| 49  | CPU D2     |                                                           |
+| 51  | CPU D1     |                                                           |
+| 53  | CPU D0     |                                                           |
 
 ## Memory map
 http://wilsonminesco.com/6502primer/addr_decoding.html

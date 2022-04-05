@@ -1,18 +1,11 @@
-#define EEPROM_WE 5
-#define EEPROM_OE 3
-#define EEPROM_CE 12
+#define EEPROM_OE 8
+#define EEPROM_WE 9
+#define EEPROM_CE 10
 
-#define RA0 22
-#define RA15 37
+const char ADDR_PINS[] = {22, 24, 26, 28, 30, 32 ,34, 36, 38, 40, 42, 44, 46, 48, 50, 52};
+const char DATA_PINS[] = {39, 41, 43, 45, 47, 49, 51, 53};
 
-#define RD0 44
-#define RD7 51
-
-#define RW 4
-#define CLOCK 2
-#define RESET 6
-#define IRQ 7
-#define NMI 8
-#define RDY 9
-#define SYNC 10
-#define SO 11
+#define CPU_CLOCK 2
+#define CPU_RW    3
+#define CPU_RESET 4
+#define CPU_BE    5

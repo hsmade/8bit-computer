@@ -12,15 +12,18 @@ void eeprom_eraseChip();                                     //Executes the eras
 
 void eeprom_setup()
 {
-    setDataIn();
     eeprom_setCtrlPins();
+    setDataIn();
     setAddrOut();
+    digitalWrite(CPU_BE, LOW); // disable bus
+
 }
 
 void eeprom_teardown() {
     eeprom_unSetCtrlPins();
     setDataIn();
     setAddrOut();
+    digitalWrite(CPU_BE, HIGH); // enable bus
 }
 
 void eeprom_eraseChip()
@@ -86,11 +89,9 @@ void eeprom_programData(byte data, unsigned long address)
 byte eeprom_readByte()
 {
   byte temp_in = 0;
-  for(int i = 0; i < 8; i++)
-  {
-    if (digitalRead( RD0 + i))
-    {
-      bitSet(temp_in, i);
+  for(int i=0; i <= 7; i++) {
+    if (digitalRead(DATA_PINS[i])) {
+      bitSet(temp_in, 7 - i);
     }
   }
   return temp_in;
@@ -98,8 +99,8 @@ byte eeprom_readByte()
 
 void eeprom_setByte(byte out)
 {
-  for(int i = 0; i < 8; i++)
-    digitalWrite( RD0 + i, bitRead(out, i) );
+  for(int i=0; i <= 7; i++)
+    digitalWrite(DATA_PINS[i], bitRead(out, 7 - i));
 }
 
 void eeprom_setCtrlPins()
@@ -115,9 +116,9 @@ void eeprom_setCtrlPins()
 
 void eeprom_unSetCtrlPins()
 {
-  digitalWrite(EEPROM_CE, HIGH);
-  digitalWrite(EEPROM_WE, LOW);
-  digitalWrite(EEPROM_OE, LOW);
+  digitalWrite(EEPROM_CE, HIGH); // to be pulled down by inverter on A15
+  digitalWrite(EEPROM_WE, HIGH);
+  digitalWrite(EEPROM_OE, HIGH); // to be pulled down by inverter on A15
 
   pinMode(EEPROM_CE, INPUT);
   pinMode(EEPROM_WE, INPUT);
