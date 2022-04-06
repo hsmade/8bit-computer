@@ -62,3 +62,6 @@ http://wilsonminesco.com/6502primer/addr_decoding.html
 | 5000  | 500F | VIA 2    |
 | 6000  | 600F | VIA 1    |
 | 8000  | FFFF | ROM      |
+
+## Schematic
+![schematic](kicad/8bit-cpu-address-decoder.svg)
