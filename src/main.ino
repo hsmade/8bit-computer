@@ -70,11 +70,17 @@ void readSerialCommand(byte in)
             Serial.print("got address: ");
             Serial.println(address, HEX);
             Serial.print("data: ");
+            digitalWrite(CPU_BE, LOW);
             setAddress(address);
+            delay(1000);
+            Serial.println(getData(), HEX);
+            digitalWrite(CPU_BE, HIGH);
 
-            eeprom_setCtrlPins();
-            Serial.println(eeprom_readData(address), HEX);
-            eeprom_unSetCtrlPins();
+//             digitalWrite(CPU_BE, HIGH);
+//             eeprom_setCtrlPins();
+//             Serial.println(eeprom_readData(address), HEX);
+//             eeprom_unSetCtrlPins();
+            break;
 
         default : Serial.println("E(rase); R(ead); W(rite); (M)onitor on; (m)onitor off;"); break;
     }
