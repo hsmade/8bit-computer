@@ -32762,13 +32762,13 @@ const static byte FIRMWARE0[] PROGMEM = {
 0x00,
 0x00,
 0x00,
+0x80,
 0x00,
 0x80,
 0x00,
-0x00,
 };
 const byte FIRMWARE1[] PROGMEM = {
-0x00,
+0x80,
 };
 const byte* FIRMWARE[2] = { FIRMWARE0, FIRMWARE1 };
 unsigned int FIRMWARESIZE = 32768;

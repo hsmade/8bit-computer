@@ -22,12 +22,12 @@ unsigned long getData() {
 
 void setData(unsigned long data) {
     for(int i = 0; i <= 7; i++)
-        digitalWrite(DATA_PINS[i], bitRead(data, 7 - i));
+        digitalWrite(DATA_PINS[i], bitRead(data, i));
 }
 
 void setAddress(unsigned long addr) {
     for(int i = 0; i <= 15; i++)
-        digitalWrite(ADDR_PINS[i], bitRead(addr, 15 - i));
+        digitalWrite(ADDR_PINS[i], bitRead(addr, i));
 }
 
 unsigned long getAddress() {

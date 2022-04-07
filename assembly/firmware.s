@@ -14,6 +14,6 @@ loop:
   jmp loop
 
 .segment  "VECTORS"
-  .word $0000 ;$FFFA
-  .addr reset ;$FFFC ; ends up +1
-  .word $0000 ;$FFFE
+  .word reset ;$FFFA
+  .addr reset ;$FFFC
+  .word reset ;$FFFE

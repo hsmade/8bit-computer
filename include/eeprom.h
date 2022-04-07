@@ -15,7 +15,7 @@ void eeprom_setup()
     eeprom_setCtrlPins();
     setDataIn();
     setAddrOut();
-    digitalWrite(CPU_BE, LOW); // disable bus
+//    digitalWrite(CPU_BE, LOW); // disable bus
 
 }
 
@@ -23,7 +23,7 @@ void eeprom_teardown() {
     eeprom_unSetCtrlPins();
     setDataIn();
     setAddrOut();
-    digitalWrite(CPU_BE, HIGH); // enable bus
+//    digitalWrite(CPU_BE, HIGH); // enable bus
 }
 
 void eeprom_eraseChip()
@@ -63,6 +63,11 @@ byte eeprom_readData(unsigned long address)
 
 void eeprom_writeByte(byte data, unsigned long address)
 {
+//Serial.println();
+//Serial.print("WRITING: ");
+//Serial.print(data, HEX);
+//Serial.print(" TO ");
+//Serial.println(address, HEX);
   digitalWrite(EEPROM_OE, HIGH);
   digitalWrite(EEPROM_WE,HIGH);
 
@@ -91,7 +96,7 @@ byte eeprom_readByte()
   byte temp_in = 0;
   for(int i=0; i <= 7; i++) {
     if (digitalRead(DATA_PINS[i])) {
-      bitSet(temp_in, 7 - i);
+      bitSet(temp_in, i);
     }
   }
   return temp_in;
@@ -100,7 +105,7 @@ byte eeprom_readByte()
 void eeprom_setByte(byte out)
 {
   for(int i=0; i <= 7; i++)
-    digitalWrite(DATA_PINS[i], bitRead(out, 7 - i));
+    digitalWrite(DATA_PINS[i], bitRead(out, i));
 }
 
 void eeprom_setCtrlPins()
