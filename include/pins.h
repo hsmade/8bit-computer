@@ -2,8 +2,9 @@
 #define EEPROM_WE 9
 #define EEPROM_CE 10
 
-const char ADDR_PINS[] = {22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40};
-const char DATA_PINS[] = {44, 45, 46, 47, 48, 49, 50, 51};
+//                        00                          08                              16
+const char ADDR_PINS[] = {23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53};
+const char DATA_PINS[] = {52, 50, 48, 46, 44, 42, 40, 38};
 
 #define CPU_CLOCK 2
 #define CPU_RW    3

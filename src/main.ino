@@ -31,6 +31,14 @@ void readSerialCommand(byte in)
 
     switch(in)  {
         case 'E' : Serial.println("CMD: E"); eeprom_setup();eeprom_eraseChip(); Serial.println("Erased"); break;
+        case '0' : Serial.println("data 0"); eeprom_setup();setData(0x01); break;
+        case '1' : Serial.println("data 1"); eeprom_setup();setData(0x02); break;
+        case '2' : Serial.println("data 2"); eeprom_setup();setData(0x04); break;
+        case '3' : Serial.println("data 3"); eeprom_setup();setData(0x08); break;
+        case '4' : Serial.println("data 4"); eeprom_setup();setData(0x10); break;
+        case '5' : Serial.println("data 5"); eeprom_setup();setData(0x20); break;
+        case '6' : Serial.println("data 6"); eeprom_setup();setData(0x40); break;
+        case '7' : Serial.println("data 7"); eeprom_setup();setData(0x80); break;
         case 'R' : Serial.println("CMD: R");
             eeprom_setup();
             for(unsigned int i = 0; i < FIRMWARESIZE; i++) {
@@ -46,22 +54,19 @@ void readSerialCommand(byte in)
             break;
         case 'W' : Serial.println("CMD: W");
             eeprom_setup();
-            for(unsigned int i = 0; i < FIRMWARESIZE; i++) {
-//             for(unsigned int i = 0; i < 3; i++) {
-                if (i % 32767 == 0) {
+            for(unsigned int address = 0; address < FIRMWARESIZE; address++) {
+                if (address >0 && address % 32767 == 0) {
                     progmem_index = 0;
                     firmware_index++;
                 }
-                data = pgm_read_byte_near(FIRMWARE[firmware_index] + 1 + i);
-                eeprom_programData(data, 0x0000 + i);
-                Serial.print("Written ");
-                Serial.print(data, HEX);
-                Serial.print(" to ");
-                Serial.println(0x0000 + i, HEX);
-                if (i%8 == 0) {
+
+                data = pgm_read_byte_near(&FIRMWARE[firmware_index][progmem_index]);
+                eeprom_programData(data, address);
+
+                if (address % 8 == 0) {
                     Serial.println();
                     char addrText[4];
-                    sprintf(addrText, "%04X", i);
+                    sprintf(addrText, "%04X", address);
                     Serial.print(addrText);
                 }
                 Serial.print(" ");

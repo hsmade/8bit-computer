@@ -20,5 +20,5 @@ with open(sys.argv[1]) as f:
 
 print("};")
 
-print("const byte* FIRMWARE[%d] = {" % (index+1), ", ".join(["FIRMWARE{}".format(i) for i in range(0, index+1)]), "};")
+print("const byte *const FIRMWARE[%d] = {" % (index+1), ", ".join(["FIRMWARE{}".format(i) for i in range(0, index+1)]), "};")
 print("unsigned int FIRMWARESIZE = %d;" % total_size)
