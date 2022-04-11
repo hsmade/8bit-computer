@@ -61,12 +61,12 @@ void readSerialCommand(byte in)
                 }
 
                 data = pgm_read_byte_near(&FIRMWARE[firmware_index][progmem_index]);
-                eeprom_programData(data, address);
+                eeprom_programData(data, 0x8000 + address);
 
                 if (address % 8 == 0) {
                     Serial.println();
                     char addrText[4];
-                    sprintf(addrText, "%04X", address);
+                    sprintf(addrText, "%04X", 0x8000 + address);
                     Serial.print(addrText);
                 }
                 Serial.print(" ");
