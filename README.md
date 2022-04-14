@@ -4,6 +4,22 @@
 * cc65
 * platformio
 
+## Usage
+### Firmware
+* EEPROM programmer
+  ```bash
+  make asm run
+  ```
+* Address display
+  ```bash
+  make address-display run
+  ```
+
+### Arduino files
+```bash
+make run
+```
+
 ## Arduino mega 2560 connections
 See [pins.h](include/pins.h) and the [Datasheet](https://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf)
 
