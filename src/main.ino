@@ -45,11 +45,11 @@ void readSerialCommand(byte in)
                 if (i%8 == 0) {
                     Serial.println();
                     char addrText[4];
-                    sprintf(addrText, "%04X", i);
+                    sprintf(addrText, "%04X", 0x8000 + i);
                     Serial.print(addrText);
                 }
                 Serial.print(" ");
-                Serial.print(eeprom_readData(0x0000 + i), HEX);
+                Serial.print(eeprom_readData(0x8000 + i), HEX);
             }
             break;
         case 'W' : Serial.println("CMD: W");
