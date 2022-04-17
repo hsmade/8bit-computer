@@ -3,7 +3,7 @@
 This repo describes my homebrew 8-bit computer. 
 It is loosely based on the works of  [Ben eater's 6502 computer](https://eater.net/6502), and others.
 
-A build log can be found [here](buildlog.md)
+A build log can be found [here](build-log/README.md)
 
 ## Components
 ### CPU card
