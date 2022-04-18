@@ -88,3 +88,13 @@ http://wilsonminesco.com/6502primer/addr_decoding.html
 | A13 | 18   | 23   | D2    |
 | A14 | 19   | 22   | D1    |
 | A15 | 20   | 21   | D0    |
+
+## Datasheets
+* NAND [74HC00](https://www.mouser.com/catalog/specsheets/nxp_74hc_hct00.pdf)
+* CPU [W65C02](https://nl.mouser.com/datasheet/2/436/w65c02s-2572.pdf)
+* Power transistor PNP [BD952](https://nl.mouser.com/datasheet/2/54/bd646-1159083.pdf)
+* RAM [39SF010A7CPHE](https://nl.mouser.com/datasheet/2/268/20005022C-1832260.pdf)
+* 7 segment display [INND-TS40Y*CB](https://nl.mouser.com/datasheet/2/180/INND-TS40_Series_V1.0-1485199.pdf)
+* ROM [SST39SF010A](https://nl.mouser.com/datasheet/2/268/20005022C-1832260.pdf)
+* ACIA [W65C51](https://nl.mouser.com/datasheet/2/436/WDC_Datasheet%20Update_20141024-1211725.pdf)
+* PIO [W65C22](https://nl.mouser.com/datasheet/2/436/w65c22-1197.pdf)
