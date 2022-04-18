@@ -2,5 +2,5 @@
 
 * [Build log](build-log/README.md)
 * Boards
-  * [ROM / programmer](../ROM/README.md)
-  * [Bus display](../bus-display/README.md)
+  * [ROM / programmer](rom.md)
+  * [Bus display](bus-display.md)
