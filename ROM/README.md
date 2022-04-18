@@ -1,1 +1,1 @@
-docs/rom.md
+../docs/rom.md

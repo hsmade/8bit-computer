@@ -1,1 +1,1 @@
-docs/bus-display.md
+../docs/bus-display.md
