@@ -27,6 +27,7 @@ It does seem the `555` IC can't provide enough current for the led segments of 2
 The `NAND` can, though. I soldered the rest of the segment displays and resistors to the board.
 Next I will test if the NAND can provide enough current. 
 If so, I'll chain two gates together to power the right side displays, instead of the `555` timer.
+
 ![bus display board](bus-display-1.jpg)
 
 # 20220416
