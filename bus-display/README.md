@@ -1,12 +1,8 @@
 # Address display
-Shows both the address bus and data bus signals as HEX.
+This board helps with debugging in single step mode.
+But I mostly created it for the [blinkenlights](https://en.wikipedia.org/wiki/Blinkenlights) factor.
+It shows the values on the address, and data busses, and the state of the R/<INS>W</INS> line.
 
-## Schema
-![schema](kicad/address%20display.svg)
+The schematic can be found [here](kicad/).
 
-![pcb](kicad/pcb.png)
-
-## Bugs / todo
-* a NAND is used to invert the clock signal, which delays it a little, causing one of the display to ghost the other
-* the PCB is horrible
-* The timer seems to not work properly, while it did work on the breadboard. It's not producing a square wave
+![bus display board](../docs/build-log/bus-display-2.jpg)
