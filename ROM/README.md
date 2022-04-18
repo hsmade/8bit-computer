@@ -1,1 +1,1 @@
-../docs/rom.md
+See [here](https://hsmade.github.io/8bit-computer/rom.html)

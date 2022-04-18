@@ -1,1 +1,1 @@
-../docs/bus-display.md
+See [here](https://hsmade.github.io/8bit-computer/bus-display.html)

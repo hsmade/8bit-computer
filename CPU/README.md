@@ -1,1 +1,1 @@
-../docs/cpu.md
+See [here](https://hsmade.github.io/8bit-computer/cpu.html)
