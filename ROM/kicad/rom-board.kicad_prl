@@ -66,7 +66,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "8bit-cpu-address-decoder.kicad_prl",
+    "filename": "rom-board.kicad_prl",
     "version": 3
   },
   "project": {
