@@ -1,1 +1,2 @@
-See [here](https://hsmade.github.io/8bit-computer/cpu.html)
+# CPU module
+This module contains the 6502 CPU and the RAM.
