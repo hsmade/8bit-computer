@@ -5,7 +5,7 @@ build:
 .PHONY: asm
 asm:
 	@echo running build for assembly
-	$(MAKE) -C ../assembly build
+	$(MAKE) -C ../../assembly build
 	@echo converting hex file to include file
 	./convert-bin-include.py ../../assembly/firmware.bin > include/firmware.h
 
