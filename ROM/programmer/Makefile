@@ -11,7 +11,7 @@ asm:
 
 .PHONY: address-display
 address-display:
-	$(MAKE) -C ../bus-display build
+	$(MAKE) -C ../../bus-display rom.bin
 	./convert-bin-include.py ../../bus-display/rom.bin > include/firmware.h
 
 .PHONY: upload

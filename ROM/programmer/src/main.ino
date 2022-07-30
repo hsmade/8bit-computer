@@ -112,6 +112,14 @@ void readSerialCommand(byte in)
             Serial.println("done");
 //             digitalWrite(CPU_BE, HIGH);
             break;
+        case 't':
+        for(unsigned int i = 0; i < 255; i++) {
+        setDataIn();
+        Serial.println(i);
+            setAddress(i+i*256);
+            //setData(i);
+            readLongFromSerial(1);
+        }
 
         default : Serial.println("E(rase); R(ead); W(rite); (M)onitor on; (m)onitor off;"); break;
     }
