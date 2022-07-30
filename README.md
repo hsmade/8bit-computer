@@ -3,7 +3,7 @@
 This repo describes my homebrew 8-bit computer. 
 It is loosely based on the works of  [Ben eater's 6502 computer](https://eater.net/6502), and others.
 
-A build log can be found [here](docs/README.md)
+A build log can be found [here](https://hsmade.github.io/8bit-computer)
 
 ## Components
 ### CPU card
@@ -46,22 +46,22 @@ http://wilsonminesco.com/6502primer/addr_decoding.html
 ![address decoder](address-decoder.jpg)
 
 
-| start | end  | what     |
-|-------|------|----------|
-| 0000  | 3FFF | RAM      |
-| 4100  |      | ACIA 3-1 |
-| 4104  |      | ACIA 3-2 |
-| 4108  |      | ACIA 3-3 |
-| 410C  |      | ACIA 3-4 |
-| 4200  |      | ACIA 2-1 |
-| 4204  |      | ACIA 2-2 |
-| 4208  |      | ACIA 2-3 |
-| 420C  |      | ACIA 2-4 |
-| 4400  | 4403 | ACIA 1   |
-| 4800  | 480F | VIA 3    |
-| 5000  | 500F | VIA 2    |
-| 6000  | 600F | VIA 1    |
-| 8000  | FFFF | ROM      |
+| start | end  | what     | A15 | A14 | 
+|-------|------|----------|-----|-----|
+| 0000  | 3FFF | RAM      |   0 |   0 | 
+| 4100  |      | ACIA 3-1 |   0 |   1 |
+| 4104  |      | ACIA 3-2 |   0 |   1 |
+| 4108  |      | ACIA 3-3 |   0 |   1 |
+| 410C  |      | ACIA 3-4 |   0 |   1 |
+| 4200  |      | ACIA 2-1 |   0 |   1 |
+| 4204  |      | ACIA 2-2 |   0 |   1 |
+| 4208  |      | ACIA 2-3 |   0 |   1 |
+| 420C  |      | ACIA 2-4 |   0 |   1 |
+| 4400  | 4403 | ACIA 1   |   0 |   1 |
+| 4800  | 480F | VIA 3    |   0 |   1 |
+| 5000  | 500F | VIA 2    |   0 |   1 |
+| 6000  | 600F | VIA 1    |   0 |   1 |
+| 8000  | FFFF | ROM      |   1 |   x |
 
 
 ## Bus
