@@ -30,7 +30,7 @@ void readSerialCommand(byte in)
     long address;
 
     switch(in)  {
-        case 'E' : Serial.println("CMD: E"); eeprom_setup();eeprom_eraseChip(); Serial.println("Erased"); break;
+        case 'E' : Serial.println("CMD: Erase"); eeprom_setup();eeprom_eraseChip(); Serial.println("Erased"); break;
         case '0' : Serial.println("data 0"); eeprom_setup();setData(0x01); break;
         case '1' : Serial.println("data 1"); eeprom_setup();setData(0x02); break;
         case '2' : Serial.println("data 2"); eeprom_setup();setData(0x04); break;
@@ -39,7 +39,7 @@ void readSerialCommand(byte in)
         case '5' : Serial.println("data 5"); eeprom_setup();setData(0x20); break;
         case '6' : Serial.println("data 6"); eeprom_setup();setData(0x40); break;
         case '7' : Serial.println("data 7"); eeprom_setup();setData(0x80); break;
-        case 'R' : Serial.println("CMD: R");
+        case 'R' : Serial.println("CMD: Read");
             eeprom_setup();
             for(unsigned int i = 0; i < FIRMWARESIZE; i++) {
                 if (i%8 == 0) {
@@ -52,7 +52,7 @@ void readSerialCommand(byte in)
                 Serial.print(eeprom_readData(0x8000 + i), HEX);
             }
             break;
-        case 'W' : Serial.println("CMD: W");
+        case 'W' : Serial.println("CMD: Write");
             eeprom_setup();
             for(unsigned int address = 0; address < FIRMWARESIZE; address++) {
                 if (address >0 && address % 32767 == 0) {
@@ -75,8 +75,8 @@ void readSerialCommand(byte in)
             }
             Serial.println("Written");
             break;
-        case 'M' : Serial.println("CMD: M"); monitor_start(); break;
-        case 'm' : Serial.println("CMD: m"); monitor_stop(); break;
+        case 'M' : Serial.println("CMD: Monitor ON"); monitor_start(); break;
+        case 'm' : Serial.println("CMD: monitor OFF"); monitor_stop(); break;
         case 'r' : Serial.println("CMD: read address: ");
             eeprom_setup();
             address = readLongFromSerial(4);
@@ -113,6 +113,10 @@ void readSerialCommand(byte in)
 //             digitalWrite(CPU_BE, HIGH);
             break;
         case 't':
+        digitalWrite(EEPROM_OE, HIGH);
+        digitalWrite(EEPROM_CE, HIGH);
+        digitalWrite(EEPROM_WE,HIGH);
+
         for(unsigned int i = 0; i < 255; i++) {
         setDataIn();
         Serial.println(i);

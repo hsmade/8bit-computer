@@ -4,8 +4,9 @@ void monitor_start() {
     setDataIn();
     setAddrIn();
 
-    digitalWrite(CPU_BE, HIGH); // enable bus
+    //digitalWrite(CPU_BE, HIGH); // enable bus
 
+    attachInterrupt(digitalPinToInterrupt(CPU_CLOCK), onClock, FALLING);
     attachInterrupt(digitalPinToInterrupt(CPU_CLOCK), onClock, RISING);
 
     Serial.println("Monitor ON");
@@ -17,17 +18,17 @@ void monitor_stop() {
 }
 
 void onClock() {
-    Serial.print("A: ");
+    Serial.print("Addr: ");
     char address[4];
     unsigned long addr = getAddress();
     sprintf(address, "%04X", addr);
     Serial.print(address);
-    Serial.print(" b:");
+    Serial.print(" bits:");
     for (int i=0; i<=15; i++) {
         Serial.print(bitRead(addr, 15 - i));
     }
 
-    Serial.print("    D: ");
+    Serial.print("    Data: ");
     char data[2];
     sprintf(data, "%02X", getData());
     Serial.print(data);
