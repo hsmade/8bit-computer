@@ -1,43 +1,59 @@
-  .org $8000 ; start at $8000
+.org $8000 ; start at $8000
+
+ACIA_DATA := $5000
+ACIA_STATUS := $5001
+ACIA_CMD := $5002
+ACIA_CTRL := $5003
 
 reset:
-  lda #$ff  ; store $ff in A
-  sta $6002 ; store A in $6002
+  ldx #$ff
+  txs
 
-  lda #$50  ; store $50 in A
-  sta $6000 ; store A in $6000
+  lda #$00
+  sta ACIA_STATUS ; soft reset (value ignored)
 
-loop:
-  ror       ; rotate right
-  sta $6000 ; store A in $6000
+  lda #$1f ; 8n1, 19200 baud
+  sta ACIA_CTRL
 
-  jmp loop  ; jump to loop
+  lda #$0b ; no parity, no echo, no interrupts
+  sta ACIA_CMD
+
+rx_wait:
+  lda ACIA_STATUS
+  and #$08 ; check rx status buffer flag
+  beq rx_wait ; loop until we have data
+
+  lda ACIA_DATA
+  jsr rx_write ; write back (echo)
+  jmp rx_wait
+
+rx_write:
+  sta ACIA_DATA
+  pha
+tx_wait:
+  lda ACIA_STATUS
+  and #$10 ; check tx buffer status flag
+  beq tx_wait
+  jsr tx_delay ; wait 100 cycles; hw bug
+  pla
+  rts
+
+tx_delay: ; delay for tx, because of hardware bug with tx buffer status flag
+  phx
+  ldx #100 ; loop 100 times, gives us a total of about 520 cycles, which matches 1/19200 * 1mhz * 10 bits
+tx_delay_1:
+  dex
+  bne tx_delay_1
+  plx
+  rts
 
 nmi:
-  jmp reset  ; jump to reset
+  jmp reset
 
 irq:
-  jmp reset  ; jump to reset
+  jmp reset
 
 .segment  "VECTORS"
   .word nmi   ;$FFFA
   .addr reset ;$FFFC
   .word irq   ;$FFFE
-
-; 8000 A9 lda
-; 8001 FF $FF
-; 8002 8D sta
-; 8003 02
-; 8004 60 $6002
-; 8005 A9 lda
-; 8006 50 $50
-; 8007 8D sta
-; 8008 00
-; 8009 60 $6000
-; 800A 6A ROR :loop
-; 800B 8D sta
-; 800C 00
-; 800D 60 $6000
-; 800E 4C JMP
-; 800F 0A
-; 8010 80 $800A -> loop
