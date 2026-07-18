@@ -46,22 +46,26 @@ http://wilsonminesco.com/6502primer/addr_decoding.html
 ![address decoder](address-decoder.jpg)
 
 
-| start | end  | what     | A15 | A14 | 
-|-------|------|----------|-----|-----|
-| 0000  | 3FFF | RAM      |   0 |   0 | 
-| 4100  |      | ACIA 3-1 |   0 |   1 |
-| 4104  |      | ACIA 3-2 |   0 |   1 |
-| 4108  |      | ACIA 3-3 |   0 |   1 |
-| 410C  |      | ACIA 3-4 |   0 |   1 |
-| 4200  |      | ACIA 2-1 |   0 |   1 |
-| 4204  |      | ACIA 2-2 |   0 |   1 |
-| 4208  |      | ACIA 2-3 |   0 |   1 |
-| 420C  |      | ACIA 2-4 |   0 |   1 |
-| 4400  | 4403 | ACIA 1   |   0 |   1 |
-| 4800  | 480F | VIA 3    |   0 |   1 |
-| 5000  | 500F | VIA 2    |   0 |   1 |
-| 6000  | 600F | VIA 1    |   0 |   1 |
-| 8000  | FFFF | ROM      |   1 |   x |
+| start | end  | what     | A15 | A14 | A13 | A12 | A11 | A10 | A9 | A8 | A3 | A2 |
+|-------|------|----------|-----|-----|-----|-----|-----|-----|----|----|----|----|
+| 0000  | 3FFF | RAM      |   0 |   0 |   x |   x |   x |   x |  x |  x |  x |  x |
+| 4100  |      | ACIA 3-1 |   0 |   1 |   0 |   0 |   0 |   0 |  0 |  1 |  0 |  0 |
+| 4104  |      | ACIA 3-2 |   0 |   1 |   0 |   0 |   0 |   0 |  0 |  1 |  0 |  1 |
+| 4108  |      | ACIA 3-3 |   0 |   1 |   0 |   0 |   0 |   0 |  0 |  1 |  1 |  0 |
+| 410C  |      | ACIA 3-4 |   0 |   1 |   0 |   0 |   0 |   0 |  0 |  1 |  1 |  1 |
+| 4200  |      | ACIA 2-1 |   0 |   1 |   0 |   0 |   0 |   0 |  1 |  0 |  0 |  0 |
+| 4204  |      | ACIA 2-2 |   0 |   1 |   0 |   0 |   0 |   0 |  1 |  0 |  0 |  1 |
+| 4208  |      | ACIA 2-3 |   0 |   1 |   0 |   0 |   0 |   0 |  1 |  0 |  1 |  0 |
+| 420C  |      | ACIA 2-4 |   0 |   1 |   0 |   0 |   0 |   0 |  1 |  0 |  1 |  1 |
+| 4400  | 4403 | ACIA 1   |   0 |   1 |   0 |   0 |   0 |   1 |  0 |  0 |  0 |  0 |
+| 4800  | 480F | VIA 3    |   0 |   1 |   0 |   0 |   1 |   0 |  0 |  0 |  x |  x |
+| 5000  | 500F | VIA 2    |   0 |   1 |   0 |   1 |   0 |   0 |  0 |  0 |  x |  x |
+| 6000  | 600F | VIA 1    |   0 |   1 |   1 |   0 |   0 |   0 |  0 |  0 |  x |  x |
+| 8000  | FFFF | ROM      |   1 |   x |   x |   x |   x |   x |  x |  x |  x |  x |
+
+`A1` and `A0` select registers inside each ACIA. `A3` through `A0`
+select registers inside each VIA. `A7` through `A4` are not decoded in
+this memory map.
 
 
 ## Bus
@@ -79,7 +83,7 @@ http://wilsonminesco.com/6502primer/addr_decoding.html
 | A4  | 9    | 32   | IRQ   |
 | A5  | 10   | 31   | Phi 1 |
 | A6  | 11   | 30   | Phi 2 |
-| A7  | 12   | 29   | R/W   |
+| A7  | 12   | 29   | CSb peripheral |
 | A8  | 13   | 28   | D7    |
 | A9  | 14   | 27   | D6    |
 | A10 | 15   | 26   | D5    |
