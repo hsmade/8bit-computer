@@ -5577,6 +5577,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "missing on conn:\n- res\n- CSb peripheral"
+		(exclude_from_sim no)
+		(at 75.184 65.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09703e83-5293-4a40-b5ec-d8435bc1c0cb")
+	)
 	(text "A15  = 0  A14 = 0\nphi2 = 1\n------  -----\n  CS = 0   OE = 0"
 		(exclude_from_sim no)
 		(at 241.554 104.648 0)
@@ -7119,16 +7129,6 @@
 	)
 	(bus
 		(pts
-			(xy 100.33 92.71) (xy 100.33 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "285517d9-fe84-4bb0-89da-9c7853c6151c")
-	)
-	(bus
-		(pts
 			(xy 199.39 78.74) (xy 199.39 81.28)
 		)
 		(stroke
@@ -7686,6 +7686,16 @@
 			(type default)
 		)
 		(uuid "5996d52b-b9e4-44bb-baf5-45d9dcb54695")
+	)
+	(bus
+		(pts
+			(xy 100.33 92.71) (xy 100.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3409d8-6f63-4be5-ad30-5aae372d2b28")
 	)
 	(wire
 		(pts
@@ -9998,7 +10008,7 @@
 		(uuid "9f66b27a-cb1c-41d4-9ee7-645d3f02d793")
 	)
 	(label "A[0..15]"
-		(at 100.33 116.84 0)
+		(at 100.33 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
