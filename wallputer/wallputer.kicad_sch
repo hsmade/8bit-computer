@@ -13334,8 +13334,8 @@
 		(uuid d6f4d905-2823-4a84-8c05-0c1ef40a323e)
 	)
 	(rectangle
-		(start 276.86 24.13)
-		(end 420.37 78.74)
+		(start 277.495 78.105)
+		(end 422.275 15.875)
 		(stroke
 			(width 0)
 			(type default)
@@ -13370,18 +13370,18 @@
 	)
 	(text "Bus LEDs"
 		(exclude_from_sim no)
-		(at 409.956 26.67 0)
+		(at 288.036 18.542 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "32f3f84d-b591-48bf-9e4f-1a260cc68dae")
 	)
-	(text "Todo:\n- led circuit is faulty, \nthere's a direct path from vcc to gnd through the leds with no resistor\n- missing symbols\n- FETs for status leds\n- FET for bus decoder\n- replace transistors in bus decoder with FETs?\n- rp2040 board\n- pcb"
+	(text "Todo:\n- missing symbols\n- FET for bus decoder\n- replace transistors in bus decoder with FETs?\n- rp2040 board\n- pcb"
 		(exclude_from_sim no)
-		(at 474.726 362.204 0)
+		(at 476.504 384.048 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13514,6 +13514,12 @@
 		(uuid "05d8ccfb-d484-4e0e-83f2-7b77809d2509")
 	)
 	(junction
+		(at 361.315 36.195)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06298f3f-fd8e-4891-9801-32a5b30bd56d")
+	)
+	(junction
 		(at 369.57 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13584,6 +13590,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19d0f12d-8955-44cc-978f-c1110ef63b0a")
+	)
+	(junction
+		(at 354.965 28.575)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ff45ec1-9fbf-4d15-accc-1a190dd65188")
 	)
 	(junction
 		(at 228.6 91.44)
@@ -13778,22 +13790,16 @@
 		(uuid "504c4384-14f1-4789-ba64-83245726bc29")
 	)
 	(junction
-		(at 330.2 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "506537fa-b22b-460e-90bf-57bf461fc40a")
-	)
-	(junction
-		(at 364.49 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "521604b0-bfca-40b3-bf5e-99afd4c6d558")
-	)
-	(junction
 		(at 82.55 347.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53020811-1b58-4c42-ad86-fd591302ac4c")
+	)
+	(junction
+		(at 382.905 36.195)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5383d597-4adb-48c2-a044-ffe6c1a2c7e2")
 	)
 	(junction
 		(at 27.94 236.22)
@@ -13812,6 +13818,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "565f20b4-ccb9-4ac0-ab43-cbaaee5a2e4c")
+	)
+	(junction
+		(at 398.145 28.575)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56c409e1-c152-4730-8a3a-3c7944821fc8")
 	)
 	(junction
 		(at 175.26 208.28)
@@ -13898,6 +13910,12 @@
 		(uuid "66f1bbce-4f65-46f6-ae0e-b901959db7cb")
 	)
 	(junction
+		(at 319.405 36.195)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "677d7d1a-eedc-46aa-95f5-4773d9049f59")
+	)
+	(junction
 		(at 82.55 363.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13920,6 +13938,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d1c64c7-44a3-410d-8fbf-23bb1d402244")
+	)
+	(junction
+		(at 376.555 28.575)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f7058e9-a78d-444a-9cb8-9d2e5d2164b1")
 	)
 	(junction
 		(at 90.17 100.33)
@@ -13946,6 +13970,12 @@
 		(uuid "74367798-a320-42a2-8d3a-475ea2b382ac")
 	)
 	(junction
+		(at 334.645 28.575)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "752592e8-a6c8-44ca-9cc9-e714c95376f5")
+	)
+	(junction
 		(at 398.78 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13970,12 +14000,6 @@
 		(uuid "7703d766-8ea4-470b-9d80-1e2cda0ac539")
 	)
 	(junction
-		(at 330.2 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b9daff4-c6de-4c42-8cfe-b29e28cd7d89")
-	)
-	(junction
 		(at 101.6 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13992,6 +14016,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7da7b442-fa41-467c-ada8-9a53766b9ff6")
+	)
+	(junction
+		(at 412.115 45.085)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dcb2b19-269a-4c70-9bdb-6c4c8789f0e1")
 	)
 	(junction
 		(at 63.5 355.6)
@@ -14108,16 +14138,22 @@
 		(uuid "93d9cb47-5105-4b15-ad00-f0d1b8e2ea0f")
 	)
 	(junction
-		(at 398.78 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "940e3399-e21d-4cdb-bd2f-b1c6a6208a84")
-	)
-	(junction
 		(at 27.94 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94d2c7e2-48ba-410f-9632-bebd0654a8b9")
+	)
+	(junction
+		(at 297.815 36.195)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95986fe4-e8a4-4cea-8668-e492d057e5b9")
+	)
+	(junction
+		(at 305.435 45.085)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "968d8984-1779-4e02-a5ac-4e41f4d0fbdc")
 	)
 	(junction
 		(at 369.57 203.2)
@@ -14138,10 +14174,22 @@
 		(uuid "98617fe0-6634-4a40-b5a5-bdd04df362d7")
 	)
 	(junction
+		(at 347.345 45.085)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "988a8d16-0c03-4754-b778-5598f3e9ab9d")
+	)
+	(junction
 		(at 175.26 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99dbd312-c1d2-407d-b562-2c5e44c4a3bc")
+	)
+	(junction
+		(at 368.935 45.085)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a4edc3c-7e61-4cd4-a357-43e28020a0f5")
 	)
 	(junction
 		(at 322.58 295.91)
@@ -14154,6 +14202,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c4517f1-05bd-4fc7-a703-8f8cdef0ab19")
+	)
+	(junction
+		(at 339.725 36.195)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e204a66-8e03-429a-9ef8-12b666e3d10a")
 	)
 	(junction
 		(at 63.5 350.52)
@@ -14210,6 +14264,12 @@
 		(uuid "a9e6a23f-4e9d-41cc-bbbf-e2e1e84955bd")
 	)
 	(junction
+		(at 327.025 45.085)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9fcf751-43df-4e78-8abe-bc40fd11b7e5")
+	)
+	(junction
 		(at 293.37 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14220,6 +14280,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0c8d5b8-5d08-4035-ad66-909cb49020e6")
+	)
+	(junction
+		(at 390.525 45.085)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b114bb3b-841b-48dd-9d78-8c642b335c57")
 	)
 	(junction
 		(at 415.29 260.35)
@@ -14318,12 +14384,6 @@
 		(uuid "c21bde41-e384-4140-a937-04a755879f05")
 	)
 	(junction
-		(at 364.49 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3aeb54f-5c6c-4ab3-9ef7-16546afb3a91")
-	)
-	(junction
 		(at 27.94 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14346,12 +14406,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c888833b-7215-4bd4-b78c-17d31d7e2b6a")
-	)
-	(junction
-		(at 398.78 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca719701-75c5-4f29-9626-09417cbdcb42")
 	)
 	(junction
 		(at 116.84 168.91)
@@ -14394,6 +14448,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d56f74db-7883-464d-99ff-f422a7e101c8")
+	)
+	(junction
+		(at 313.055 28.575)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d59f2761-ff60-4c69-9e66-58661dad774d")
 	)
 	(junction
 		(at 220.98 90.17)
@@ -16511,6 +16571,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.965 28.575) (xy 376.555 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c25663-ce65-45fc-b04e-a364a02c488e")
+	)
+	(wire
+		(pts
 			(xy 250.19 63.5) (xy 252.73 63.5)
 		)
 		(stroke
@@ -17021,6 +17091,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.645 28.575) (xy 354.965 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14eba908-1054-4ada-8e33-7c42c4f53a80")
+	)
+	(wire
+		(pts
 			(xy 104.14 50.8) (xy 106.68 50.8)
 		)
 		(stroke
@@ -17128,6 +17208,26 @@
 			(type default)
 		)
 		(uuid "19bca67a-54f0-4c4c-8b6e-276de7b4c28c")
+	)
+	(wire
+		(pts
+			(xy 361.315 36.195) (xy 361.315 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d4c2a5-2e43-497f-b409-d6e303047b3d")
+	)
+	(wire
+		(pts
+			(xy 398.145 37.465) (xy 398.145 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f61921-5a4a-43f5-a8a1-fa50ed9d0947")
 	)
 	(wire
 		(pts
@@ -17471,6 +17571,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.055 37.465) (xy 313.055 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b063fd-7549-486b-b9b6-2b6567aaebbd")
+	)
+	(wire
+		(pts
 			(xy 521.97 107.95) (xy 529.59 107.95)
 		)
 		(stroke
@@ -17528,6 +17638,16 @@
 			(type default)
 		)
 		(uuid "2748219e-db54-41e8-a96f-efb67bb10a1e")
+	)
+	(wire
+		(pts
+			(xy 319.405 36.195) (xy 319.405 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2759a4fe-c436-4f78-b041-043fc6a39845")
 	)
 	(wire
 		(pts
@@ -17771,6 +17891,16 @@
 	)
 	(wire
 		(pts
+			(xy 398.145 28.575) (xy 419.735 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d21bf96-5c85-4527-9910-a4319efe4b77")
+	)
+	(wire
+		(pts
 			(xy 63.5 349.25) (xy 63.5 350.52)
 		)
 		(stroke
@@ -17908,6 +18038,16 @@
 			(type default)
 		)
 		(uuid "32061a85-2c57-452f-80ba-f09c559a354d")
+	)
+	(wire
+		(pts
+			(xy 296.545 36.195) (xy 297.815 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32143ce3-105d-4cf1-8f04-02afdbb70dcb")
 	)
 	(bus
 		(pts
@@ -18261,6 +18401,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.645 37.465) (xy 334.645 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db49f3b-0f5c-44c6-a871-588908d6d9ef")
+	)
+	(wire
+		(pts
 			(xy 67.31 154.94) (xy 68.58 154.94)
 		)
 		(stroke
@@ -18448,16 +18598,6 @@
 			(type default)
 		)
 		(uuid "4227cf9b-19fe-456c-a5da-087a7b636a0b")
-	)
-	(wire
-		(pts
-			(xy 264.16 66.04) (xy 264.16 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "422ee8d3-e10e-4faa-b602-5055bdc29165")
 	)
 	(wire
 		(pts
@@ -18711,6 +18851,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.905 36.195) (xy 382.905 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489462b1-7d33-4ce2-a82c-864b08e54e08")
+	)
+	(wire
+		(pts
 			(xy 175.26 213.36) (xy 175.26 215.9)
 		)
 		(stroke
@@ -18861,7 +19011,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 91.44) (xy 250.19 91.44)
+			(xy 250.19 91.44) (xy 255.27 91.44)
 		)
 		(stroke
 			(width 0)
@@ -19228,6 +19378,16 @@
 			(type default)
 		)
 		(uuid "57353011-3ba2-407b-bd93-66c905e3b7a7")
+	)
+	(wire
+		(pts
+			(xy 313.055 28.575) (xy 334.645 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57acd437-e8ee-4c4c-9c2d-d0ac0d0d237c")
 	)
 	(wire
 		(pts
@@ -19881,6 +20041,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.815 36.195) (xy 297.815 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9b28f5-8f63-4e73-8449-7d4a2da8f5de")
+	)
+	(wire
+		(pts
 			(xy 134.62 318.77) (xy 132.08 318.77)
 		)
 		(stroke
@@ -20081,6 +20251,16 @@
 	)
 	(wire
 		(pts
+			(xy 404.495 36.195) (xy 404.495 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b7ba73-9b89-4e7a-923a-46c35b664490")
+	)
+	(wire
+		(pts
 			(xy 24.13 190.5) (xy 27.94 190.5)
 		)
 		(stroke
@@ -20208,6 +20388,16 @@
 			(type default)
 		)
 		(uuid "7a6881d0-b17d-449e-9050-f519b956bc87")
+	)
+	(wire
+		(pts
+			(xy 297.815 36.195) (xy 319.405 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7752d9-dd4a-41d7-b98c-16715d835063")
 	)
 	(wire
 		(pts
@@ -20368,6 +20558,16 @@
 			(type default)
 		)
 		(uuid "811337d4-1500-40ba-9d5d-f935dfcdcc07")
+	)
+	(wire
+		(pts
+			(xy 376.555 28.575) (xy 398.145 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814a07ea-4f93-446f-a4dd-fea986ef5333")
 	)
 	(wire
 		(pts
@@ -20718,6 +20918,16 @@
 			(type default)
 		)
 		(uuid "8c7297ce-eaed-4a24-92a4-1dd5e6549817")
+	)
+	(wire
+		(pts
+			(xy 419.735 37.465) (xy 419.735 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d759f74-069f-440f-afa7-0a8cf0966926")
 	)
 	(wire
 		(pts
@@ -21119,6 +21329,16 @@
 		)
 		(uuid "9a959ee9-3f1f-4e48-b6b7-1176f63787d3")
 	)
+	(wire
+		(pts
+			(xy 382.905 36.195) (xy 404.495 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b45d6b4-f7de-4537-b2e6-e559b4f2cfc0")
+	)
 	(bus
 		(pts
 			(xy 128.27 298.45) (xy 128.27 306.07)
@@ -21148,6 +21368,16 @@
 			(type default)
 		)
 		(uuid "9ca698da-0491-4ef5-9c37-914cf3da519d")
+	)
+	(wire
+		(pts
+			(xy 339.725 36.195) (xy 361.315 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cdb164a-eb02-48df-b8fd-0e5311bc6445")
 	)
 	(wire
 		(pts
@@ -21329,6 +21559,16 @@
 		)
 		(uuid "a2d71c2f-ead6-4790-aecf-2d9a7a628d24")
 	)
+	(wire
+		(pts
+			(xy 354.965 37.465) (xy 354.965 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33116b2-17bb-42cd-82e6-61eb83cfdbd0")
+	)
 	(bus
 		(pts
 			(xy 95.25 193.04) (xy 95.25 195.58)
@@ -21428,6 +21668,16 @@
 			(type default)
 		)
 		(uuid "a539ec8d-a826-4688-9ce9-bcbd313da8cd")
+	)
+	(wire
+		(pts
+			(xy 319.405 36.195) (xy 339.725 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54bdb0b-4d4a-4040-b080-9d3d317c3bd3")
 	)
 	(wire
 		(pts
@@ -22031,6 +22281,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.315 36.195) (xy 382.905 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40b182d-0ce7-4aaf-8945-d0dd0ac8f0e9")
+	)
+	(wire
+		(pts
 			(xy 223.52 91.44) (xy 228.6 91.44)
 		)
 		(stroke
@@ -22058,6 +22318,16 @@
 			(type default)
 		)
 		(uuid "b4c11861-343d-4230-bb3e-b42d90b36f4d")
+	)
+	(wire
+		(pts
+			(xy 339.725 36.195) (xy 339.725 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50b0304-3ac0-4a3a-8a47-38a041ce5ba3")
 	)
 	(wire
 		(pts
@@ -23941,6 +24211,16 @@
 	)
 	(wire
 		(pts
+			(xy 296.545 28.575) (xy 313.055 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a8729d-0719-4d27-8429-74da9f9b9245")
+	)
+	(wire
+		(pts
 			(xy 463.55 83.82) (xy 463.55 82.55)
 		)
 		(stroke
@@ -24211,6 +24491,16 @@
 	)
 	(wire
 		(pts
+			(xy 376.555 37.465) (xy 376.555 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faac9736-43de-4a03-b20e-402e98591fc3")
+	)
+	(wire
+		(pts
 			(xy 250.19 76.2) (xy 252.73 76.2)
 		)
 		(stroke
@@ -24258,16 +24548,6 @@
 			(type default)
 		)
 		(uuid "fc77a389-8c8f-4ff7-96aa-4705586c86dd")
-	)
-	(wire
-		(pts
-			(xy 264.16 66.04) (xy 278.13 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc7ece33-f050-4e10-b522-c75f9deb0a2d")
 	)
 	(wire
 		(pts
@@ -26499,6 +26779,50 @@
 			)
 		)
 	)
+	(global_label "BE"
+		(shape input)
+		(at 390.525 60.325 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21cb1a76-f372-4f0b-89eb-9a4b5d9be927")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 390.525 65.7292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CSb Peripheral"
+		(shape input)
+		(at 305.435 60.325 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22c78645-1869-4962-b10e-b8e568303a5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 305.435 77.6429 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "phi2"
 		(shape input)
 		(at 134.62 285.75 180)
@@ -26512,28 +26836,6 @@
 		(uuid "37fdcd80-1269-4d43-afd0-b42620abd424")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 127.5225 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RWb"
-		(shape input)
-		(at 307.34 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a39f5b9-8535-4a95-95ef-f7f7c87570ac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.4844 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26677,7 +26979,7 @@
 	)
 	(global_label "SW_BUS_DEC"
 		(shape input)
-		(at 278.13 66.04 0)
+		(at 255.27 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26687,7 +26989,7 @@
 		)
 		(uuid "55c50dea-60c8-4442-93a6-8aebe4290334")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 293.2103 66.04 0)
+			(at 270.3503 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26763,24 +27065,24 @@
 			)
 		)
 	)
-	(global_label "CSb Peripheral"
+	(global_label "SW_CPU_LEDb"
 		(shape input)
-		(at 307.34 40.64 180)
+		(at 291.465 20.955 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "7cdb4265-f443-4486-8c01-5da607ddfda5")
+		(uuid "825503a4-01f8-4a7d-be51-2f2b62bda36c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.0221 40.64 0)
+			(at 307.5129 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -26798,28 +27100,6 @@
 		(uuid "86be5c3d-9fa1-4ebf-b28a-bf260b36feb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 127.7644 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BE"
-		(shape input)
-		(at 375.92 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8b65d176-4958-41df-84fa-6b30def922ac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 370.5158 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26913,50 +27193,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RAM CS"
-		(shape input)
-		(at 375.92 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a2604f0c-3424-4922-ab88-2e0f97039a4c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 365.6777 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IRQb"
-		(shape input)
-		(at 341.63 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a2d02bdf-fb2e-486e-b908-4e1974c25dad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.2905 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27093,9 +27329,9 @@
 			)
 		)
 	)
-	(global_label "ROM CE"
+	(global_label "SW_CPU_LED"
 		(shape input)
-		(at 341.63 62.23 180)
+		(at 291.465 43.815 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27103,9 +27339,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d145b11b-f5da-4c34-8657-79708f91689b")
+		(uuid "d9ef2954-e99f-48e3-ab29-7a86ebb43774")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 331.2063 62.23 0)
+			(at 291.465 58.7139 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27181,6 +27417,28 @@
 			)
 		)
 	)
+	(global_label "RWb"
+		(shape input)
+		(at 327.025 60.325 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2774dd5-1e97-464f-8130-c7935245910f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.025 67.1806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW_BUS_LEDb"
 		(shape input)
 		(at 308.61 175.26 0)
@@ -27203,6 +27461,28 @@
 			)
 		)
 	)
+	(global_label "IRQb"
+		(shape input)
+		(at 347.345 60.325 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e516b813-93d9-438a-9335-3bd9e4dcb579")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 347.345 67.6645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW_CPU_LED"
 		(shape input)
 		(at 228.6 91.44 90)
@@ -27221,6 +27501,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RAM CS"
+		(shape input)
+		(at 412.115 60.325 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee8d2f8c-0f77-408d-a5e8-fdffdf9a3e01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 412.115 70.5673 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROM CE"
+		(shape input)
+		(at 368.935 60.325 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0c5fdab-b5c1-4f64-8b97-4c8d803513b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 368.935 70.7487 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -27542,6 +27866,85 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 351.155 45.085 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03abba85-e7dc-42d7-b95b-3649618336d8")
+		(property "Reference" "D68"
+			(at 349.885 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 351.409 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.155 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.155 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 351.155 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 351.155 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84d9eda1-cb0c-4eb9-a98f-9a77b12f6913")
+		)
+		(pin "1"
+			(uuid "e751e376-0d8c-4710-9252-456cc9bed0f8")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -28104,75 +28507,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 360.68 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ab794e1-6f87-484f-bb0a-3f735e998aba")
-		(property "Reference" "R4"
-			(at 355.6 60.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 358.648 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 360.68 60.452 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 360.68 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 360.68 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17ebb9c3-fbf3-4abb-8171-e29055e16392")
-		)
-		(pin "2"
-			(uuid "e2ca885c-6579-4cb5-8688-140e986b7796")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 509.27 59.69 0)
 		(mirror y)
@@ -28370,84 +28704,6 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 330.2 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d0ebd27-73d9-480e-9f9c-b82c62350cbb")
-		(property "Reference" "D13"
-			(at 334.264 38.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Green LED"
-			(at 341.376 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 330.2 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 330.2 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 330.2 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "14f542f8-76c6-4da0-a41a-f888d1896411")
-		)
-		(pin "1"
-			(uuid "e2828f05-b92b-48a1-ba57-b078b6f9973d")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -29138,84 +29394,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 398.78 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "106cd7c0-6b66-4c34-b538-076e5fbaed9b")
-		(property "Reference" "D3"
-			(at 402.844 60.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Green LED"
-			(at 409.956 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 398.78 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 398.78 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 398.78 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cc72a06f-8c6f-46a4-bf79-41c451acfcb9")
-		)
-		(pin "1"
-			(uuid "e1abef0c-d08a-4101-8992-511da93a55f6")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 284.48 234.95 270)
 		(mirror x)
 		(unit 1)
@@ -29429,71 +29607,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 398.78 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1618a368-80bd-4df6-ad96-5d1c4d0e0ebc")
-		(property "Reference" "#PWR058"
-			(at 392.43 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 393.7 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 398.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8873c44-dbf3-416c-9a11-4db45432ce23")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 504.19 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29698,109 +29811,6 @@
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "D44")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC04")
-		(at 349.25 62.23 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19e1c425-0273-4a81-b976-9f5f467a4e07")
-		(property "Reference" "U9"
-			(at 347.218 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 348.996 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 349.25 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 349.25 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 349.25 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf5")
-		)
-		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d4")
-		)
-		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e30")
-		)
-		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7191")
-		)
-		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a2")
-		)
-		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc23")
-		)
-		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296066")
-		)
-		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b305")
-		)
-		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb38")
-		)
-		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe6")
-		)
-		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f4e")
-		)
-		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae57")
-		)
-		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240268")
-		)
-		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe219")
-		)
-		(instances
-			(project ""
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "U9")
-					(unit 4)
 				)
 			)
 		)
@@ -30147,153 +30157,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 394.97 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b308415-dd00-42c4-93cf-0a0a7dcb1ed4")
-		(property "Reference" "R5"
-			(at 389.89 38.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 392.938 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 394.97 38.862 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 394.97 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 394.97 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f33d981d-f11e-438d-98ee-489b395534ad")
-		)
-		(pin "2"
-			(uuid "c6d1f86d-0d51-4303-b1bb-0bc131f57d4d")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 330.2 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bdb262a-65ad-4ec9-9263-65646fbd6ec2")
-		(property "Reference" "D2"
-			(at 331.47 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Red LED"
-			(at 331.47 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 330.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 330.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 330.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d4f506dc-a29f-4d8d-a5ce-a2fe10345057")
-		)
-		(pin "1"
-			(uuid "99c13026-e4aa-40f4-ae11-91b0f72a016f")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 360.68 270.51 270)
 		(mirror x)
@@ -30437,71 +30300,6 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 364.49 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e1f0e05-9ed1-4873-9b13-6b105ea1cbd7")
-		(property "Reference" "#PWR053"
-			(at 368.3 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 359.41 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 364.49 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4791efb5-12ab-4947-92bf-b3bf47ef43e4")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -31459,84 +31257,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 398.78 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "252860a8-9806-48a2-b5b3-74d074989cb6")
-		(property "Reference" "D29"
-			(at 402.844 38.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Green LED"
-			(at 409.956 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 398.78 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 398.78 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 398.78 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4616b174-f808-4f9f-b9a8-68dedb6db6fd")
-		)
-		(pin "1"
-			(uuid "0d453bde-8756-4749-8190-98fc7b6fd509")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "D29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 43.18 245.11 0)
@@ -31916,75 +31636,6 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 394.97 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2799f278-3671-4ada-87e1-bb30951247d7")
-		(property "Reference" "R3"
-			(at 389.89 60.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 392.938 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 394.97 60.452 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 394.97 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 394.97 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6af31e2-b3e3-4018-840c-db28e08b7514")
-		)
-		(pin "2"
-			(uuid "d6f1a7d5-8606-49a2-bb1c-71e591a5cda6")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -32816,71 +32467,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 364.49 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f0491e7-b7f7-4763-8567-97fb0434408c")
-		(property "Reference" "#PWR055"
-			(at 368.3 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 359.41 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 364.49 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa195588-957d-45d6-88d8-3a6ae7453267")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 182.88 83.82 270)
 		(unit 1)
@@ -33156,6 +32742,85 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 394.335 45.085 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "335b2f06-f9b9-426a-a317-1b7df4c38417")
+		(property "Reference" "D72"
+			(at 393.065 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 394.589 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 394.335 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 394.335 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 394.335 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 394.335 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a26adb32-7f60-4adc-b032-9b6eebdcba1e")
+		)
+		(pin "1"
+			(uuid "d61687a5-16bc-47d6-a866-d5e35931a7e2")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "D72")
 					(unit 1)
 				)
 			)
@@ -33553,33 +33218,34 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 398.78 66.04 90)
+		(at 301.625 45.085 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "388afcea-366a-4d1d-9df4-7e82977375ab")
-		(property "Reference" "D4"
-			(at 400.05 64.77 90)
+		(uuid "380c07c8-5e26-4fa3-b119-507dc55e1687")
+		(property "Reference" "D63"
+			(at 303.403 49.149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "Red LED"
-			(at 400.05 66.294 90)
+		(property "Value" "Green LED"
+			(at 301.879 56.261 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 398.78 66.04 0)
+			(at 301.625 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33588,7 +33254,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 398.78 66.04 0)
+			(at 301.625 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33597,7 +33263,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 398.78 66.04 0)
+			(at 301.625 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33606,7 +33272,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 398.78 66.04 0)
+			(at 301.625 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33615,15 +33281,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5ff9cb45-d04a-4225-8ec7-dd02d5eea713")
+			(uuid "77066624-959a-43a0-8721-73957ef89c73")
 		)
 		(pin "1"
-			(uuid "f81247b8-ff38-4c25-8d09-aee43f0bba2f")
+			(uuid "eae3f6fc-86eb-4913-8556-dcd93f112121")
 		)
 		(instances
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "D4")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -33960,6 +33626,109 @@
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "#PWR081")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC04")
+		(at 327.025 52.705 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a09687c-600b-491e-a462-462901bff18e")
+		(property "Reference" "U19"
+			(at 325.501 54.483 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 327.279 52.959 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.025 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 327.025 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 327.025 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfc")
+		)
+		(pin "8"
+			(uuid "c8302dcf-f084-4172-8627-db7f967152db")
+		)
+		(pin "6"
+			(uuid "977f9a3b-afdd-421a-b478-eded1a82f73d")
+		)
+		(pin "5"
+			(uuid "71c55001-e685-40ae-8ae1-fbd42325ab34")
+		)
+		(pin "9"
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a9")
+		)
+		(pin "7"
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc2b")
+		)
+		(pin "13"
+			(uuid "3274149f-3955-4090-8a62-4d09f729606b")
+		)
+		(pin "4"
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b30c")
+		)
+		(pin "1"
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3f")
+		)
+		(pin "14"
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fee")
+		)
+		(pin "12"
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f53")
+		)
+		(pin "10"
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5e")
+		)
+		(pin "2"
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026f")
+		)
+		(pin "3"
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe220")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "U19")
+					(unit 3)
 				)
 			)
 		)
@@ -36142,6 +35911,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 334.645 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bc64ab8-3111-4766-8641-658ca77a9a45")
+		(property "Reference" "R115"
+			(at 332.613 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 334.645 43.307 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.867 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 334.645 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 334.645 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a26dc2ef-0f63-42e6-be9a-fc41d28dc2a2")
+		)
+		(pin "2"
+			(uuid "6718109d-4e8a-4f7d-82e6-4e8e0111c576")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 326.39 303.53 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36204,6 +36042,75 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "R87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 313.055 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c61a12e-8147-45ff-bac6-f862293843d7")
+		(property "Reference" "R113"
+			(at 311.023 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 313.055 43.307 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.277 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.055 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 313.055 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e942f546-d88d-459f-ac75-a0aa45094687")
+		)
+		(pin "2"
+			(uuid "51343f67-66c9-4a04-91d6-a61a23fa9079")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -36352,72 +36259,6 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "D50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 411.48 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d30d806-c3a8-4555-b7bb-84dbca5eba23")
-		(property "Reference" "#PWR048"
-			(at 411.48 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 411.48 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 411.48 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 411.48 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 411.48 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "136aa67f-22fd-459f-b926-0ccf12fc0414")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -36986,6 +36827,85 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
+		(at 323.215 45.085 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52a03e59-d5e9-4a62-a6dc-bb15ddb8427f")
+		(property "Reference" "D65"
+			(at 324.993 49.149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Green LED"
+			(at 323.469 56.261 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.215 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.215 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 323.215 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 323.215 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0829913-d422-4e37-bcd8-01104a7596f0")
+		)
+		(pin "1"
+			(uuid "4dbaba24-ea1f-4843-bf2b-dc912fb97521")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "D65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
 		(at 322.58 185.42 270)
 		(mirror x)
 		(unit 1)
@@ -37058,6 +36978,75 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 297.815 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "534cbbb9-dfab-4850-8e53-d8e4dc287bbf")
+		(property "Reference" "R112"
+			(at 295.783 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 297.815 43.307 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 296.037 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.815 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 297.815 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca8e12d7-c455-4fd5-8b1c-65de7565101a")
+		)
+		(pin "2"
+			(uuid "a83cfabe-12d3-4817-89a1-7571ac574630")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -37341,6 +37330,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 408.305 45.085 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56c14ed8-bfee-4d9e-b14e-3c45328c959d")
+		(property "Reference" "D73"
+			(at 410.083 49.149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Green LED"
+			(at 408.559 56.261 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 408.305 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 408.305 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 408.305 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 408.305 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21e7bb46-ef12-44d3-ac7f-edf5d4b5fee5")
+		)
+		(pin "1"
+			(uuid "91c7acce-4310-465a-ad6c-9e02ecca3bee")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "D73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 90.17 96.52 180)
 		(unit 1)
@@ -37408,109 +37476,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74HC04")
-		(at 314.96 62.23 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5742d03c-a2a9-4cef-aa63-c89e6c1af4a5")
-		(property "Reference" "U9"
-			(at 313.182 60.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 314.706 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 314.96 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 314.96 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf6")
-		)
-		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d5")
-		)
-		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e31")
-		)
-		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7192")
-		)
-		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a3")
-		)
-		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc24")
-		)
-		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296067")
-		)
-		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b306")
-		)
-		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb39")
-		)
-		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe7")
-		)
-		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f4f")
-		)
-		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae58")
-		)
-		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240269")
-		)
-		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21a")
-		)
-		(instances
-			(project ""
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "U9")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 53.34 381 0)
 		(unit 1)
@@ -37570,71 +37535,6 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 364.49 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "591ca408-af76-4205-a348-c10df412b73f")
-		(property "Reference" "#PWR056"
-			(at 358.14 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 359.41 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 364.49 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9756800d-9002-40c0-b8ed-41f7a6c1d550")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -37775,109 +37675,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74HC04")
-		(at 383.54 40.64 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b32ffa4-141f-49f1-a7a2-e5f235656c06")
-		(property "Reference" "U9"
-			(at 381.508 39.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 383.286 40.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 383.54 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 383.54 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 383.54 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf7")
-		)
-		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d6")
-		)
-		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e32")
-		)
-		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7193")
-		)
-		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a4")
-		)
-		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc25")
-		)
-		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296068")
-		)
-		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b307")
-		)
-		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3a")
-		)
-		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe8")
-		)
-		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f50")
-		)
-		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae59")
-		)
-		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026a")
-		)
-		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21b")
-		)
-		(instances
-			(project ""
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "U9")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "INND-TS40_1")
 		(lib_id "New_Library:INND-TS40")
 		(at 85.09 187.96 0)
@@ -37965,84 +37762,6 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "U22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 364.49 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5cf3a389-475a-494f-82ec-378508375c68")
-		(property "Reference" "D7"
-			(at 368.554 60.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Green LED"
-			(at 375.666 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 364.49 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 364.49 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 364.49 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9df6249d-9422-4f38-a390-4828984b3aed")
-		)
-		(pin "1"
-			(uuid "086dd530-4889-4fed-b2f6-50732b0b9fb2")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -38598,71 +38317,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 364.49 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "652034e4-72c6-43b7-902f-df241a2c8233")
-		(property "Reference" "#PWR054"
-			(at 358.14 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 359.41 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 364.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f00cc4c6-f288-4535-879e-4350a81fade6")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 284.48 227.33 270)
 		(mirror x)
@@ -38736,84 +38390,6 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 398.78 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66ad5e07-276d-46c6-8447-9b77a802c030")
-		(property "Reference" "D10"
-			(at 400.05 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Red LED"
-			(at 400.05 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 398.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 398.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 398.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee5075cb-c35e-4d38-83b6-d6f682411cab")
-		)
-		(pin "1"
-			(uuid "743db078-779b-442a-91ee-687eea3c2b0e")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -39030,75 +38606,6 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "R70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 326.39 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68120a29-61f5-4581-908b-f3a99cdfb2fe")
-		(property "Reference" "R2"
-			(at 321.31 38.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 324.358 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 326.39 38.862 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 326.39 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 326.39 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a82c9d8d-3cfc-4997-aeea-0ca86d48cc17")
-		)
-		(pin "2"
-			(uuid "70cae11a-062b-49ed-8b07-f3f66f3ede82")
-		)
-		(instances
-			(project ""
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -39413,84 +38920,6 @@
 			(project ""
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 364.49 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a435dbb-cd2e-4932-98bf-2751142f779c")
-		(property "Reference" "D8"
-			(at 365.76 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Red LED"
-			(at 365.76 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 364.49 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 364.49 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 364.49 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9c595dce-4ae3-4a4c-a4de-434f691db295")
-		)
-		(pin "1"
-			(uuid "560076fd-55ca-44ef-975a-13bf06287edc")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -40022,6 +39451,85 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 365.125 45.085 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6df17325-a905-4a7c-9ee4-b165cb45c95e")
+		(property "Reference" "D69"
+			(at 366.903 49.149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Green LED"
+			(at 365.379 56.261 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.125 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.125 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 365.125 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 365.125 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce447365-1a74-4340-b9ed-a61be8d8aab9")
+		)
+		(pin "1"
+			(uuid "ea73ab7e-46ce-4ed1-98bd-2153b4b355e6")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "D69")
 					(unit 1)
 				)
 			)
@@ -40590,75 +40098,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 326.39 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71e46cc2-ec33-4586-baae-1aabbce15ee1")
-		(property "Reference" "R6"
-			(at 321.31 60.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 324.358 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 326.39 60.452 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 326.39 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 326.39 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "faceec11-d02a-46cd-a855-eaf05601ae7c")
-		)
-		(pin "2"
-			(uuid "49917bde-5481-4dd6-83f5-0c337305b3cc")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 529.59 118.11 0)
 		(unit 1)
@@ -40888,6 +40327,75 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 361.315 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "744e7fd6-db29-4aae-b8e3-49965d387a30")
+		(property "Reference" "R118"
+			(at 359.283 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 361.315 43.307 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 359.537 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 361.315 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 361.315 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cee3fa5-b5db-4bf9-bc11-42f84f5bf582")
+		)
+		(pin "2"
+			(uuid "7e23993d-979f-41ac-b6b3-cf4f1b7d607b")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R118")
 					(unit 1)
 				)
 			)
@@ -41355,72 +40863,6 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 411.48 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "783ed37c-57e7-4e58-bad6-84836ea3732f")
-		(property "Reference" "#PWR047"
-			(at 411.48 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 411.48 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 411.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 411.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 411.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce822ecb-4544-407b-b9e6-e8d1c511813f")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -41935,71 +41377,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 330.2 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f33fc79-2825-4d26-80c9-1f5dc6b7bf8d")
-		(property "Reference" "#PWR050"
-			(at 334.01 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 325.12 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 330.2 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c32f672-2ab2-4d08-a517-6e7475552778")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 209.55 193.04 90)
 		(unit 1)
@@ -42203,6 +41580,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 354.965 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "817f55b8-43b6-498f-96ec-2800d8a391e0")
+		(property "Reference" "R117"
+			(at 352.933 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 354.965 43.307 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.187 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.965 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 354.965 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b862795f-7ee0-49e1-a2a4-643b0265911f")
+		)
+		(pin "2"
+			(uuid "c279dbd1-eb52-45e3-ba96-241cead23a00")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 163.83 279.4 90)
 		(unit 1)
@@ -42333,109 +41779,6 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC04")
-		(at 314.96 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83048b49-649d-4cf1-ac21-1f9072704775")
-		(property "Reference" "U9"
-			(at 312.928 38.862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 314.706 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 314.96 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 314.96 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf8")
-		)
-		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d7")
-		)
-		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e33")
-		)
-		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7194")
-		)
-		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a5")
-		)
-		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc26")
-		)
-		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296069")
-		)
-		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b308")
-		)
-		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3b")
-		)
-		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe9")
-		)
-		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f51")
-		)
-		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5a")
-		)
-		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026b")
-		)
-		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21c")
-		)
-		(instances
-			(project ""
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -42823,6 +42166,109 @@
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "D32")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC04")
+		(at 347.345 52.705 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86f9e21e-7266-4e47-b6b0-7a528e726a04")
+		(property "Reference" "U19"
+			(at 345.567 54.737 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 347.345 52.959 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.345 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 347.345 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 347.345 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfe")
+		)
+		(pin "8"
+			(uuid "c8302dcf-f084-4172-8627-db7f967152de")
+		)
+		(pin "6"
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e39")
+		)
+		(pin "5"
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c719a")
+		)
+		(pin "9"
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159ac")
+		)
+		(pin "7"
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc2e")
+		)
+		(pin "13"
+			(uuid "3274149f-3955-4090-8a62-4d09f729606f")
+		)
+		(pin "4"
+			(uuid "91c59b62-fc94-4c58-bd81-ed062ed7fc1c")
+		)
+		(pin "1"
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb41")
+		)
+		(pin "14"
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ff1")
+		)
+		(pin "12"
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f57")
+		)
+		(pin "10"
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae60")
+		)
+		(pin "2"
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240271")
+		)
+		(pin "3"
+			(uuid "c63525d7-9f1b-483d-8a07-afbcf74daac1")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "U19")
+					(unit 2)
 				)
 			)
 		)
@@ -43640,6 +43086,85 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 415.925 45.085 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bf79bdf-0f2f-4a9f-b878-c2cbf220214b")
+		(property "Reference" "D74"
+			(at 414.655 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 416.179 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 415.925 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.925 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 415.925 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 415.925 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84f2ebb4-63b8-43d7-b215-7c0c0f5f0571")
+		)
+		(pin "1"
+			(uuid "17717e64-8aa6-49d9-8417-2579543cb70c")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "D74")
 					(unit 1)
 				)
 			)
@@ -44570,149 +44095,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 330.2 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "946ffbc1-df8a-4354-ade3-51b37610d91f")
-		(property "Reference" "#PWR049"
-			(at 323.85 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 325.12 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 330.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af095c22-ac28-48e7-aebd-75a314665c45")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 330.2 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94b11043-a7ad-4540-9007-c819ce7b6a08")
-		(property "Reference" "D12"
-			(at 331.47 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Red LED"
-			(at 331.47 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 330.2 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 330.2 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 330.2 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a9b0b67d-8518-4005-9157-627a5278a59f")
-		)
-		(pin "1"
-			(uuid "b9c33496-5a4b-4df9-92b4-8cabe2dc475f")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 209.55 198.12 90)
 		(unit 1)
@@ -45617,6 +44999,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 419.735 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d370372-5223-4fc0-815d-ab2057c9364d")
+		(property "Reference" "R123"
+			(at 417.703 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 419.735 43.307 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 417.957 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 419.735 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 419.735 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0af386ef-7f0d-4a2d-b909-cb11d853b4a2")
+		)
+		(pin "2"
+			(uuid "0223b509-4cd8-4eb2-83ed-ecee1591c009")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 67.31 363.22 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -45835,6 +45286,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 404.495 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ec33e15-48f8-4b2b-8695-9e3bc5d45f11")
+		(property "Reference" "R122"
+			(at 402.463 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 404.495 43.307 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 402.717 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 404.495 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 404.495 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3465429f-fb11-4f86-abbb-89053826af3b")
+		)
+		(pin "2"
+			(uuid "b5e9d1ae-4da4-42f3-8a61-efe91d2ce99b")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 288.29 218.44 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -45897,6 +45417,82 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BS250")
+		(at 291.465 38.735 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a048ae0c-0853-4710-bf95-a93af439bcab")
+		(property "Reference" "Q3"
+			(at 295.783 40.513 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS250"
+			(at 289.687 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 289.56 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/70209/70209.pdf"
+			(at 287.655 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92"
+			(at 291.465 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "26a0d3e8-1e7a-4114-8955-bad57551d1ca")
+		)
+		(pin "1"
+			(uuid "54d48738-98ad-467f-9c36-1acedf0010be")
+		)
+		(pin "2"
+			(uuid "362c2507-c331-490e-85cc-d8edad5bf18a")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -46179,149 +45775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 364.49 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3cb9549-2b71-4a95-9817-809e29cc66a0")
-		(property "Reference" "D27"
-			(at 368.554 38.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Green LED"
-			(at 375.666 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 364.49 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 364.49 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 364.49 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a006a341-e595-447b-80c2-66d1cf4ee0f1")
-		)
-		(pin "1"
-			(uuid "a2b86501-1286-4ca0-ba53-f440b4f297e7")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 330.2 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a52f07e3-9fbd-4651-90da-10d455103e0b")
-		(property "Reference" "#PWR060"
-			(at 323.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 325.12 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 330.2 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04059785-da4c-46f2-9a6a-47602171110f")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74HC14")
 		(at 471.17 82.55 0)
 		(unit 1)
@@ -46486,6 +45939,109 @@
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "#PWR097")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC04")
+		(at 412.115 52.705 90)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5ee3378-429b-4c43-824d-28d9faae777d")
+		(property "Reference" "U19"
+			(at 410.083 54.991 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 412.369 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 412.115 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 412.115 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 412.115 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf9")
+		)
+		(pin "8"
+			(uuid "c8302dcf-f084-4172-8627-db7f967152d8")
+		)
+		(pin "6"
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e34")
+		)
+		(pin "5"
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c7195")
+		)
+		(pin "9"
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a6")
+		)
+		(pin "7"
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc27")
+		)
+		(pin "13"
+			(uuid "d67646bf-5103-4ee8-9269-85fb578a6a49")
+		)
+		(pin "4"
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b309")
+		)
+		(pin "1"
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3c")
+		)
+		(pin "14"
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fea")
+		)
+		(pin "12"
+			(uuid "8a85d471-b771-4260-98d1-feb87eb19035")
+		)
+		(pin "10"
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5b")
+		)
+		(pin "2"
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026c")
+		)
+		(pin "3"
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21d")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "U19")
+					(unit 6)
 				)
 			)
 		)
@@ -46731,71 +46287,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 398.78 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a889cb03-3d9a-4d00-ba64-220eded3f534")
-		(property "Reference" "#PWR051"
-			(at 402.59 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 393.7 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 398.78 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd844b9a-46bd-4e0f-9876-05c415610e0b")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 510.54 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -46855,6 +46346,75 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 319.405 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8f9901d-ab4d-4ebc-a959-196688f7761a")
+		(property "Reference" "R114"
+			(at 317.373 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 319.405 43.307 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.627 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 319.405 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 319.405 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf376749-6b54-4242-af9b-55c80eeeaff9")
+		)
+		(pin "2"
+			(uuid "b8432054-bba5-40cc-95c1-2f1e0fbbeb0c")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -47198,6 +46758,109 @@
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "#PWR010")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC04")
+		(at 368.935 52.705 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b06692b1-5b63-434f-912d-d19b55637219")
+		(property "Reference" "U19"
+			(at 367.157 54.737 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 369.189 52.959 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.935 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 368.935 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 368.935 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf5")
+		)
+		(pin "8"
+			(uuid "ef7d4da1-81a2-4ad4-a8ac-f1ff34169d33")
+		)
+		(pin "6"
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e30")
+		)
+		(pin "5"
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c7191")
+		)
+		(pin "9"
+			(uuid "132d8a3e-fd01-4605-97cc-92b564142fd4")
+		)
+		(pin "7"
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc23")
+		)
+		(pin "13"
+			(uuid "3274149f-3955-4090-8a62-4d09f7296066")
+		)
+		(pin "4"
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b305")
+		)
+		(pin "1"
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb38")
+		)
+		(pin "14"
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe6")
+		)
+		(pin "12"
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f4e")
+		)
+		(pin "10"
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae57")
+		)
+		(pin "2"
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240268")
+		)
+		(pin "3"
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe219")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "U19")
+					(unit 4)
 				)
 			)
 		)
@@ -47892,75 +47555,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 360.68 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b70f76db-b610-4e8e-833b-166cd5407956")
-		(property "Reference" "R1"
-			(at 355.6 38.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 358.648 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 360.68 38.862 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 360.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 360.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc5911d0-d0a8-45e6-ae1d-158a45f34ca7")
-		)
-		(pin "2"
-			(uuid "66d5ca11-747c-4916-95d2-a7645c08cc0a")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 402.59 288.29 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -48092,6 +47686,154 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 330.835 45.085 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8d1897b-bf1f-4665-a642-ec519e2ea2ee")
+		(property "Reference" "D66"
+			(at 329.565 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 331.089 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.835 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.835 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 330.835 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 330.835 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "087cb089-686d-442f-818c-144968533a8d")
+		)
+		(pin "1"
+			(uuid "b4c7ee68-83ab-4552-b691-b6d20fd99c4e")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "D66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 398.145 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8e2a970-75bd-4846-b6cb-210073d10812")
+		(property "Reference" "R121"
+			(at 396.113 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 398.145 43.307 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.367 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.145 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 398.145 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "121f9a8e-fedb-4db0-968a-aa6e2bda2175")
+		)
+		(pin "2"
+			(uuid "d71466e5-20d2-4348-9f0a-7b1a09eb146c")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R121")
 					(unit 1)
 				)
 			)
@@ -48238,6 +47980,85 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 372.745 45.085 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcc51d8b-529e-437a-9ab7-67d6e21bd4e3")
+		(property "Reference" "D70"
+			(at 371.475 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 372.999 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.745 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.745 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 372.745 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 372.745 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44cbed09-1c23-4d42-830c-447a8b71f724")
+		)
+		(pin "1"
+			(uuid "46433a90-9d0f-42d2-900e-90d91bd47c53")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -48488,6 +48309,109 @@
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "#PWR024")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC04")
+		(at 390.525 52.705 90)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bde3434b-43d1-4b72-9da2-94fba9f5bc94")
+		(property "Reference" "U19"
+			(at 389.001 54.737 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 390.779 52.959 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 390.525 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 390.525 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 390.525 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "4a65c9d0-0c3d-4686-bdb3-3a2745fd5233")
+		)
+		(pin "8"
+			(uuid "c8302dcf-f084-4172-8627-db7f967152d6")
+		)
+		(pin "6"
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e32")
+		)
+		(pin "5"
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c7193")
+		)
+		(pin "9"
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a4")
+		)
+		(pin "7"
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc25")
+		)
+		(pin "13"
+			(uuid "3274149f-3955-4090-8a62-4d09f7296068")
+		)
+		(pin "4"
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b307")
+		)
+		(pin "1"
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3a")
+		)
+		(pin "14"
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe8")
+		)
+		(pin "12"
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f50")
+		)
+		(pin "10"
+			(uuid "99ba22ff-e235-49bd-adfc-da120c5e04f3")
+		)
+		(pin "2"
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026a")
+		)
+		(pin "3"
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21b")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "U19")
+					(unit 5)
 				)
 			)
 		)
@@ -48888,6 +48812,85 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
+		(at 309.245 45.085 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1b0a799-92ff-4b4e-a073-d0a59de47ffa")
+		(property "Reference" "D64"
+			(at 307.975 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 309.499 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.245 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.245 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 309.245 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 309.245 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73aabe70-82d1-4895-9bd8-d397d5140796")
+		)
+		(pin "1"
+			(uuid "a86de500-c45f-4fbd-93eb-940d297d3a36")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
 		(at 398.78 256.54 270)
 		(mirror x)
 		(unit 1)
@@ -49035,6 +49038,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:2N7000")
+		(at 291.465 26.035 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2c17b5e-6e2e-4f97-8633-77e0ebdf997a")
+		(property "Reference" "Q4"
+			(at 295.529 25.273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 289.941 17.399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 289.56 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 287.655 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 291.465 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5fbb71b5-4d9c-4ed6-9f21-e922bb947a31")
+		)
+		(pin "2"
+			(uuid "d4910693-9f56-457f-b2fa-a4ec9da9faa3")
+		)
+		(pin "1"
+			(uuid "95d34ba2-c377-4ef7-b464-ebdab8535651")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 284.48 214.63 270)
 		(mirror x)
@@ -49114,16 +49193,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 398.78 33.02 90)
+		(lib_id "power:GND")
+		(at 286.385 28.575 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c46c5fc7-6818-45dd-a6f3-d58ef14b53ae")
-		(property "Reference" "#PWR057"
-			(at 402.59 33.02 0)
+		(uuid "c4338fc6-147c-4085-901a-1117315f5575")
+		(property "Reference" "#PWR086"
+			(at 280.035 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49131,8 +49210,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 393.7 33.02 90)
+		(property "Value" "GND"
+			(at 281.305 28.575 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49140,7 +49219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 398.78 33.02 0)
+			(at 286.385 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49149,7 +49228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 398.78 33.02 0)
+			(at 286.385 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49157,8 +49236,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 398.78 33.02 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 286.385 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49167,12 +49246,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ace6f1ef-170b-415d-a87c-fa40b1995830")
+			(uuid "dcf081fe-1ca1-49ba-8e0b-82d904ab9068")
 		)
 		(instances
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR057")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -49725,71 +49804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 330.2 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c82b673c-1ae7-4e9d-9172-497bbf0f12dd")
-		(property "Reference" "#PWR059"
-			(at 334.01 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 325.12 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 330.2 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51c72325-0d99-4ac2-a6fa-00c2619c9b7d")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 389.89 168.91 0)
 		(unit 1)
@@ -49959,109 +49973,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74HC04")
-		(at 383.54 62.23 0)
-		(unit 6)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c996474f-6033-4592-9710-358b243790bb")
-		(property "Reference" "U9"
-			(at 381.254 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 383.54 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 383.54 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 383.54 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 383.54 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf9")
-		)
-		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d8")
-		)
-		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e34")
-		)
-		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7195")
-		)
-		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a6")
-		)
-		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc27")
-		)
-		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f729606a")
-		)
-		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b309")
-		)
-		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3c")
-		)
-		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fea")
-		)
-		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f52")
-		)
-		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5b")
-		)
-		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026c")
-		)
-		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21d")
-		)
-		(instances
-			(project ""
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "U9")
-					(unit 6)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 326.39 288.29 270)
 		(unit 1)
@@ -50125,84 +50036,6 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "R86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 364.49 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "caa6c980-00d5-4abb-9dcb-445e31e151a7")
-		(property "Reference" "D6"
-			(at 365.76 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Red LED"
-			(at 365.76 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 364.49 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 364.49 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 364.49 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "50cb51bb-1845-4828-a890-6ea6d5c5cbec")
-		)
-		(pin "1"
-			(uuid "9cbe41e9-00a9-4341-9d03-b0773bf6c9b9")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -51314,6 +51147,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 376.555 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3b52f62-3023-4e60-b3f7-106533554f05")
+		(property "Reference" "R119"
+			(at 374.523 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 376.555 43.307 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.777 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 376.555 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 376.555 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ed2fabf-735f-4939-ad84-e0d3a78be67f")
+		)
+		(pin "2"
+			(uuid "3108f674-482f-49fe-baca-f56ca061bcd2")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Timer:NE555P")
 		(at 81.28 154.94 0)
 		(unit 1)
@@ -51542,6 +51444,154 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 386.715 45.085 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d573434c-23b6-4e6a-9239-0ff0b84672d5")
+		(property "Reference" "D71"
+			(at 388.493 49.149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Green LED"
+			(at 386.969 56.261 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.715 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.715 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 386.715 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 386.715 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eea23b84-ce66-456b-ac3c-070ada626290")
+		)
+		(pin "1"
+			(uuid "26955628-88a9-46a6-9729-a11c44679686")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "D71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 382.905 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5aac631-6589-411c-b9d3-28ec5945ded5")
+		(property "Reference" "R120"
+			(at 380.873 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 382.905 43.307 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 381.127 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 382.905 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 382.905 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40589b36-5882-43e1-836b-9c523bfff88f")
+		)
+		(pin "2"
+			(uuid "0c6ab9eb-3c73-456c-95cc-fe31f464e76c")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 379.73 168.91 0)
 		(unit 1)
@@ -51748,6 +51798,75 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 339.725 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d790e23c-9478-40f3-a64c-07651b9a4274")
+		(property "Reference" "R116"
+			(at 337.693 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 339.725 43.307 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.947 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.725 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 339.725 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a11e4990-75ec-485f-9e49-b731d139aa3e")
+		)
+		(pin "2"
+			(uuid "a239ca0b-e1d4-48ad-93bd-a690203e5f33")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R116")
 					(unit 1)
 				)
 			)
@@ -53088,6 +53207,71 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 286.385 36.195 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e46f5a34-f217-4abb-93b4-1438b864f367")
+		(property "Reference" "#PWR085"
+			(at 290.195 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 281.305 36.195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 286.385 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 286.385 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 286.385 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f8c6656-5069-46a7-9d33-7f64ee72b30b")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 144.78 273.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -53251,6 +53435,109 @@
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "U17")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC04")
+		(at 305.435 52.705 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e609f7f6-ca8a-4c5e-9f82-14821d4797c1")
+		(property "Reference" "U19"
+			(at 303.657 54.737 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 305.435 52.959 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 305.435 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 305.435 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 305.435 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfd")
+		)
+		(pin "8"
+			(uuid "c8302dcf-f084-4172-8627-db7f967152dc")
+		)
+		(pin "6"
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e37")
+		)
+		(pin "5"
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c7198")
+		)
+		(pin "9"
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159aa")
+		)
+		(pin "7"
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc2c")
+		)
+		(pin "13"
+			(uuid "3274149f-3955-4090-8a62-4d09f729606d")
+		)
+		(pin "4"
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b30d")
+		)
+		(pin "1"
+			(uuid "5070f151-d074-4fdb-97d2-c1049ab95109")
+		)
+		(pin "14"
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fef")
+		)
+		(pin "12"
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f55")
+		)
+		(pin "10"
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5f")
+		)
+		(pin "2"
+			(uuid "0532e5cb-e62b-450b-964f-8d5079d558ef")
+		)
+		(pin "3"
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe221")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "U19")
+					(unit 1)
 				)
 			)
 		)
@@ -53532,189 +53819,6 @@
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "D28")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 330.2 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e86e015b-250d-423e-9e18-05bcbe9d72c3")
-		(property "Reference" "D11"
-			(at 334.264 60.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Green LED"
-			(at 341.376 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 330.2 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 330.2 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 330.2 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "70adabce-a931-41bd-9cb5-7619a6806d83")
-		)
-		(pin "1"
-			(uuid "660c4656-c450-40f7-8958-a4d9a23c9d65")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC04")
-		(at 411.48 50.8 0)
-		(unit 7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9035b7a-6d15-4e7c-a9e3-0c8fef3e3e07")
-		(property "Reference" "U9"
-			(at 409.702 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 408.686 51.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 411.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 411.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 411.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfa")
-		)
-		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d9")
-		)
-		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e35")
-		)
-		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7196")
-		)
-		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a7")
-		)
-		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc28")
-		)
-		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f729606b")
-		)
-		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b30a")
-		)
-		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3d")
-		)
-		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042feb")
-		)
-		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f53")
-		)
-		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5c")
-		)
-		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026d")
-		)
-		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21e")
-		)
-		(instances
-			(project ""
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "U9")
-					(unit 7)
 				)
 			)
 		)
@@ -54169,71 +54273,6 @@
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "U17")
 					(unit 6)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 398.78 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ecace07e-1922-4e09-9a8d-97a962b73573")
-		(property "Reference" "#PWR052"
-			(at 392.43 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 393.7 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 398.78 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "448fb664-a131-431f-8097-cd37719fbbe1")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR052")
-					(unit 1)
 				)
 			)
 		)
@@ -54956,109 +54995,6 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 349.25 40.64 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4975c75-3b04-4a00-b9d8-0ca6e5bd4eef")
-		(property "Reference" "U9"
-			(at 347.218 38.862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 348.996 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 349.25 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 349.25 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 349.25 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfb")
-		)
-		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152da")
-		)
-		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e36")
-		)
-		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7197")
-		)
-		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a8")
-		)
-		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc29")
-		)
-		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f729606c")
-		)
-		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b30b")
-		)
-		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3e")
-		)
-		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fec")
-		)
-		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f54")
-		)
-		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5d")
-		)
-		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026e")
-		)
-		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21f")
-		)
-		(instances
-			(project ""
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "U9")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC04")
 		(at 379.73 156.21 0)
 		(unit 7)
 		(exclude_from_sim no)
@@ -55290,6 +55226,85 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 343.535 45.085 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f819fca5-ffbf-4eb5-b9b6-b13412349899")
+		(property "Reference" "D67"
+			(at 345.313 49.149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Green LED"
+			(at 343.789 56.261 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 343.535 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 343.535 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 343.535 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 343.535 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7f97a1c-d224-4982-a895-f67bf5c52f76")
+		)
+		(pin "1"
+			(uuid "48a3b0e7-7f24-4f8a-ae42-2d2684a0108a")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "D67")
 					(unit 1)
 				)
 			)
