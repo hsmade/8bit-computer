@@ -8151,187 +8151,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_PNP_BCE"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PNP_BCE"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "PNP transistor, base/collector/emitter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PNP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_PNP_BCE_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_PNP_BCE_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -12337,6 +12156,211 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:BC547"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC547"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC547_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC547_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:2N7000"
 			(pin_names
 				(hide yes)
@@ -12625,6 +12649,304 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:BS170"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BS170"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BS170_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BS170_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13379,7 +13701,7 @@
 		)
 		(uuid "32f3f84d-b591-48bf-9e4f-1a260cc68dae")
 	)
-	(text "Todo:\n- missing symbols\n- FET for bus decoder\n- replace transistors in bus decoder with FETs?\n- rp2040 board\n- pcb"
+	(text "Todo:\n- missing symbols\n- switch logic for bus decoder\n- rp2040 board\n- pcb"
 		(exclude_from_sim no)
 		(at 476.504 384.048 0)
 		(effects
@@ -13586,12 +13908,6 @@
 		(uuid "1956fa56-d43c-4cc1-b00a-c255e5a4b271")
 	)
 	(junction
-		(at 93.98 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19d0f12d-8955-44cc-978f-c1110ef63b0a")
-	)
-	(junction
 		(at 354.33 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13638,6 +13954,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "291796a9-b206-46f0-b382-6cbc4ee5923b")
+	)
+	(junction
+		(at 110.49 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b240d49-bda8-4018-bbbb-5326b0678a14")
 	)
 	(junction
 		(at 293.37 266.7)
@@ -13704,12 +14026,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "390bbb43-47af-40b2-82ad-36e4766074f2")
-	)
-	(junction
-		(at 110.49 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39ff858b-4918-4d18-aecd-2139e437e752")
 	)
 	(junction
 		(at 284.48 274.32)
@@ -13910,6 +14226,12 @@
 		(uuid "66f1bbce-4f65-46f6-ae0e-b901959db7cb")
 	)
 	(junction
+		(at 105.41 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "674a9bf8-b2f7-4b63-a4c2-eb8afee14347")
+	)
+	(junction
 		(at 318.77 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13926,6 +14248,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69558c0c-63d2-45cc-bf15-8832b95bd648")
+	)
+	(junction
+		(at 125.73 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69b82de9-fbda-4c4e-aeb8-faa47a761043")
 	)
 	(junction
 		(at 494.03 149.86)
@@ -14000,6 +14328,12 @@
 		(uuid "7703d766-8ea4-470b-9d80-1e2cda0ac539")
 	)
 	(junction
+		(at 64.77 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79bd334f-1a95-4b9b-b332-15bee713a2f5")
+	)
+	(junction
 		(at 101.6 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14052,12 +14386,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84a4eb9c-6f6b-4cd9-9303-c2c4b7e767d6")
-	)
-	(junction
-		(at 67.31 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "850fb0b5-1bc5-479b-91f6-e9ac9db170da")
 	)
 	(junction
 		(at 469.9 146.05)
@@ -14252,16 +14580,16 @@
 		(uuid "a4a41c4e-4cbd-4c1c-b7a2-e6a02f5a3b5f")
 	)
 	(junction
+		(at 58.42 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a744f262-3560-4f30-8bbd-ee69db9d37c0")
+	)
+	(junction
 		(at 300.99 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a788898c-65b5-4220-9316-e8040d7d619e")
-	)
-	(junction
-		(at 93.98 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9e6a23f-4e9d-41cc-bbbf-e2e1e84955bd")
 	)
 	(junction
 		(at 326.39 44.45)
@@ -14408,10 +14736,10 @@
 		(uuid "c888833b-7215-4bd4-b78c-17d31d7e2b6a")
 	)
 	(junction
-		(at 116.84 168.91)
+		(at 140.97 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cae956c6-2dbb-42e3-a702-2fe5e7e32dc6")
+		(uuid "ccfeaf4a-4b22-40d8-b64b-4a5284db4b40")
 	)
 	(junction
 		(at 331.47 245.11)
@@ -14486,12 +14814,6 @@
 		(uuid "d91834c4-3733-41f2-858d-6414719f86dc")
 	)
 	(junction
-		(at 64.77 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9855bc3-0318-4fe8-a91d-4103daa0defa")
-	)
-	(junction
 		(at 82.55 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14544,12 +14866,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3b174b9-06e7-4ccc-bc2b-a47b2f68c97a")
-	)
-	(junction
-		(at 64.77 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e48ab97a-1c32-43be-b73d-680faefd597d")
 	)
 	(junction
 		(at 377.19 281.94)
@@ -14782,6 +15098,10 @@
 	(no_connect
 		(at 170.18 323.85)
 		(uuid "1916c5ed-4635-4d3c-9928-816a7e23d8e8")
+	)
+	(no_connect
+		(at 26.67 43.18)
+		(uuid "2a18d11a-0043-4369-9ac2-7c1fa14dea79")
 	)
 	(no_connect
 		(at 524.51 97.79)
@@ -16601,16 +16921,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 138.43) (xy 93.98 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0580e1d1-6be1-4c0d-b9d0-2202b9db7b6d")
-	)
-	(wire
-		(pts
 			(xy 237.49 78.74) (xy 234.95 78.74)
 		)
 		(stroke
@@ -16948,6 +17258,16 @@
 			(type default)
 		)
 		(uuid "104c28ec-6a74-4e64-a240-2e11224c99a8")
+	)
+	(wire
+		(pts
+			(xy 93.98 149.86) (xy 110.49 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106ed8dc-8a79-464e-9d0a-303d4e6046a4")
 	)
 	(wire
 		(pts
@@ -17721,7 +18041,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 163.83) (xy 93.98 163.83)
+			(xy 58.42 163.83) (xy 93.98 163.83)
 		)
 		(stroke
 			(width 0)
@@ -18231,16 +18551,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 138.43) (xy 93.98 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37517515-ff66-4481-a860-e790a46367f5")
-	)
-	(wire
-		(pts
 			(xy 101.6 144.78) (xy 101.6 154.94)
 		)
 		(stroke
@@ -18411,7 +18721,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 154.94) (xy 68.58 154.94)
+			(xy 64.77 154.94) (xy 68.58 154.94)
 		)
 		(stroke
 			(width 0)
@@ -18451,7 +18761,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 154.94) (xy 67.31 163.83)
+			(xy 58.42 149.86) (xy 58.42 163.83)
 		)
 		(stroke
 			(width 0)
@@ -18738,6 +19048,16 @@
 			(type default)
 		)
 		(uuid "46664740-43dd-4222-a17a-253c4b2a12e5")
+	)
+	(wire
+		(pts
+			(xy 58.42 149.86) (xy 68.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ad1217-c55f-402c-893b-0c25f9551aac")
 	)
 	(bus
 		(pts
@@ -19311,6 +19631,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 170.18) (xy 167.64 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55926868-eb52-412a-acce-ab8a57984a5d")
+	)
+	(wire
+		(pts
 			(xy 134.62 328.93) (xy 132.08 328.93)
 		)
 		(stroke
@@ -19418,16 +19748,6 @@
 			(type default)
 		)
 		(uuid "59b1b0b0-9278-4d6b-ab61-54e56cf9b9bd")
-	)
-	(wire
-		(pts
-			(xy 116.84 154.94) (xy 116.84 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59c067ed-f78a-4302-99f7-31c29e7fe757")
 	)
 	(bus
 		(pts
@@ -19891,7 +20211,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 162.56) (xy 64.77 162.56)
+			(xy 54.61 165.1) (xy 64.77 165.1)
 		)
 		(stroke
 			(width 0)
@@ -20201,6 +20521,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 154.94) (xy 54.61 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72987e2b-a7ec-480d-aa0d-feb9a3e20979")
+	)
+	(wire
+		(pts
 			(xy 339.09 196.85) (xy 339.09 218.44)
 		)
 		(stroke
@@ -20348,16 +20678,6 @@
 			(type default)
 		)
 		(uuid "793b58a9-02e7-4c77-b0dc-c079b8d29b56")
-	)
-	(wire
-		(pts
-			(xy 93.98 147.32) (xy 93.98 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "796df0ef-de5a-4917-afd6-8dcf2d2979f7")
 	)
 	(bus
 		(pts
@@ -20551,7 +20871,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 168.91) (xy 116.84 168.91)
+			(xy 96.52 168.91) (xy 105.41 168.91)
 		)
 		(stroke
 			(width 0)
@@ -20708,16 +21028,6 @@
 			(type default)
 		)
 		(uuid "85dc344b-9415-465c-837a-39cd12a9ece0")
-	)
-	(wire
-		(pts
-			(xy 116.84 168.91) (xy 170.18 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86409e13-f9d8-4d30-9496-274103dfd8b6")
 	)
 	(wire
 		(pts
@@ -20938,16 +21248,6 @@
 			(type default)
 		)
 		(uuid "8e33e9b2-f54a-40ea-b1a3-597f54056b99")
-	)
-	(wire
-		(pts
-			(xy 110.49 143.51) (xy 110.49 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e632240-2ee5-44cf-80ea-c26f697e0225")
 	)
 	(wire
 		(pts
@@ -21621,6 +21921,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 168.91) (xy 170.18 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4639fc8-12ff-4bb6-b725-18b9bb0f2f85")
+	)
+	(wire
+		(pts
 			(xy 140.97 180.34) (xy 151.13 180.34)
 		)
 		(stroke
@@ -21859,16 +22169,6 @@
 		)
 		(uuid "a97b2093-7c28-40a9-8dbf-3b330dc874e9")
 	)
-	(wire
-		(pts
-			(xy 93.98 170.18) (xy 110.49 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa78146f-98a2-450a-af99-7eb0e40fa89e")
-	)
 	(bus
 		(pts
 			(xy 21.59 190.5) (xy 21.59 193.04)
@@ -21878,6 +22178,16 @@
 			(type default)
 		)
 		(uuid "aaff85df-fbdf-4417-bef7-f0ede2a49cb3")
+	)
+	(wire
+		(pts
+			(xy 140.97 149.86) (xy 140.97 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab048044-76ee-45d3-b1bb-bb34a3a157d8")
 	)
 	(wire
 		(pts
@@ -21978,16 +22288,6 @@
 			(type default)
 		)
 		(uuid "ae241f2e-930f-4c03-9e0f-985ec6f629d3")
-	)
-	(wire
-		(pts
-			(xy 93.98 149.86) (xy 93.98 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae32dbfb-c746-4eae-bbfd-a7a07f6f04a7")
 	)
 	(wire
 		(pts
@@ -22411,7 +22711,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 149.86) (xy 64.77 149.86)
+			(xy 54.61 149.86) (xy 58.42 149.86)
 		)
 		(stroke
 			(width 0)
@@ -22748,16 +23048,6 @@
 			(type default)
 		)
 		(uuid "c075bd3c-d468-4deb-acec-f1529f541012")
-	)
-	(wire
-		(pts
-			(xy 64.77 149.86) (xy 64.77 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c08daca1-1082-4cca-af73-cc1772f7f9f9")
 	)
 	(bus
 		(pts
@@ -23471,16 +23761,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 154.94) (xy 64.77 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9b6f8b2-c55c-430c-b9a8-fde5096d8a70")
-	)
-	(wire
-		(pts
 			(xy 407.67 266.7) (xy 406.4 266.7)
 		)
 		(stroke
@@ -23548,16 +23828,6 @@
 			(type default)
 		)
 		(uuid "dcbbaba6-44aa-4f41-a865-18e0ef0dad19")
-	)
-	(wire
-		(pts
-			(xy 64.77 154.94) (xy 67.31 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd0a32cf-f636-493a-90b8-6c8f59033c7c")
 	)
 	(bus
 		(pts
@@ -23721,7 +23991,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 170.18) (xy 167.64 170.18)
+			(xy 93.98 170.18) (xy 140.97 170.18)
 		)
 		(stroke
 			(width 0)
@@ -24131,6 +24401,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 165.1) (xy 54.61 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff5e846-dcdb-491d-8846-6cc44a6cf70c")
+	)
+	(wire
+		(pts
 			(xy 187.96 38.1) (xy 185.42 38.1)
 		)
 		(stroke
@@ -24268,6 +24548,16 @@
 			(type default)
 		)
 		(uuid "f4f2ea79-cee5-40b1-97fc-aa4cd796a8bb")
+	)
+	(wire
+		(pts
+			(xy 105.41 165.1) (xy 105.41 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f502da0c-ab65-4fca-8e32-e1c1846ba562")
 	)
 	(wire
 		(pts
@@ -26823,7 +27113,7 @@
 			)
 		)
 	)
-	(global_label "phi2"
+	(global_label "phi0"
 		(shape input)
 		(at 134.62 285.75 180)
 		(fields_autoplaced yes)
@@ -26999,7 +27289,7 @@
 			)
 		)
 	)
-	(global_label "phi2"
+	(global_label "phi0"
 		(shape input)
 		(at 43.18 317.5 180)
 		(fields_autoplaced yes)
@@ -27153,7 +27443,7 @@
 			)
 		)
 	)
-	(global_label "phi2"
+	(global_label "phi0"
 		(shape input)
 		(at 130.81 45.72 180)
 		(fields_autoplaced yes)
@@ -27395,28 +27685,6 @@
 			)
 		)
 	)
-	(global_label "phi2"
-		(shape input)
-		(at 26.67 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e01a16ba-221a-457a-869e-e8849a6338a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.5725 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RWb"
 		(shape input)
 		(at 326.39 59.69 270)
@@ -27618,7 +27886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 135.89 187.198 90)
 			(effects
 				(font
@@ -27688,7 +27956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 322.58 214.63 0)
 			(effects
 				(font
@@ -27899,7 +28167,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 350.52 44.45 0)
 			(effects
 				(font
@@ -27978,7 +28246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:INND-TS40"
+		(property "Footprint" "wallputer:INND-TS40"
 			(at 172.72 187.96 0)
 			(effects
 				(font
@@ -28071,7 +28339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 284.48 207.01 0)
 			(effects
 				(font
@@ -28132,7 +28400,7 @@
 		(dnp no)
 		(uuid "05c4a165-a024-4494-84dc-632c061f4c65")
 		(property "Reference" "R11"
-			(at 20.32 61.468 90)
+			(at 19.812 65.786 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28147,7 +28415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 20.32 61.722 90)
 			(effects
 				(font
@@ -28284,7 +28552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 191.77 332.74 0)
 			(effects
 				(font
@@ -28600,7 +28868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 402.59 301.752 90)
 			(effects
 				(font
@@ -28736,7 +29004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-32_W15.24mm_Socket"
 			(at 190.5 203.2 0)
 			(effects
 				(font
@@ -28894,7 +29162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 364.49 221.742 90)
 			(effects
 				(font
@@ -28961,7 +29229,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 276.86 252.73 0)
 			(effects
 				(font
@@ -29067,7 +29335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_EdgeMount_P2.77mm"
 			(at 229.87 313.69 0)
 			(effects
 				(font
@@ -29155,7 +29423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 276.86 295.91 0)
 			(effects
 				(font
@@ -29261,7 +29529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-32_W15.24mm_Socket"
 			(at 203.2 55.88 0)
 			(effects
 				(font
@@ -29420,7 +29688,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 284.48 234.95 0)
 			(effects
 				(font
@@ -29563,7 +29831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 364.49 286.512 90)
 			(effects
 				(font
@@ -29764,7 +30032,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 360.68 234.95 0)
 			(effects
 				(font
@@ -29840,7 +30108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 62.23 197.358 90)
 			(effects
 				(font
@@ -29909,7 +30177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 288.29 179.832 90)
 			(effects
 				(font
@@ -29978,7 +30246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 324.358 90)
 			(effects
 				(font
@@ -30045,7 +30313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 135.89 189.738 90)
 			(effects
 				(font
@@ -30114,7 +30382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 326.39 264.922 90)
 			(effects
 				(font
@@ -30184,7 +30452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 360.68 270.51 0)
 			(effects
 				(font
@@ -30263,7 +30531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 370.078 90)
 			(effects
 				(font
@@ -30396,7 +30664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5KPW_P12.70mm_Horizontal"
 			(at 130.81 290.83 0)
 			(effects
 				(font
@@ -30481,7 +30749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 62.23 199.898 90)
 			(effects
 				(font
@@ -30684,7 +30952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 288.29 236.982 90)
 			(effects
 				(font
@@ -30751,7 +31019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 353.06 274.32 0)
 			(effects
 				(font
@@ -30857,7 +31125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 360.68 207.01 0)
 			(effects
 				(font
@@ -30909,182 +31177,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PNP_BCE")
-		(at 114.3 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2285ea23-3e7a-48ad-babd-58089b3a67da")
-		(property "Reference" "Q5"
-			(at 119.38 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC652"
-			(at 119.38 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1e629c1-bd76-4356-a41b-64348e08efd9")
-		)
-		(pin "2"
-			(uuid "def81e8a-4771-4033-a320-18bd1e72021e")
-		)
-		(pin "3"
-			(uuid "16eb22e4-6d3c-4f36-a26d-bbf35e0b9d13")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC00")
-		(at 101.6 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23e56d6f-7a57-4932-a8af-fde3bb79b932")
-		(property "Reference" "U4"
-			(at 101.5917 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC00"
-			(at 101.5917 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 101.6 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "quad 2-input NAND gate"
-			(at 101.6 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fd6354e-3c5e-40bb-b277-4177b9d4b67b")
-		)
-		(pin "2"
-			(uuid "032c7e54-ec63-46b0-960c-48c51c6f8bc5")
-		)
-		(pin "10"
-			(uuid "daaa9d2c-8d54-4692-8e5b-85def802d0d9")
-		)
-		(pin "5"
-			(uuid "0ef922d5-76c2-4588-a741-2aa396a039f0")
-		)
-		(pin "9"
-			(uuid "9eac1424-7adc-4594-94aa-714175bc99bd")
-		)
-		(pin "7"
-			(uuid "4f4138a9-ea5a-405f-9821-b90d2d4b06ff")
-		)
-		(pin "13"
-			(uuid "d1ccf38a-4bba-4147-a916-597a4d796936")
-		)
-		(pin "12"
-			(uuid "afb98010-e950-4882-a972-c923d261da7d")
-		)
-		(pin "4"
-			(uuid "3048d9df-9b65-4a78-9394-e60733f0cc4b")
-		)
-		(pin "8"
-			(uuid "212d9901-68f1-4ea0-8828-28c3a7401286")
-		)
-		(pin "6"
-			(uuid "45eed30c-0de8-4e2c-9860-d1dc188214f9")
-		)
-		(pin "3"
-			(uuid "4d326b03-53b7-489e-b5d9-1dbbc13a6b61")
-		)
-		(pin "14"
-			(uuid "e82209b6-c8d3-455a-9f01-521026bce690")
-		)
-		(pin "11"
-			(uuid "e1b61bb5-d80d-408b-9f24-9ae54837a5da")
-		)
-		(instances
-			(project ""
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "INND-TS40_1")
 		(lib_id "New_Library:INND-TS40")
 		(at 232.41 187.96 0)
@@ -31112,7 +31204,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:INND-TS40"
+		(property "Footprint" "wallputer:INND-TS40"
 			(at 246.38 187.96 0)
 			(effects
 				(font
@@ -31205,7 +31297,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 322.58 193.04 0)
 			(effects
 				(font
@@ -31351,7 +31443,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 398.78 234.95 0)
 			(effects
 				(font
@@ -31429,7 +31521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 316.738 90)
 			(effects
 				(font
@@ -31496,7 +31588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 314.96 231.14 0)
 			(effects
 				(font
@@ -31734,7 +31826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 326.39 179.832 90)
 			(effects
 				(font
@@ -31803,7 +31895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 288.29 201.422 90)
 			(effects
 				(font
@@ -31846,6 +31938,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BS170")
+		(at 110.49 162.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29afdba6-cdff-4771-af83-7f0f754ec002")
+		(property "Reference" "Q6"
+			(at 110.49 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BS170"
+			(at 110.49 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 108.585 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
+			(at 106.68 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
+			(at 110.49 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d131ed5-d82d-4789-b5a3-52ac03b510a3")
+		)
+		(pin "2"
+			(uuid "5d8024a6-f453-4860-a74b-880344f501b0")
+		)
+		(pin "3"
+			(uuid "85505bdd-dc2f-4326-be1e-24c3af97bb8a")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 326.39 260.35 270)
 		(unit 1)
@@ -31872,7 +32038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 326.39 258.572 90)
 			(effects
 				(font
@@ -32008,7 +32174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 322.58 207.01 0)
 			(effects
 				(font
@@ -32084,7 +32250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 209.55 192.278 90)
 			(effects
 				(font
@@ -32288,7 +32454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 211.7852 290.83 0)
 			(effects
 				(font
@@ -32358,7 +32524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 372.618 90)
 			(effects
 				(font
@@ -32491,7 +32657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 182.88 82.042 90)
 			(effects
 				(font
@@ -32561,7 +32727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 322.58 248.92 0)
 			(effects
 				(font
@@ -32639,7 +32805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 288.29 301.752 90)
 			(effects
 				(font
@@ -32775,7 +32941,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 393.7 44.45 0)
 			(effects
 				(font
@@ -32852,7 +33018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical"
 			(at 242.57 71.12 0)
 			(effects
 				(font
@@ -33244,7 +33410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 300.99 44.45 0)
 			(effects
 				(font
@@ -33323,7 +33489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 398.78 193.04 0)
 			(effects
 				(font
@@ -33655,7 +33821,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 326.39 52.07 0)
 			(effects
 				(font
@@ -33760,7 +33926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 326.39 243.332 90)
 			(effects
 				(font
@@ -33827,7 +33993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 85.09 146.558 90)
 			(effects
 				(font
@@ -33971,7 +34137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 360.68 193.04 0)
 			(effects
 				(font
@@ -34050,7 +34216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 457.2 35.56 0)
 			(effects
 				(font
@@ -34155,7 +34321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 326.39 216.662 90)
 			(effects
 				(font
@@ -34224,7 +34390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 326.39 201.422 90)
 			(effects
 				(font
@@ -34291,7 +34457,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 391.16 189.23 0)
 			(effects
 				(font
@@ -34463,7 +34629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 85.09 105.41 0)
 			(effects
 				(font
@@ -34532,7 +34698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 364.49 258.572 90)
 			(effects
 				(font
@@ -34746,7 +34912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 276.86 210.82 0)
 			(effects
 				(font
@@ -34849,7 +35015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 276.86 274.32 0)
 			(effects
 				(font
@@ -34880,43 +35046,43 @@
 			(uuid "c4a12f6f-d5e2-4cdc-9319-d1b73ff29ad3")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d6")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152d9")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e32")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e35")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7193")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c7196")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a4")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a7")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc25")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc28")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296068")
+			(uuid "3274149f-3955-4090-8a62-4d09f729606a")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b307")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b30a")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3a")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3b")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe8")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042feb")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f50")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f52")
 		)
 		(pin "10"
 			(uuid "6791617e-88bc-43a7-819f-24e05dac1135")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026a")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026b")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21b")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21e")
 		)
 		(instances
 			(project "wallputer"
@@ -34952,7 +35118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 391.16 231.14 0)
 			(effects
 				(font
@@ -34980,43 +35146,43 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfb")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfd")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152da")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152dc")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e36")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e37")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7197")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c7198")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a8")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159aa")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc29")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc2a")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f729606c")
+			(uuid "3274149f-3955-4090-8a62-4d09f729606d")
 		)
 		(pin "4"
 			(uuid "91283b4f-9168-4158-9817-5ba2cdeaff11")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3e")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb40")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fec")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fed")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f54")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f55")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5d")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5f")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026e")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240270")
 		)
 		(pin "3"
 			(uuid "263a4890-e6d1-4f07-8d5a-bae7e12478fc")
@@ -35026,6 +35192,82 @@
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "U18")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC547")
+		(at 123.19 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44d8dd2a-b838-479e-ade0-22fe32d55a94")
+		(property "Reference" "Q7"
+			(at 128.27 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 128.27 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 128.27 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 123.19 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 123.19 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aea91400-6692-4b23-a610-7d5591b72c22")
+		)
+		(pin "1"
+			(uuid "f41e00ca-a6b6-46fb-b9b2-f0b4dea1c179")
+		)
+		(pin "3"
+			(uuid "68c9a2ab-b13a-44c2-84ce-fb62cfc21745")
+		)
+		(instances
+			(project ""
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "Q7")
+					(unit 1)
 				)
 			)
 		)
@@ -35058,7 +35300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 284.48 256.54 0)
 			(effects
 				(font
@@ -35200,7 +35442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 487.68 143.002 90)
 			(effects
 				(font
@@ -35270,7 +35512,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 398.78 278.13 0)
 			(effects
 				(font
@@ -35422,7 +35664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 62.23 184.658 90)
 			(effects
 				(font
@@ -35489,7 +35731,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 391.16 210.82 0)
 			(effects
 				(font
@@ -35517,10 +35759,10 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf6")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf7")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d5")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152dd")
 		)
 		(pin "6"
 			(uuid "5ad32174-a5b2-440a-baa2-854f8e1b9fd9")
@@ -35529,34 +35771,34 @@
 			(uuid "57100e6c-6adc-4f38-ba32-2cc8123a30f3")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a3")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159ab")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc24")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc2c")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296067")
+			(uuid "3274149f-3955-4090-8a62-4d09f729606e")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b306")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b30b")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb39")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3d")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe7")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fef")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f4f")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f56")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae58")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae59")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240269")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026d")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21a")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21f")
 		)
 		(instances
 			(project "wallputer"
@@ -35658,7 +35900,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 276.86 189.23 0)
 			(effects
 				(font
@@ -35686,46 +35928,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf8")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfa")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d7")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152de")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e33")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e38")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7194")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c7199")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a5")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159ac")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc26")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc2d")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296069")
+			(uuid "3274149f-3955-4090-8a62-4d09f729606f")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b308")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b30d")
 		)
 		(pin "1"
 			(uuid "e9fea551-fd90-414e-a7d2-2d81d19c83aa")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe9")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ff0")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f51")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f57")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5a")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5c")
 		)
 		(pin "2"
 			(uuid "3cbdf1d9-5c66-47e2-a671-60686e13203c")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21c")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe221")
 		)
 		(instances
 			(project "wallputer"
@@ -35764,7 +36006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 349.758 90)
 			(effects
 				(font
@@ -35831,7 +36073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 218.44 97.79 0)
 			(effects
 				(font
@@ -35936,7 +36178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 332.232 40.64 90)
 			(effects
 				(font
@@ -36005,7 +36247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 326.39 301.752 90)
 			(effects
 				(font
@@ -36074,7 +36316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 310.642 40.64 90)
 			(effects
 				(font
@@ -36143,7 +36385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 288.29 286.512 90)
 			(effects
 				(font
@@ -36213,7 +36455,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 360.68 299.72 0)
 			(effects
 				(font
@@ -36356,7 +36598,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 209.55 189.738 90)
 			(effects
 				(font
@@ -36511,7 +36753,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 209.55 184.658 90)
 			(effects
 				(font
@@ -36580,7 +36822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 288.29 243.332 90)
 			(effects
 				(font
@@ -36647,7 +36889,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 135.89 192.278 90)
 			(effects
 				(font
@@ -36716,7 +36958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 387.985 71.755 0)
 			(effects
 				(font
@@ -36744,46 +36986,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfb")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfe")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152da")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152df")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e36")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e39")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7197")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c719a")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a8")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159ad")
 		)
 		(pin "7"
 			(uuid "1713f374-825b-4334-af1a-fc2ddc4fe92c")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f729606c")
+			(uuid "3274149f-3955-4090-8a62-4d09f7296070")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b30b")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b30e")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3e")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb41")
 		)
 		(pin "14"
 			(uuid "3fb492d1-83e3-431c-9a90-32a299880466")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f54")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f58")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5d")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae60")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026e")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240271")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21f")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe222")
 		)
 		(instances
 			(project "wallputer"
@@ -36888,7 +37130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 456.2348 91.44 0)
 			(effects
 				(font
@@ -36958,7 +37200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 322.58 44.45 0)
 			(effects
 				(font
@@ -37037,7 +37279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 322.58 185.42 0)
 			(effects
 				(font
@@ -37115,7 +37357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 295.402 40.64 90)
 			(effects
 				(font
@@ -37383,7 +37625,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 360.68 214.63 0)
 			(effects
 				(font
@@ -37462,7 +37704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 407.67 44.45 0)
 			(effects
 				(font
@@ -37538,7 +37780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 91.948 96.52 90)
 			(effects
 				(font
@@ -37670,7 +37912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 135.89 184.658 90)
 			(effects
 				(font
@@ -37713,18 +37955,32 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 110.49 133.35 180)
+		(lib_id "Device:R")
+		(at 110.49 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "597e92d5-143c-4014-8353-a99449e4b689")
-		(property "Reference" "#PWR025"
-			(at 110.49 127 0)
+		(uuid "5a37dec9-7880-483a-b1ee-36f4b64b6a3b")
+		(property "Reference" "R4"
+			(at 109.22 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 110.49 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+			(at 112.268 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37732,16 +37988,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 133.35 0)
+		(property "Datasheet" "~"
+			(at 110.49 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37749,17 +37997,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 110.49 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 133.35 0)
+		(property "Description" "Resistor"
+			(at 110.49 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37768,12 +38007,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a52f5222-b623-4b6e-bf37-4ee4224b2503")
+			(uuid "ece9dbe6-8a9d-4629-a00d-4d907ed3741f")
+		)
+		(pin "2"
+			(uuid "210de8a2-ac60-46ec-abbc-27af24a71080")
 		)
 		(instances
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR025")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -37807,7 +38049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:INND-TS40"
+		(property "Footprint" "wallputer:INND-TS40"
 			(at 99.06 187.96 0)
 			(effects
 				(font
@@ -37900,7 +38142,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:INND-TS40"
+		(property "Footprint" "wallputer:INND-TS40"
 			(at 172.72 214.63 0)
 			(effects
 				(font
@@ -37993,7 +38235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 284.48 299.72 0)
 			(effects
 				(font
@@ -38204,7 +38446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 364.49 236.982 90)
 			(effects
 				(font
@@ -38273,7 +38515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 161.29 40.64 0)
 			(effects
 				(font
@@ -38352,6 +38594,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 19.05 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "631ca7c8-182f-4554-84f2-2b6d875c0d02")
+		(property "Reference" "#PWR049"
+			(at 22.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 17.78 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 19.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bf5616b-a09b-4454-8058-b704399ce093")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 326.39 196.85 270)
 		(unit 1)
@@ -38378,7 +38685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 326.39 195.072 90)
 			(effects
 				(font
@@ -38515,7 +38822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 284.48 227.33 0)
 			(effects
 				(font
@@ -38594,7 +38901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm_Socket"
 			(at 91.44 53.34 0)
 			(effects
 				(font
@@ -38740,7 +39047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 288.29 195.072 90)
 			(effects
 				(font
@@ -38873,7 +39180,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 276.86 231.14 0)
 			(effects
 				(font
@@ -38901,43 +39208,43 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfb")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bff")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152da")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152e0")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e36")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e3a")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7197")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c719b")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a8")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159ae")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc29")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc2e")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f729606c")
+			(uuid "3274149f-3955-4090-8a62-4d09f7296071")
 		)
 		(pin "4"
 			(uuid "09b210ab-6520-4ea6-bb02-43dada63e06b")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3e")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb42")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fec")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ff1")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f54")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f59")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5d")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae61")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026e")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240272")
 		)
 		(pin "3"
 			(uuid "e7b89ce7-d7a9-41e6-8135-e4515c3b24a2")
@@ -38979,7 +39286,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 284.48 193.04 0)
 			(effects
 				(font
@@ -39122,7 +39429,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 494.03 48.26 0)
 			(effects
 				(font
@@ -39150,46 +39457,46 @@
 			)
 		)
 		(pin "10"
-			(uuid "16237429-389e-4b2a-8f2c-faf5a7de7e87")
+			(uuid "16237429-389e-4b2a-8f2c-faf5a7de7e88")
 		)
 		(pin "7"
-			(uuid "046a0f06-cd0d-4ba5-97d4-af73e7d1ab3e")
+			(uuid "046a0f06-cd0d-4ba5-97d4-af73e7d1ab3f")
 		)
 		(pin "5"
-			(uuid "565126d6-cbc7-457f-b652-1ff44660f671")
+			(uuid "565126d6-cbc7-457f-b652-1ff44660f672")
 		)
 		(pin "4"
-			(uuid "d85e266f-ebfb-48bc-8d5a-5804b6b67866")
+			(uuid "d85e266f-ebfb-48bc-8d5a-5804b6b67867")
 		)
 		(pin "12"
-			(uuid "3dcabfd8-63c0-463e-8e75-bb0d186785f9")
+			(uuid "3dcabfd8-63c0-463e-8e75-bb0d186785fa")
 		)
 		(pin "13"
-			(uuid "dd0fe6a2-6244-472e-84e7-83dada6ba8ad")
+			(uuid "dd0fe6a2-6244-472e-84e7-83dada6ba8ae")
 		)
 		(pin "8"
-			(uuid "874c2c44-8c15-46a2-b648-7339e9ce0c43")
+			(uuid "874c2c44-8c15-46a2-b648-7339e9ce0c44")
 		)
 		(pin "14"
-			(uuid "29d7d1be-b5ed-4ae7-9793-cc92834eaaaf")
+			(uuid "29d7d1be-b5ed-4ae7-9793-cc92834eaab0")
 		)
 		(pin "9"
-			(uuid "89e48044-9c92-4ba6-b8ff-16347363f4e5")
+			(uuid "89e48044-9c92-4ba6-b8ff-16347363f4e6")
 		)
 		(pin "6"
-			(uuid "dafb3611-7409-48f1-ada3-42724938b92d")
+			(uuid "dafb3611-7409-48f1-ada3-42724938b92e")
 		)
 		(pin "3"
-			(uuid "a30f9120-e0b6-40e1-af9e-048caf692f05")
+			(uuid "a30f9120-e0b6-40e1-af9e-048caf692f06")
 		)
 		(pin "2"
-			(uuid "4f74f30b-659f-4aba-b130-0a8b3e7ccafd")
+			(uuid "4f74f30b-659f-4aba-b130-0a8b3e7ccafe")
 		)
 		(pin "1"
-			(uuid "b08d6c95-219b-4978-a5c1-22d132159ba5")
+			(uuid "b08d6c95-219b-4978-a5c1-22d132159ba6")
 		)
 		(pin "11"
-			(uuid "63bb4843-9c87-426f-8394-758f2fd4c33c")
+			(uuid "63bb4843-9c87-426f-8394-758f2fd4c33d")
 		)
 		(instances
 			(project ""
@@ -39227,7 +39534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-32_W15.24mm_Socket"
 			(at 43.18 203.2 0)
 			(effects
 				(font
@@ -39385,7 +39692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 402.59 195.072 90)
 			(effects
 				(font
@@ -39452,7 +39759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 22.86 59.182 90)
 			(effects
 				(font
@@ -39655,7 +39962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 364.49 44.45 0)
 			(effects
 				(font
@@ -39731,7 +40038,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 108.458 95.25 90)
 			(effects
 				(font
@@ -39768,6 +40075,73 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 125.73 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e713123-8aa1-4cb9-92f0-5f82021e51bf")
+		(property "Reference" "#PWR051"
+			(at 125.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce624d43-bbfa-421b-9046-906101ea3468")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -39866,7 +40240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 364.49 280.162 90)
 			(effects
 				(font
@@ -39935,7 +40309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-32_W15.24mm_Socket"
 			(at 116.84 203.2 0)
 			(effects
 				(font
@@ -40093,7 +40467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 364.49 216.662 90)
 			(effects
 				(font
@@ -40160,7 +40534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 209.55 197.358 90)
 			(effects
 				(font
@@ -40359,7 +40733,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 353.06 252.73 0)
 			(effects
 				(font
@@ -40387,46 +40761,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf5")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c00")
 		)
 		(pin "8"
 			(uuid "1be106f0-4160-4053-b813-f2b999497d8e")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e30")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e31")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7191")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c7192")
 		)
 		(pin "9"
 			(uuid "283d0170-50b5-407c-ab0e-cd50c2458ad0")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc23")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc2f")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296066")
+			(uuid "3274149f-3955-4090-8a62-4d09f7296072")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b305")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b30f")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb38")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb43")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe6")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ff2")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f4e")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f5a")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae57")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae62")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240268")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240273")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe219")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe223")
 		)
 		(instances
 			(project "wallputer"
@@ -40530,7 +40904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 358.902 40.64 90)
 			(effects
 				(font
@@ -40573,6 +40947,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 125.73 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74991ce3-3096-483e-8566-287b928106f5")
+		(property "Reference" "R3"
+			(at 124.46 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 125.73 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+			(at 127.508 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a8409cd-95b3-46f6-9b8b-b49915e2e94e")
+		)
+		(pin "2"
+			(uuid "b92e5f30-208f-4898-93e4-249b5aecd7d6")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 398.78 185.42 270)
 		(mirror x)
@@ -40600,7 +41041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 398.78 185.42 0)
 			(effects
 				(font
@@ -40678,7 +41119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 402.59 201.422 90)
 			(effects
 				(font
@@ -40745,7 +41186,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 572.77 96.52 0)
 			(effects
 				(font
@@ -40851,7 +41292,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 322.58 278.13 0)
 			(effects
 				(font
@@ -40930,7 +41371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 357.378 90)
 			(effects
 				(font
@@ -40997,7 +41438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 135.89 182.118 90)
 			(effects
 				(font
@@ -41401,7 +41842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 410.21 156.21 0)
 			(effects
 				(font
@@ -41429,46 +41870,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfa")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c01")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d9")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152e1")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e35")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e3b")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7196")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c719c")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a7")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159af")
 		)
 		(pin "7"
 			(uuid "ddc65560-437c-4680-a7a0-5fc0f9d7c2e7")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f729606b")
+			(uuid "3274149f-3955-4090-8a62-4d09f7296073")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b30a")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b310")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3d")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb44")
 		)
 		(pin "14"
 			(uuid "670695d3-a22a-4046-bbed-7ec7e8efa89e")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f53")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f5b")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5c")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae63")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026d")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240274")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21e")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe224")
 		)
 		(instances
 			(project "wallputer"
@@ -41572,7 +42013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 209.55 194.818 90)
 			(effects
 				(font
@@ -41639,7 +42080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 209.55 182.118 90)
 			(effects
 				(font
@@ -41708,7 +42149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 402.59 264.922 90)
 			(effects
 				(font
@@ -41777,7 +42218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 352.552 40.64 90)
 			(effects
 				(font
@@ -41846,7 +42287,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC18-U_Vertical"
 			(at 163.83 279.4 0)
 			(effects
 				(font
@@ -41913,7 +42354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 62.23 189.738 90)
 			(effects
 				(font
@@ -41983,7 +42424,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 526.288 135.89 90)
 			(effects
 				(font
@@ -42050,7 +42491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 135.89 199.898 90)
 			(effects
 				(font
@@ -42184,7 +42625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 151.13 53.34 0)
 			(effects
 				(font
@@ -42290,7 +42731,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 322.58 256.54 0)
 			(effects
 				(font
@@ -42366,7 +42807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 346.71 52.07 0)
 			(effects
 				(font
@@ -42394,43 +42835,43 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfe")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c02")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152de")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152e2")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e39")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e3c")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c719a")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c719d")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159ac")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159b0")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc2e")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc30")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f729606f")
+			(uuid "3274149f-3955-4090-8a62-4d09f7296074")
 		)
 		(pin "4"
 			(uuid "91c59b62-fc94-4c58-bd81-ed062ed7fc1c")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb41")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb45")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ff1")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ff3")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f57")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f5c")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae60")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae64")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240271")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240275")
 		)
 		(pin "3"
 			(uuid "c63525d7-9f1b-483d-8a07-afbcf74daac1")
@@ -42469,7 +42910,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 391.16 252.73 0)
 			(effects
 				(font
@@ -42497,46 +42938,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf5")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c03")
 		)
 		(pin "8"
 			(uuid "06f0a687-97bc-45c6-9551-ebdea6b8f177")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e30")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e3d")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7191")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c719e")
 		)
 		(pin "9"
 			(uuid "91db484f-6ccb-4c42-a0f6-1a10e8d9a920")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc23")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc31")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296066")
+			(uuid "3274149f-3955-4090-8a62-4d09f7296075")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b305")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b311")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb38")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb46")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe6")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ff4")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f4e")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f5d")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae57")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae65")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240268")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240276")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe219")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe225")
 		)
 		(instances
 			(project "wallputer"
@@ -42574,7 +43015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 364.49 179.832 90)
 			(effects
 				(font
@@ -42617,6 +43058,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BS170")
+		(at 138.43 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8847f71e-df4b-4069-a24d-6d9155f37671")
+		(property "Reference" "Q5"
+			(at 144.78 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170"
+			(at 144.78 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 143.51 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
+			(at 143.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
+			(at 138.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc44c446-c88e-4a38-a065-5fba48dd5597")
+		)
+		(pin "2"
+			(uuid "e72328b7-4d24-4d94-90a1-a2b530a7d279")
+		)
+		(pin "3"
+			(uuid "160a1c8b-25ac-4810-93ba-a5671beeaead")
+		)
+		(instances
+			(project ""
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "65xx-library:W65C02SxP")
 		(at 36.83 63.5 0)
 		(unit 1)
@@ -42644,7 +43161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket"
 			(at 36.83 12.7 0)
 			(effects
 				(font
@@ -42827,7 +43344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 284.48 185.42 0)
 			(effects
 				(font
@@ -42969,7 +43486,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 353.06 189.23 0)
 			(effects
 				(font
@@ -42997,46 +43514,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf8")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c04")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d7")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152e3")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e33")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e3e")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7194")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c719f")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a5")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159b1")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc26")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc32")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296069")
+			(uuid "3274149f-3955-4090-8a62-4d09f7296076")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b308")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b312")
 		)
 		(pin "1"
 			(uuid "94250369-c864-4983-8360-2592a8f0965a")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe9")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ff5")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f51")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f5e")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5a")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae66")
 		)
 		(pin "2"
 			(uuid "84a13dcd-1992-49ff-a0ae-ab24c1a06c3a")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21c")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe226")
 		)
 		(instances
 			(project "wallputer"
@@ -43141,7 +43658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 398.78 207.01 0)
 			(effects
 				(font
@@ -43220,7 +43737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 461.772 78.74 90)
 			(effects
 				(font
@@ -43290,7 +43807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 415.29 44.45 0)
 			(effects
 				(font
@@ -43368,7 +43885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 288.29 258.572 90)
 			(effects
 				(font
@@ -43437,7 +43954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 156.972 279.4 90)
 			(effects
 				(font
@@ -43507,7 +44024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 284.48 292.1 0)
 			(effects
 				(font
@@ -43625,77 +44142,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PNP_BCE")
-		(at 107.95 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f4d10dc-ce0d-4466-905d-d77ddf383596")
-		(property "Reference" "Q6"
-			(at 104.648 134.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC652"
-			(at 98.298 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f1ac0fba-f779-44d0-8904-b958d96dc840")
-		)
-		(pin "2"
-			(uuid "16518286-4d15-4ba6-a91e-419e0afc6ccf")
-		)
-		(pin "3"
-			(uuid "01653846-8e44-4052-8ecd-424825f0a952")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74HC00")
 		(at 133.35 53.34 90)
 		(mirror x)
@@ -43721,7 +44167,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 133.35 53.34 0)
 			(effects
 				(font
@@ -43826,7 +44272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 326.39 280.162 90)
 			(effects
 				(font
@@ -43896,7 +44342,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 284.48 278.13 0)
 			(effects
 				(font
@@ -43975,7 +44421,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 322.58 234.95 0)
 			(effects
 				(font
@@ -44120,7 +44566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 331.978 90)
 			(effects
 				(font
@@ -44187,7 +44633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 314.96 189.23 0)
 			(effects
 				(font
@@ -44215,46 +44661,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf8")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c05")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d7")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152e4")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e33")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e3f")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7194")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71a0")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a5")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159b2")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc26")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc33")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296069")
+			(uuid "3274149f-3955-4090-8a62-4d09f7296077")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b308")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b313")
 		)
 		(pin "1"
 			(uuid "d86c4ea4-a7ce-4099-8e38-25681eb00852")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe9")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ff6")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f51")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f5f")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5a")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae67")
 		)
 		(pin "2"
 			(uuid "0b05ca88-c484-4478-b79c-5f36d2a2a170")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21c")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe227")
 		)
 		(instances
 			(project "wallputer"
@@ -44290,7 +44736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 209.55 199.898 90)
 			(effects
 				(font
@@ -44359,7 +44805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 171.1452 290.83 0)
 			(effects
 				(font
@@ -44428,7 +44874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 402.59 236.982 90)
 			(effects
 				(font
@@ -44563,7 +45009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 25.4 151.13 0)
 			(effects
 				(font
@@ -44668,7 +45114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 337.058 90)
 			(effects
 				(font
@@ -44738,7 +45184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 360.68 256.54 0)
 			(effects
 				(font
@@ -44817,7 +45263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 398.78 248.92 0)
 			(effects
 				(font
@@ -44896,7 +45342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 398.78 292.1 0)
 			(effects
 				(font
@@ -44972,7 +45418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5KPW_P12.70mm_Horizontal"
 			(at 39.37 322.58 0)
 			(effects
 				(font
@@ -45057,7 +45503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 218.44 294.9448 0)
 			(effects
 				(font
@@ -45126,7 +45572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 364.49 195.072 90)
 			(effects
 				(font
@@ -45195,7 +45641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 417.322 40.64 90)
 			(effects
 				(font
@@ -45265,7 +45711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 364.998 90)
 			(effects
 				(font
@@ -45335,7 +45781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 322.58 292.1 0)
 			(effects
 				(font
@@ -45413,7 +45859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 314.198 90)
 			(effects
 				(font
@@ -45482,7 +45928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 402.082 40.64 90)
 			(effects
 				(font
@@ -45551,7 +45997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 288.29 216.662 90)
 			(effects
 				(font
@@ -45697,7 +46143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 500.0752 157.48 0)
 			(effects
 				(font
@@ -45766,7 +46212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 164.7952 290.83 0)
 			(effects
 				(font
@@ -45833,7 +46279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 62.23 192.278 90)
 			(effects
 				(font
@@ -45903,7 +46349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 354.838 90)
 			(effects
 				(font
@@ -45946,6 +46392,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 129.54 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a508a858-ff90-4998-9709-a91dad311859")
+		(property "Reference" "R5"
+			(at 134.366 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 129.286 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+			(at 129.54 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03cb0c8e-bfb6-4581-97da-96cb890ed048")
+		)
+		(pin "2"
+			(uuid "0abf1d26-9caf-46f4-ad38-8b1310cf737d")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC14")
 		(at 471.17 82.55 0)
 		(unit 1)
@@ -45971,7 +46484,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 471.17 82.55 0)
 			(effects
 				(font
@@ -45999,46 +46512,46 @@
 			)
 		)
 		(pin "10"
-			(uuid "16237429-389e-4b2a-8f2c-faf5a7de7e87")
+			(uuid "16237429-389e-4b2a-8f2c-faf5a7de7e89")
 		)
 		(pin "7"
-			(uuid "046a0f06-cd0d-4ba5-97d4-af73e7d1ab3e")
+			(uuid "046a0f06-cd0d-4ba5-97d4-af73e7d1ab40")
 		)
 		(pin "5"
-			(uuid "565126d6-cbc7-457f-b652-1ff44660f671")
+			(uuid "565126d6-cbc7-457f-b652-1ff44660f673")
 		)
 		(pin "4"
-			(uuid "d85e266f-ebfb-48bc-8d5a-5804b6b67866")
+			(uuid "d85e266f-ebfb-48bc-8d5a-5804b6b67868")
 		)
 		(pin "12"
-			(uuid "3dcabfd8-63c0-463e-8e75-bb0d186785f9")
+			(uuid "3dcabfd8-63c0-463e-8e75-bb0d186785fb")
 		)
 		(pin "13"
-			(uuid "dd0fe6a2-6244-472e-84e7-83dada6ba8ad")
+			(uuid "dd0fe6a2-6244-472e-84e7-83dada6ba8af")
 		)
 		(pin "8"
-			(uuid "874c2c44-8c15-46a2-b648-7339e9ce0c43")
+			(uuid "874c2c44-8c15-46a2-b648-7339e9ce0c45")
 		)
 		(pin "14"
-			(uuid "29d7d1be-b5ed-4ae7-9793-cc92834eaaaf")
+			(uuid "29d7d1be-b5ed-4ae7-9793-cc92834eaab1")
 		)
 		(pin "9"
-			(uuid "89e48044-9c92-4ba6-b8ff-16347363f4e5")
+			(uuid "89e48044-9c92-4ba6-b8ff-16347363f4e7")
 		)
 		(pin "6"
-			(uuid "dafb3611-7409-48f1-ada3-42724938b92d")
+			(uuid "dafb3611-7409-48f1-ada3-42724938b92f")
 		)
 		(pin "3"
-			(uuid "a30f9120-e0b6-40e1-af9e-048caf692f05")
+			(uuid "a30f9120-e0b6-40e1-af9e-048caf692f07")
 		)
 		(pin "2"
-			(uuid "4f74f30b-659f-4aba-b130-0a8b3e7ccafd")
+			(uuid "4f74f30b-659f-4aba-b130-0a8b3e7ccaff")
 		)
 		(pin "1"
-			(uuid "b08d6c95-219b-4978-a5c1-22d132159ba5")
+			(uuid "b08d6c95-219b-4978-a5c1-22d132159ba7")
 		)
 		(pin "11"
-			(uuid "63bb4843-9c87-426f-8394-758f2fd4c33c")
+			(uuid "63bb4843-9c87-426f-8394-758f2fd4c33e")
 		)
 		(instances
 			(project ""
@@ -46139,7 +46652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 411.48 52.07 0)
 			(effects
 				(font
@@ -46167,46 +46680,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf9")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c06")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d8")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152e5")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e34")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e40")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7195")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71a1")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a6")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159b3")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc27")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc34")
 		)
 		(pin "13"
 			(uuid "d67646bf-5103-4ee8-9269-85fb578a6a49")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b309")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b314")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3c")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb47")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fea")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ff7")
 		)
 		(pin "12"
 			(uuid "8a85d471-b771-4260-98d1-feb87eb19035")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5b")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae68")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026c")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240277")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21d")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe228")
 		)
 		(instances
 			(project "wallputer"
@@ -46244,7 +46757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 402.59 179.832 90)
 			(effects
 				(font
@@ -46378,7 +46891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 353.06 210.82 0)
 			(effects
 				(font
@@ -46406,10 +46919,10 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf6")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c07")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d5")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152e6")
 		)
 		(pin "6"
 			(uuid "df98ab86-0d04-4db6-99b4-39729d9224c7")
@@ -46418,34 +46931,34 @@
 			(uuid "c21fea56-c357-4409-90e8-590183d05420")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a3")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159b4")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc24")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc35")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296067")
+			(uuid "3274149f-3955-4090-8a62-4d09f7296078")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b306")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b315")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb39")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb48")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe7")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ff8")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f4f")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f60")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae58")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae69")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240269")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240278")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21a")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe229")
 		)
 		(instances
 			(project "wallputer"
@@ -46549,7 +47062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 316.992 40.64 90)
 			(effects
 				(font
@@ -46686,7 +47199,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 475.488 137.16 90)
 			(effects
 				(font
@@ -46755,7 +47268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 402.59 243.332 90)
 			(effects
 				(font
@@ -46824,7 +47337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 364.49 201.422 90)
 			(effects
 				(font
@@ -46861,6 +47374,74 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "R90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 115.57 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af6cb5f7-2d35-4061-94b3-aa779446c15b")
+		(property "Reference" "#PWR053"
+			(at 121.92 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ada6df74-d175-4001-bbd4-4cce9051c8f9")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -46958,7 +47539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 368.3 52.07 0)
 			(effects
 				(font
@@ -46986,46 +47567,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf5")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c08")
 		)
 		(pin "8"
 			(uuid "ef7d4da1-81a2-4ad4-a8ac-f1ff34169d33")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e30")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e41")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7191")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71a2")
 		)
 		(pin "9"
 			(uuid "132d8a3e-fd01-4605-97cc-92b564142fd4")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc23")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc36")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296066")
+			(uuid "3274149f-3955-4090-8a62-4d09f7296079")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b305")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b316")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb38")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb49")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe6")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ff9")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f4e")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f61")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae57")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae6a")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240268")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240279")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe219")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe22a")
 		)
 		(instances
 			(project "wallputer"
@@ -47064,7 +47645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 322.58 270.51 0)
 			(effects
 				(font
@@ -47140,7 +47721,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 97.79 161.798 90)
 			(effects
 				(font
@@ -47210,7 +47791,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 322.58 299.72 0)
 			(effects
 				(font
@@ -47287,7 +47868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 143.51 36.83 0)
 			(effects
 				(font
@@ -47390,7 +47971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 209.55 187.198 90)
 			(effects
 				(font
@@ -47579,7 +48160,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 314.96 252.73 0)
 			(effects
 				(font
@@ -47607,46 +48188,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf5")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c09")
 		)
 		(pin "8"
 			(uuid "9c3e44e2-1392-4c7d-83b2-57fff462bca2")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e30")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e42")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7191")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71a3")
 		)
 		(pin "9"
 			(uuid "784d144c-788e-4b87-b370-4e22bd5824be")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc23")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc37")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296066")
+			(uuid "3274149f-3955-4090-8a62-4d09f729607a")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b305")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b317")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb38")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb4a")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe6")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ffa")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f4e")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f62")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae57")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae6b")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240268")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24027a")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe219")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe22b")
 		)
 		(instances
 			(project "wallputer"
@@ -47682,7 +48263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 62.23 194.818 90)
 			(effects
 				(font
@@ -47751,7 +48332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 402.59 286.512 90)
 			(effects
 				(font
@@ -47820,7 +48401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 321.818 90)
 			(effects
 				(font
@@ -47890,7 +48471,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 330.2 44.45 0)
 			(effects
 				(font
@@ -47968,7 +48549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 395.732 40.64 90)
 			(effects
 				(font
@@ -48035,7 +48616,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 135.89 197.358 90)
 			(effects
 				(font
@@ -48105,7 +48686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 360.68 248.92 0)
 			(effects
 				(font
@@ -48184,7 +48765,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 372.11 44.45 0)
 			(effects
 				(font
@@ -48260,7 +48841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 226.06 99.06 0)
 			(effects
 				(font
@@ -48366,7 +48947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 284.48 248.92 0)
 			(effects
 				(font
@@ -48418,73 +48999,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 116.84 144.78 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bda7cb53-a9fe-41f6-a089-128a437d20e8")
-		(property "Reference" "#PWR024"
-			(at 116.84 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8fdc3bc2-fbb6-4555-aa86-e77c33d8a109")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74HC04")
 		(at 389.89 52.07 90)
 		(unit 5)
@@ -48509,7 +49023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 389.89 52.07 0)
 			(effects
 				(font
@@ -48540,43 +49054,43 @@
 			(uuid "4a65c9d0-0c3d-4686-bdb3-3a2745fd5233")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d6")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152e7")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e32")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e43")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7193")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71a4")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a4")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159b5")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc25")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc38")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296068")
+			(uuid "3274149f-3955-4090-8a62-4d09f729607b")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b307")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b318")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3a")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb4b")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe8")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ffb")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f50")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f63")
 		)
 		(pin "10"
 			(uuid "99ba22ff-e235-49bd-adfc-da120c5e04f3")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026a")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24027b")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21b")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe22c")
 		)
 		(instances
 			(project "wallputer"
@@ -48614,7 +49128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 402.59 258.572 90)
 			(effects
 				(font
@@ -48748,7 +49262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 402.59 280.162 90)
 			(effects
 				(font
@@ -48818,7 +49332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 549.91 115.57 0)
 			(effects
 				(font
@@ -48930,7 +49444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 398.78 227.33 0)
 			(effects
 				(font
@@ -49009,7 +49523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 308.61 44.45 0)
 			(effects
 				(font
@@ -49088,7 +49602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 398.78 256.54 0)
 			(effects
 				(font
@@ -49166,7 +49680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 326.39 221.742 90)
 			(effects
 				(font
@@ -49312,7 +49826,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 284.48 214.63 0)
 			(effects
 				(font
@@ -49520,7 +50034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 314.96 274.32 0)
 			(effects
 				(font
@@ -49551,43 +50065,43 @@
 			(uuid "07e2e1e0-904d-4e1b-a8c4-fbb9bfb7614a")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d6")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152e8")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e32")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e44")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7193")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71a5")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a4")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159b6")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc25")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc39")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296068")
+			(uuid "3274149f-3955-4090-8a62-4d09f729607c")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b307")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b319")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3a")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb4c")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe8")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ffc")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f50")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f64")
 		)
 		(pin "10"
 			(uuid "a711febe-cc2e-4d12-9924-67a7012a4bf7")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026a")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24027c")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21b")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe22d")
 		)
 		(instances
 			(project "wallputer"
@@ -49626,7 +50140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 347.218 90)
 			(effects
 				(font
@@ -49827,7 +50341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 389.89 156.21 0)
 			(effects
 				(font
@@ -49855,46 +50369,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfa")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c0a")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d9")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152e9")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e35")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e45")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7196")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71a6")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a7")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159b7")
 		)
 		(pin "7"
 			(uuid "746da66f-3788-4ad0-891e-fee0460c9c7c")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f729606b")
+			(uuid "3274149f-3955-4090-8a62-4d09f729607d")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b30a")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b31a")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3d")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb4d")
 		)
 		(pin "14"
 			(uuid "c6b6882a-3b17-4c7f-b73f-97635eebf2a8")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f53")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f65")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5c")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae6c")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026d")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24027d")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21e")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe22e")
 		)
 		(instances
 			(project "wallputer"
@@ -49932,7 +50446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 326.39 236.982 90)
 			(effects
 				(font
@@ -50065,7 +50579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 134.62 36.83 0)
 			(effects
 				(font
@@ -50170,7 +50684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 326.39 286.512 90)
 			(effects
 				(font
@@ -50304,7 +50818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 457.2 161.798 90)
 			(effects
 				(font
@@ -50374,7 +50888,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:INND-TS40"
+		(property "Footprint" "wallputer:INND-TS40"
 			(at 246.38 214.63 0)
 			(effects
 				(font
@@ -50533,7 +51047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 360.68 185.42 0)
 			(effects
 				(font
@@ -50609,7 +51123,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 391.16 274.32 0)
 			(effects
 				(font
@@ -50640,43 +51154,43 @@
 			(uuid "eb41444f-fd3e-47a5-9982-7cc98016cc48")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d6")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152ea")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e32")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e46")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7193")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71a7")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a4")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159b8")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc25")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc3a")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296068")
+			(uuid "3274149f-3955-4090-8a62-4d09f729607e")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b307")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b31b")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3a")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb4e")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe8")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ffd")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f50")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f66")
 		)
 		(pin "10"
 			(uuid "1dc2317a-91aa-418d-a4c4-a859d08a5765")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026a")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24027e")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21b")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe22f")
 		)
 		(instances
 			(project "wallputer"
@@ -50714,7 +51228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 400.05 156.21 0)
 			(effects
 				(font
@@ -50742,46 +51256,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfa")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c0b")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d9")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152eb")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e35")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e47")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7196")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71a8")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a7")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159b9")
 		)
 		(pin "7"
 			(uuid "fb140126-51c2-40e0-8717-c9ea1cb92c5b")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f729606b")
+			(uuid "3274149f-3955-4090-8a62-4d09f729607f")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b30a")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b31c")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3d")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb4f")
 		)
 		(pin "14"
 			(uuid "495f19c9-ef3a-496e-a7f0-3d6f565508e4")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f53")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f67")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5c")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae6d")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026d")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24027f")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21e")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe230")
 		)
 		(instances
 			(project "wallputer"
@@ -50819,7 +51333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 402.59 216.662 90)
 			(effects
 				(font
@@ -50889,7 +51403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 360.68 227.33 0)
 			(effects
 				(font
@@ -50967,7 +51481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 65.7352 162.56 0)
 			(effects
 				(font
@@ -51004,6 +51518,73 @@
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 125.73 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d042adc0-f54f-4462-bd3c-fce3524e44e1")
+		(property "Reference" "#PWR050"
+			(at 125.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 125.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 125.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcb6e7bd-cc64-4625-a133-91fb71bcd250")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -51100,7 +51681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 483.87 137.16 0)
 			(effects
 				(font
@@ -51128,46 +51709,46 @@
 			)
 		)
 		(pin "10"
-			(uuid "16237429-389e-4b2a-8f2c-faf5a7de7e87")
+			(uuid "16237429-389e-4b2a-8f2c-faf5a7de7e8a")
 		)
 		(pin "7"
-			(uuid "046a0f06-cd0d-4ba5-97d4-af73e7d1ab3e")
+			(uuid "046a0f06-cd0d-4ba5-97d4-af73e7d1ab41")
 		)
 		(pin "5"
-			(uuid "565126d6-cbc7-457f-b652-1ff44660f671")
+			(uuid "565126d6-cbc7-457f-b652-1ff44660f674")
 		)
 		(pin "4"
-			(uuid "d85e266f-ebfb-48bc-8d5a-5804b6b67866")
+			(uuid "d85e266f-ebfb-48bc-8d5a-5804b6b67869")
 		)
 		(pin "12"
-			(uuid "3dcabfd8-63c0-463e-8e75-bb0d186785f9")
+			(uuid "3dcabfd8-63c0-463e-8e75-bb0d186785fc")
 		)
 		(pin "13"
-			(uuid "dd0fe6a2-6244-472e-84e7-83dada6ba8ad")
+			(uuid "dd0fe6a2-6244-472e-84e7-83dada6ba8b0")
 		)
 		(pin "8"
-			(uuid "874c2c44-8c15-46a2-b648-7339e9ce0c43")
+			(uuid "874c2c44-8c15-46a2-b648-7339e9ce0c46")
 		)
 		(pin "14"
-			(uuid "29d7d1be-b5ed-4ae7-9793-cc92834eaaaf")
+			(uuid "29d7d1be-b5ed-4ae7-9793-cc92834eaab2")
 		)
 		(pin "9"
-			(uuid "89e48044-9c92-4ba6-b8ff-16347363f4e5")
+			(uuid "89e48044-9c92-4ba6-b8ff-16347363f4e8")
 		)
 		(pin "6"
-			(uuid "dafb3611-7409-48f1-ada3-42724938b92d")
+			(uuid "dafb3611-7409-48f1-ada3-42724938b930")
 		)
 		(pin "3"
-			(uuid "a30f9120-e0b6-40e1-af9e-048caf692f05")
+			(uuid "a30f9120-e0b6-40e1-af9e-048caf692f08")
 		)
 		(pin "2"
-			(uuid "4f74f30b-659f-4aba-b130-0a8b3e7ccafd")
+			(uuid "4f74f30b-659f-4aba-b130-0a8b3e7ccb00")
 		)
 		(pin "1"
-			(uuid "b08d6c95-219b-4978-a5c1-22d132159ba5")
+			(uuid "b08d6c95-219b-4978-a5c1-22d132159ba8")
 		)
 		(pin "11"
-			(uuid "63bb4843-9c87-426f-8394-758f2fd4c33c")
+			(uuid "63bb4843-9c87-426f-8394-758f2fd4c33f")
 		)
 		(instances
 			(project ""
@@ -51206,7 +51787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 439.1152 151.13 0)
 			(effects
 				(font
@@ -51275,7 +51856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 364.49 301.752 90)
 			(effects
 				(font
@@ -51344,7 +51925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 374.142 40.64 90)
 			(effects
 				(font
@@ -51642,7 +52223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 386.08 44.45 0)
 			(effects
 				(font
@@ -51720,7 +52301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 380.492 40.64 90)
 			(effects
 				(font
@@ -51856,7 +52437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 284.48 270.51 0)
 			(effects
 				(font
@@ -51932,7 +52513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 135.89 194.818 90)
 			(effects
 				(font
@@ -52001,7 +52582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 337.312 40.64 90)
 			(effects
 				(font
@@ -52071,7 +52652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 94.9452 110.49 0)
 			(effects
 				(font
@@ -52141,7 +52722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 352.298 90)
 			(effects
 				(font
@@ -52208,7 +52789,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 314.96 295.91 0)
 			(effects
 				(font
@@ -52236,52 +52817,119 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf9")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c0c")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d8")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152ec")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e34")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e48")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7195")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71a9")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a6")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159ba")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc27")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc3b")
 		)
 		(pin "13"
 			(uuid "ce606ad6-5b58-4cfb-b629-a956c580038c")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b309")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b31d")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3c")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb50")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fea")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042ffe")
 		)
 		(pin "12"
 			(uuid "ed839fbd-eb9a-44fa-b825-c456c79db9d1")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5b")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae6e")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026c")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240280")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21d")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe231")
 		)
 		(instances
 			(project "wallputer"
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "U16")
 					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 22.86 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d98dc1c6-b060-4808-93be-a36347ec9d54")
+		(property "Reference" "R1"
+			(at 23.114 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 23.114 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+			(at 22.86 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 22.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2035ddb0-6153-4d98-8290-66a1d667f2f0")
+		)
+		(pin "2"
+			(uuid "de930032-6448-467d-9250-dacd4de2d211")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R1")
+					(unit 1)
 				)
 			)
 		)
@@ -52312,7 +52960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
 			(at 93.98 354.33 0)
 			(effects
 				(font
@@ -52424,7 +53072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 359.918 90)
 			(effects
 				(font
@@ -52493,7 +53141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 339.598 90)
 			(effects
 				(font
@@ -52563,7 +53211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 362.458 90)
 			(effects
 				(font
@@ -52633,7 +53281,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 398.78 214.63 0)
 			(effects
 				(font
@@ -52847,7 +53495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 288.29 280.162 90)
 			(effects
 				(font
@@ -52956,71 +53604,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 26.67 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0ae42f1-193c-4f09-911c-81a8a0472322")
-		(property "Reference" "#PWR098"
-			(at 30.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 27.178 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 26.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7745ae9-1c4a-4986-82ba-1f078a0d0bef")
-		)
-		(instances
-			(project "wallputer"
-				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 54.61 158.75 0)
 		(unit 1)
@@ -53047,7 +53630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 55.5752 162.56 0)
 			(effects
 				(font
@@ -53298,7 +53881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 476.25 48.26 0)
 			(effects
 				(font
@@ -53326,46 +53909,46 @@
 			)
 		)
 		(pin "10"
-			(uuid "16237429-389e-4b2a-8f2c-faf5a7de7e87")
+			(uuid "16237429-389e-4b2a-8f2c-faf5a7de7e8b")
 		)
 		(pin "7"
-			(uuid "046a0f06-cd0d-4ba5-97d4-af73e7d1ab3e")
+			(uuid "046a0f06-cd0d-4ba5-97d4-af73e7d1ab42")
 		)
 		(pin "5"
-			(uuid "565126d6-cbc7-457f-b652-1ff44660f671")
+			(uuid "565126d6-cbc7-457f-b652-1ff44660f675")
 		)
 		(pin "4"
-			(uuid "d85e266f-ebfb-48bc-8d5a-5804b6b67866")
+			(uuid "d85e266f-ebfb-48bc-8d5a-5804b6b6786a")
 		)
 		(pin "12"
-			(uuid "3dcabfd8-63c0-463e-8e75-bb0d186785f9")
+			(uuid "3dcabfd8-63c0-463e-8e75-bb0d186785fd")
 		)
 		(pin "13"
-			(uuid "dd0fe6a2-6244-472e-84e7-83dada6ba8ad")
+			(uuid "dd0fe6a2-6244-472e-84e7-83dada6ba8b1")
 		)
 		(pin "8"
-			(uuid "874c2c44-8c15-46a2-b648-7339e9ce0c43")
+			(uuid "874c2c44-8c15-46a2-b648-7339e9ce0c47")
 		)
 		(pin "14"
-			(uuid "29d7d1be-b5ed-4ae7-9793-cc92834eaaaf")
+			(uuid "29d7d1be-b5ed-4ae7-9793-cc92834eaab3")
 		)
 		(pin "9"
-			(uuid "89e48044-9c92-4ba6-b8ff-16347363f4e5")
+			(uuid "89e48044-9c92-4ba6-b8ff-16347363f4e9")
 		)
 		(pin "6"
-			(uuid "dafb3611-7409-48f1-ada3-42724938b92d")
+			(uuid "dafb3611-7409-48f1-ada3-42724938b931")
 		)
 		(pin "3"
-			(uuid "a30f9120-e0b6-40e1-af9e-048caf692f05")
+			(uuid "a30f9120-e0b6-40e1-af9e-048caf692f09")
 		)
 		(pin "2"
-			(uuid "4f74f30b-659f-4aba-b130-0a8b3e7ccafd")
+			(uuid "4f74f30b-659f-4aba-b130-0a8b3e7ccb01")
 		)
 		(pin "1"
-			(uuid "b08d6c95-219b-4978-a5c1-22d132159ba5")
+			(uuid "b08d6c95-219b-4978-a5c1-22d132159ba9")
 		)
 		(pin "11"
-			(uuid "63bb4843-9c87-426f-8394-758f2fd4c33c")
+			(uuid "63bb4843-9c87-426f-8394-758f2fd4c340")
 		)
 		(instances
 			(project ""
@@ -53532,7 +54115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 353.06 231.14 0)
 			(effects
 				(font
@@ -53560,43 +54143,43 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfb")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c0d")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152da")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152ed")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e36")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e49")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7197")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71aa")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a8")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159bb")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc29")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc3c")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f729606c")
+			(uuid "3274149f-3955-4090-8a62-4d09f7296080")
 		)
 		(pin "4"
 			(uuid "5da73426-b298-41a8-b741-de96d2551ee6")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3e")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb51")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fec")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fff")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f54")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f68")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5d")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae6f")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026e")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240281")
 		)
 		(pin "3"
 			(uuid "11852747-ce2e-4f36-a3ea-389a5040250e")
@@ -53635,7 +54218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 304.8 52.07 0)
 			(effects
 				(font
@@ -53663,46 +54246,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfd")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c0e")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152dc")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152ee")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e37")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e4a")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7198")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71ab")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159aa")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159bc")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc2c")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc3d")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f729606d")
+			(uuid "3274149f-3955-4090-8a62-4d09f7296081")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b30d")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b31e")
 		)
 		(pin "1"
 			(uuid "5070f151-d074-4fdb-97d2-c1049ab95109")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fef")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e043000")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f55")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f69")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5f")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae70")
 		)
 		(pin "2"
 			(uuid "0532e5cb-e62b-450b-964f-8d5079d558ef")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe221")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe232")
 		)
 		(instances
 			(project "wallputer"
@@ -53740,7 +54323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 329.438 90)
 			(effects
 				(font
@@ -54009,7 +54592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 322.58 227.33 0)
 			(effects
 				(font
@@ -54062,6 +54645,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 114.3 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8a62336-016f-4173-8101-37545cf69ad5")
+		(property "Reference" "R2"
+			(at 119.126 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 114.046 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+			(at 114.3 151.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00cd3c29-308a-4a94-bee6-d966f93feaa0")
+		)
+		(pin "2"
+			(uuid "adb74571-63ae-4f9b-8216-58f36af615d7")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 288.29 266.7 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -54087,7 +54737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 288.29 264.922 90)
 			(effects
 				(font
@@ -54156,7 +54806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 288.29 221.742 90)
 			(effects
 				(font
@@ -54290,7 +54940,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 218.44 302.5648 0)
 			(effects
 				(font
@@ -54360,7 +55010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 398.78 270.51 0)
 			(effects
 				(font
@@ -54436,7 +55086,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 353.06 295.91 0)
 			(effects
 				(font
@@ -54464,46 +55114,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf9")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c0f")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d8")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152ef")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e34")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e4b")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7195")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71ac")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a6")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159bd")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc27")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc3e")
 		)
 		(pin "13"
 			(uuid "2cf10616-db94-4036-86d9-a9b3dea73684")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b309")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b31f")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3c")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb52")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fea")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e043001")
 		)
 		(pin "12"
 			(uuid "927469fc-5f05-473c-aa4c-6459d647a208")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5b")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae71")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026c")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240282")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21d")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe233")
 		)
 		(instances
 			(project "wallputer"
@@ -54605,7 +55255,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 62.23 187.198 90)
 			(effects
 				(font
@@ -54672,7 +55322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 391.16 295.91 0)
 			(effects
 				(font
@@ -54700,46 +55350,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf9")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c10")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d8")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152f0")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e34")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e4c")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7195")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71ad")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a6")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159be")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc27")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc3f")
 		)
 		(pin "13"
 			(uuid "abe7ade6-997e-4067-993d-686de52cc1eb")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b309")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b320")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3c")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb53")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fea")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e043002")
 		)
 		(pin "12"
 			(uuid "8bca8cfd-ab44-4091-843e-125b5370b694")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5b")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae72")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026c")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240283")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21d")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe234")
 		)
 		(instances
 			(project "wallputer"
@@ -54777,7 +55427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 326.898 90)
 			(effects
 				(font
@@ -54845,7 +55495,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 494.03 29.21 0)
 			(effects
 				(font
@@ -54873,46 +55523,46 @@
 			)
 		)
 		(pin "10"
-			(uuid "16237429-389e-4b2a-8f2c-faf5a7de7e87")
+			(uuid "16237429-389e-4b2a-8f2c-faf5a7de7e8c")
 		)
 		(pin "7"
-			(uuid "046a0f06-cd0d-4ba5-97d4-af73e7d1ab3e")
+			(uuid "046a0f06-cd0d-4ba5-97d4-af73e7d1ab43")
 		)
 		(pin "5"
-			(uuid "565126d6-cbc7-457f-b652-1ff44660f671")
+			(uuid "565126d6-cbc7-457f-b652-1ff44660f676")
 		)
 		(pin "4"
-			(uuid "d85e266f-ebfb-48bc-8d5a-5804b6b67866")
+			(uuid "d85e266f-ebfb-48bc-8d5a-5804b6b6786b")
 		)
 		(pin "12"
-			(uuid "3dcabfd8-63c0-463e-8e75-bb0d186785f9")
+			(uuid "3dcabfd8-63c0-463e-8e75-bb0d186785fe")
 		)
 		(pin "13"
-			(uuid "dd0fe6a2-6244-472e-84e7-83dada6ba8ad")
+			(uuid "dd0fe6a2-6244-472e-84e7-83dada6ba8b2")
 		)
 		(pin "8"
-			(uuid "874c2c44-8c15-46a2-b648-7339e9ce0c43")
+			(uuid "874c2c44-8c15-46a2-b648-7339e9ce0c48")
 		)
 		(pin "14"
-			(uuid "29d7d1be-b5ed-4ae7-9793-cc92834eaaaf")
+			(uuid "29d7d1be-b5ed-4ae7-9793-cc92834eaab4")
 		)
 		(pin "9"
-			(uuid "89e48044-9c92-4ba6-b8ff-16347363f4e5")
+			(uuid "89e48044-9c92-4ba6-b8ff-16347363f4ea")
 		)
 		(pin "6"
-			(uuid "dafb3611-7409-48f1-ada3-42724938b92d")
+			(uuid "dafb3611-7409-48f1-ada3-42724938b932")
 		)
 		(pin "3"
-			(uuid "a30f9120-e0b6-40e1-af9e-048caf692f05")
+			(uuid "a30f9120-e0b6-40e1-af9e-048caf692f0a")
 		)
 		(pin "2"
-			(uuid "4f74f30b-659f-4aba-b130-0a8b3e7ccafd")
+			(uuid "4f74f30b-659f-4aba-b130-0a8b3e7ccb02")
 		)
 		(pin "1"
-			(uuid "b08d6c95-219b-4978-a5c1-22d132159ba5")
+			(uuid "b08d6c95-219b-4978-a5c1-22d132159baa")
 		)
 		(pin "11"
-			(uuid "63bb4843-9c87-426f-8394-758f2fd4c33c")
+			(uuid "63bb4843-9c87-426f-8394-758f2fd4c341")
 		)
 		(instances
 			(project ""
@@ -54950,7 +55600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 67.31 319.278 90)
 			(effects
 				(font
@@ -55085,7 +55735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 364.49 243.332 90)
 			(effects
 				(font
@@ -55152,7 +55802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 314.96 210.82 0)
 			(effects
 				(font
@@ -55180,10 +55830,10 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bf6")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c11")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152d5")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152f1")
 		)
 		(pin "6"
 			(uuid "c229bd82-ab0d-41f3-9e49-502fd13b8cb5")
@@ -55192,34 +55842,34 @@
 			(uuid "6cc24019-4b63-411c-9ee7-ec79a8168213")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a3")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159bf")
 		)
 		(pin "7"
-			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc24")
+			(uuid "8dfbfc77-01c2-4b66-a83c-3a1f6a13cc40")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f7296067")
+			(uuid "3274149f-3955-4090-8a62-4d09f7296082")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b306")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b321")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb39")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb54")
 		)
 		(pin "14"
-			(uuid "c3d36feb-7ddf-452f-a878-dedd9e042fe7")
+			(uuid "c3d36feb-7ddf-452f-a878-dedd9e043003")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f4f")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f6a")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae58")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae73")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240269")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240284")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21a")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe235")
 		)
 		(instances
 			(project "wallputer"
@@ -55257,7 +55907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 379.73 156.21 0)
 			(effects
 				(font
@@ -55285,46 +55935,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "ea9dc917-c3d2-444f-8eed-aed815409bfb")
+			(uuid "ea9dc917-c3d2-444f-8eed-aed815409c12")
 		)
 		(pin "8"
-			(uuid "c8302dcf-f084-4172-8627-db7f967152da")
+			(uuid "c8302dcf-f084-4172-8627-db7f967152f2")
 		)
 		(pin "6"
-			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e36")
+			(uuid "2bb6bb93-2cf6-4d25-8285-2489f7c38e4d")
 		)
 		(pin "5"
-			(uuid "376b91a5-33ba-4a57-93df-99e7602c7197")
+			(uuid "376b91a5-33ba-4a57-93df-99e7602c71ae")
 		)
 		(pin "9"
-			(uuid "02e628f5-26dc-4b1c-8766-57adf62159a8")
+			(uuid "02e628f5-26dc-4b1c-8766-57adf62159c0")
 		)
 		(pin "7"
 			(uuid "323105da-49ec-4f75-b245-59f6cd5b8f33")
 		)
 		(pin "13"
-			(uuid "3274149f-3955-4090-8a62-4d09f729606c")
+			(uuid "3274149f-3955-4090-8a62-4d09f7296083")
 		)
 		(pin "4"
-			(uuid "e370abdf-0128-4a27-876e-8758bc06b30b")
+			(uuid "e370abdf-0128-4a27-876e-8758bc06b322")
 		)
 		(pin "1"
-			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb3e")
+			(uuid "49ad646c-5247-46f5-b920-8fe22f66fb55")
 		)
 		(pin "14"
 			(uuid "2830ffb8-8018-4b55-959f-defde11dd084")
 		)
 		(pin "12"
-			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f54")
+			(uuid "14acbc1c-1f76-4447-ab79-ecba43297f6b")
 		)
 		(pin "10"
-			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae5d")
+			(uuid "15239a5d-30a7-4e53-8c8f-88ee5122ae74")
 		)
 		(pin "2"
-			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed24026e")
+			(uuid "ce90e7a8-db9c-4a3a-a6e5-77d1ed240285")
 		)
 		(pin "3"
-			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe21f")
+			(uuid "cba668a3-32e9-48e6-8b1c-78d61febe236")
 		)
 		(instances
 			(project "wallputer"
@@ -55496,7 +56146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 342.9 44.45 0)
 			(effects
 				(font
@@ -55781,7 +56431,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 398.78 299.72 0)
 			(effects
 				(font
@@ -55858,7 +56508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 494.03 39.37 0)
 			(effects
 				(font
@@ -55886,52 +56536,119 @@
 			)
 		)
 		(pin "10"
-			(uuid "16237429-389e-4b2a-8f2c-faf5a7de7e87")
+			(uuid "16237429-389e-4b2a-8f2c-faf5a7de7e8d")
 		)
 		(pin "7"
-			(uuid "046a0f06-cd0d-4ba5-97d4-af73e7d1ab3e")
+			(uuid "046a0f06-cd0d-4ba5-97d4-af73e7d1ab44")
 		)
 		(pin "5"
-			(uuid "565126d6-cbc7-457f-b652-1ff44660f671")
+			(uuid "565126d6-cbc7-457f-b652-1ff44660f677")
 		)
 		(pin "4"
-			(uuid "d85e266f-ebfb-48bc-8d5a-5804b6b67866")
+			(uuid "d85e266f-ebfb-48bc-8d5a-5804b6b6786c")
 		)
 		(pin "12"
-			(uuid "3dcabfd8-63c0-463e-8e75-bb0d186785f9")
+			(uuid "3dcabfd8-63c0-463e-8e75-bb0d186785ff")
 		)
 		(pin "13"
-			(uuid "dd0fe6a2-6244-472e-84e7-83dada6ba8ad")
+			(uuid "dd0fe6a2-6244-472e-84e7-83dada6ba8b3")
 		)
 		(pin "8"
-			(uuid "874c2c44-8c15-46a2-b648-7339e9ce0c43")
+			(uuid "874c2c44-8c15-46a2-b648-7339e9ce0c49")
 		)
 		(pin "14"
-			(uuid "29d7d1be-b5ed-4ae7-9793-cc92834eaaaf")
+			(uuid "29d7d1be-b5ed-4ae7-9793-cc92834eaab5")
 		)
 		(pin "9"
-			(uuid "89e48044-9c92-4ba6-b8ff-16347363f4e5")
+			(uuid "89e48044-9c92-4ba6-b8ff-16347363f4eb")
 		)
 		(pin "6"
-			(uuid "dafb3611-7409-48f1-ada3-42724938b92d")
+			(uuid "dafb3611-7409-48f1-ada3-42724938b933")
 		)
 		(pin "3"
-			(uuid "a30f9120-e0b6-40e1-af9e-048caf692f05")
+			(uuid "a30f9120-e0b6-40e1-af9e-048caf692f0b")
 		)
 		(pin "2"
-			(uuid "4f74f30b-659f-4aba-b130-0a8b3e7ccafd")
+			(uuid "4f74f30b-659f-4aba-b130-0a8b3e7ccb03")
 		)
 		(pin "1"
-			(uuid "b08d6c95-219b-4978-a5c1-22d132159ba5")
+			(uuid "b08d6c95-219b-4978-a5c1-22d132159bab")
 		)
 		(pin "11"
-			(uuid "63bb4843-9c87-426f-8394-758f2fd4c33c")
+			(uuid "63bb4843-9c87-426f-8394-758f2fd4c342")
 		)
 		(instances
 			(project ""
 				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
 					(reference "U14")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 140.97 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fba1239d-2f1a-4b30-973b-2556249a335a")
+		(property "Reference" "#PWR052"
+			(at 140.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "451f7cf8-ea4f-4841-999d-08f430609ab3")
+		)
+		(instances
+			(project "wallputer"
+				(path "/7b0eadf4-5478-4b50-9949-8591ce39b921"
+					(reference "#PWR052")
+					(unit 1)
 				)
 			)
 		)
@@ -55963,7 +56680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 402.59 221.742 90)
 			(effects
 				(font
@@ -56033,7 +56750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 360.68 292.1 0)
 			(effects
 				(font
@@ -56112,7 +56829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 504.19 82.55 0)
 			(effects
 				(font
@@ -56203,7 +56920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 62.23 182.118 90)
 			(effects
 				(font
@@ -56273,7 +56990,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 360.68 278.13 0)
 			(effects
 				(font
@@ -56351,7 +57068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 364.49 264.922 90)
 			(effects
 				(font
@@ -56421,7 +57138,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:INND-TS40"
+		(property "Footprint" "wallputer:INND-TS40"
 			(at 99.06 214.63 0)
 			(effects
 				(font
@@ -56514,7 +57231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 492.76 157.1752 0)
 			(effects
 				(font
