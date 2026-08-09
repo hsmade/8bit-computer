@@ -65601,8 +65601,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TODO:\n- edge\n- f.mask fill-in\n- backplane gnd\n- fix segment layout"
-		(at 483.235 247.015 0)
+	(gr_text "TODO:\n- edge\n- f.mask fill-in\n- backplane gnd\n- fix segment layout\n- find proper components and fix footprints (potmeter, diodes, db9, barrel jack, ..)\n- create rp2040 board\n- measure mounting holes for display\n- put mounting holes"
+		(at 266.5 225 0)
 		(layer "User.4")
 		(uuid "3a8e1992-5e0b-40a7-b6aa-efc2924022ee")
 		(effects
