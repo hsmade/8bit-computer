@@ -13891,13 +13891,14 @@
 		)
 		(uuid "527a2009-ed98-4696-b7bc-2eeb5a72c3b5")
 	)
-	(text "TODO: design RP2040 board\nhttps://www.ti.com/lit/ds/symlink/sn74hct595.pdf?ts=1786272471170\nhttps://www.ti.com/lit/ds/symlink/sn74lvc165a.pdf?ts=1786277088896&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct-category%252Flogic-voltage-translation%252Fflip-flops-latches-registers%252Fshift-registers%252Fproducts.html\nhttps://chatgpt.com/c/6a5e65af-5e64-83ed-a366-c72244979704"
+	(text "TODO: design RP2040 board\nhttps://www.ti.com/lit/ds/symlink/sn74hct595.pdf\nhttps://www.ti.com/lit/ds/symlink/sn74lvc165a.pdf\nhttps://chatgpt.com/c/6a5e65af-5e64-83ed-a366-c72244979704"
 		(exclude_from_sim no)
-		(at 673.354 446.786 0)
+		(at 485.648 382.778 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "5ee7af68-3226-446b-9e3e-2d7317523723")
 	)
