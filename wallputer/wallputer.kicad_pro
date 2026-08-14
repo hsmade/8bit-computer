@@ -58,32 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|107950000|387350000|0d310cd2-c671-4322-a97c-dab1996ed0a8|00000000-0000-0000-0000-000000000000",
-          "Intentional TS40 footprint outline override; physical part fits 2.54mm consecutive-row layout."
-        ],
-        [
-          "lib_footprint_mismatch|118110000|387350000|2cc9348a-bd18-44ff-a45d-506a40413c9d|00000000-0000-0000-0000-000000000000",
-          "Intentional TS40 footprint outline override; physical part fits 2.54mm consecutive-row layout."
-        ],
-        [
-          "lib_footprint_mismatch|128270000|387350000|100e8888-f2da-465e-945d-d324c804ec5d|00000000-0000-0000-0000-000000000000",
-          "Intentional TS40 footprint outline override; physical part fits 2.54mm consecutive-row layout."
-        ],
-        [
-          "lib_footprint_mismatch|139700000|387350000|9ae02ade-fc8f-48e4-ae48-9126139c9d17|00000000-0000-0000-0000-000000000000",
-          "Intentional TS40 footprint outline override; physical part fits 2.54mm consecutive-row layout."
-        ],
-        [
-          "lib_footprint_mismatch|149860000|387350000|5473899f-0c50-461a-9c93-0d79513a59d0|00000000-0000-0000-0000-000000000000",
-          "Intentional TS40 footprint outline override; physical part fits 2.54mm consecutive-row layout."
-        ],
-        [
-          "lib_footprint_mismatch|97790000|387350000|05039773-5ad5-408f-8d36-8d7b1c5f321b|00000000-0000-0000-0000-000000000000",
-          "Intentional TS40 footprint outline override; physical part fits 2.54mm consecutive-row layout."
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -456,7 +431,7 @@
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "ignore",
+      "lib_symbol_issues": "warning",
       "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",

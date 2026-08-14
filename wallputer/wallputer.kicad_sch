@@ -8741,7 +8741,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "Library:INND-TS40"
+			(property "Footprint" "wallputer:INND-TS40"
 				(at 13.97 0 0)
 				(effects
 					(font
@@ -29586,7 +29586,7 @@
 	)
 	(symbol
 		(lib_name "INND-TS40_1")
-		(lib_id "New_Library:INND-TS40")
+		(lib_id "New_Library:INND-TS40_1")
 		(at 158.75 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32742,7 +32742,7 @@
 	)
 	(symbol
 		(lib_name "INND-TS40_1")
-		(lib_id "New_Library:INND-TS40")
+		(lib_id "New_Library:INND-TS40_1")
 		(at 232.41 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -40292,7 +40292,7 @@
 	)
 	(symbol
 		(lib_name "INND-TS40_1")
-		(lib_id "New_Library:INND-TS40")
+		(lib_id "New_Library:INND-TS40_1")
 		(at 85.09 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -40385,7 +40385,7 @@
 	)
 	(symbol
 		(lib_name "INND-TS40_1")
-		(lib_id "New_Library:INND-TS40")
+		(lib_id "New_Library:INND-TS40_1")
 		(at 158.75 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -54638,7 +54638,7 @@
 	)
 	(symbol
 		(lib_name "INND-TS40_1")
-		(lib_id "New_Library:INND-TS40")
+		(lib_id "New_Library:INND-TS40_1")
 		(at 232.41 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -60978,7 +60978,7 @@
 	)
 	(symbol
 		(lib_name "INND-TS40_1")
-		(lib_id "New_Library:INND-TS40")
+		(lib_id "New_Library:INND-TS40_1")
 		(at 85.09 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)

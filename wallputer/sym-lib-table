@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "65xx-library")(type "KiCad")(uri "${KIPRJMOD}/65xx-library.kicad_sym")(options "")(descr ""))
   (lib (name "lcd")(type "KiCad")(uri "${KIPRJMOD}/lcd.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
 )
