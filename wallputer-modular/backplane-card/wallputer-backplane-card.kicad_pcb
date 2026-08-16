@@ -170,7 +170,7 @@
 		)
 		(path "/6cef15cc-cece-44eb-8226-f571c0b9202f")
 		(sheetname "/")
-		(sheetfile "wallputer-modular.kicad_sch")
+		(sheetfile "wallputer-backplane.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 13.09 50.03)
@@ -3611,7 +3611,7 @@
 		)
 		(path "/834c4677-32c4-4340-b458-efe913e1089e")
 		(sheetname "/")
-		(sheetfile "wallputer-modular.kicad_sch")
+		(sheetfile "wallputer-backplane.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -13.05 50.05)
@@ -6081,7 +6081,7 @@
 		)
 		(path "/d30eb492-d58b-4283-ad08-1863463134a6")
 		(sheetname "/")
-		(sheetfile "wallputer-modular.kicad_sch")
+		(sheetfile "wallputer-backplane.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.8 50.05)
@@ -8551,7 +8551,7 @@
 		)
 		(path "/caab09a5-af68-4dba-9f51-01db54c50fe5")
 		(sheetname "/")
-		(sheetfile "wallputer-modular.kicad_sch")
+		(sheetfile "wallputer-backplane.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.8 -1.75)

@@ -6783,7 +6783,7 @@
 			(uuid "d325e3e5-7463-4d00-b961-5c004a94e08a")
 		)
 		(instances
-			(project "wallputer-modular"
+			(project "wallputer-backplane"
 				(path "/964cacae-5abd-494a-adb6-793a2878fd8d"
 					(reference "J2")
 					(unit 1)
@@ -6964,7 +6964,7 @@
 			(uuid "d59ccf5f-945b-402f-8dbe-cf73ba354716")
 		)
 		(instances
-			(project "wallputer-modular"
+			(project "wallputer-backplane"
 				(path "/964cacae-5abd-494a-adb6-793a2878fd8d"
 					(reference "J3")
 					(unit 1)
@@ -7145,7 +7145,7 @@
 			(uuid "a9edea2d-2179-4308-b735-0243f916791a")
 		)
 		(instances
-			(project "wallputer-modular"
+			(project "wallputer-backplane"
 				(path "/964cacae-5abd-494a-adb6-793a2878fd8d"
 					(reference "J4")
 					(unit 1)
