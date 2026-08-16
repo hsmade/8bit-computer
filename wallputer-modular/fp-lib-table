@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Wallputer")(type "KiCad")(uri "${KIPRJMOD}/Wallputer.pretty")(options "")(descr ""))
+)
