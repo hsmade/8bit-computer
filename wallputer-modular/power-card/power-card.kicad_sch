@@ -10186,7 +10186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 140.97 169.418 90)
 			(effects
 				(font
@@ -10256,7 +10256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 57.4548 182.88 0)
 			(effects
 				(font
@@ -11401,7 +11401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 140.97 160.528 90)
 			(effects
 				(font
@@ -12088,7 +12088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 144.78 182.88 0)
 			(effects
 				(font
@@ -14026,7 +14026,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1n4148"
 			(at 97.028 183.896 90)
 			(effects
 				(font
@@ -14035,7 +14035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 93.98 184.15 0)
 			(effects
 				(font
@@ -14200,7 +14200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 270.51 146.558 90)
 			(effects
 				(font
@@ -15614,7 +15614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 38.862 121.92 90)
 			(effects
 				(font
@@ -15967,7 +15967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 78.4352 184.15 0)
 			(effects
 				(font
@@ -20888,7 +20888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 277.368 148.59 90)
 			(effects
 				(font
@@ -21289,7 +21289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 63.1952 180.34 0)
 			(effects
 				(font
@@ -21729,7 +21729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 104.14 177.038 90)
 			(effects
 				(font
@@ -25399,7 +25399,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1n4148"
 			(at 104.14 185.4199 90)
 			(effects
 				(font
@@ -25408,7 +25408,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 101.6 184.15 0)
 			(effects
 				(font
@@ -26485,7 +26485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 97.79 187.96 0)
 			(effects
 				(font
@@ -27051,7 +27051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 41.6052 134.62 0)
 			(effects
 				(font
@@ -27644,7 +27644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 109.728 171.45 90)
 			(effects
 				(font
@@ -28332,7 +28332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 92.202 176.53 90)
 			(effects
 				(font
@@ -28469,7 +28469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 50.8 132.08 0)
 			(effects
 				(font
