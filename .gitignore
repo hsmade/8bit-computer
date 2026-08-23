@@ -17,6 +17,8 @@ _autosave-*
 
 # KiCad cache files
 *-cache.lib
+fp-info-cache
+sym-info-cache
 
 # KiCad rescue files (older KiCad versions)
 *-rescue.lib
