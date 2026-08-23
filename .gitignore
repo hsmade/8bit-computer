@@ -5,6 +5,8 @@
 # KiCad autosave files
 _autosave-*
 *.autosave
+\#auto_saved_files\#
+
 
 # KiCad lock files
 ~$*
