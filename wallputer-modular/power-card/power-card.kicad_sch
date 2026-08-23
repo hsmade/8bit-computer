@@ -4315,12 +4315,6 @@
 		(uuid "1f3ca948-fa47-499f-865b-3fe152c10296")
 	)
 	(junction
-		(at 190.5 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1fb02b96-f20c-4149-9e37-163fef5352d2")
-	)
-	(junction
 		(at 161.29 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4361,12 +4355,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29dc03e8-6434-4a94-8bb9-064c8b50abe6")
-	)
-	(junction
-		(at 190.5 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c9a106e-f981-4590-8d67-2aa767b0e27f")
 	)
 	(junction
 		(at 92.71 130.81)
@@ -5996,7 +5984,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 31.75) (xy 190.5 30.48)
+			(xy 190.5 27.94) (xy 190.5 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6123,16 +6111,6 @@
 			(type default)
 		)
 		(uuid "1d7746c4-4531-4817-8087-bb3e6659192c")
-	)
-	(wire
-		(pts
-			(xy 199.39 30.48) (xy 198.12 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eb019dd-2ef1-4b5c-863d-090c9ed32721")
 	)
 	(wire
 		(pts
@@ -7756,16 +7734,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 30.48) (xy 190.5 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6293033f-188b-414c-b12d-f91cb9251259")
-	)
-	(wire
-		(pts
 			(xy 85.09 52.07) (xy 83.82 52.07)
 		)
 		(stroke
@@ -9196,16 +9164,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 33.02) (xy 190.5 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a5584d5-4e70-41fa-aea5-cef86853db0b")
-	)
-	(wire
-		(pts
 			(xy 161.29 152.4) (xy 168.91 152.4)
 		)
 		(stroke
@@ -9746,7 +9704,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 33.02) (xy 190.5 33.02)
+			(xy 205.74 33.02) (xy 191.77 33.02)
 		)
 		(stroke
 			(width 0)
@@ -9823,6 +9781,16 @@
 			(type default)
 		)
 		(uuid "b5e17d14-9e30-400d-9383-ea80b8063626")
+	)
+	(wire
+		(pts
+			(xy 191.77 30.48) (xy 191.77 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b630cf17-ca2b-4c75-8210-6b87d61fb277")
 	)
 	(wire
 		(pts
@@ -24982,7 +24950,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 194.31 30.48 270)
+		(at 195.58 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24990,7 +24958,7 @@
 		(dnp no)
 		(uuid "cbd2c340-8f23-4912-ae6d-4c5118c20670")
 		(property "Reference" "R47"
-			(at 189.23 28.448 90)
+			(at 190.5 28.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24999,7 +24967,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 192.278 30.48 90)
+			(at 194.056 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25008,7 +24976,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 194.31 28.702 90)
+			(at 195.58 28.702 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25017,7 +24985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 30.48 0)
+			(at 195.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25026,7 +24994,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 194.31 30.48 0)
+			(at 195.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

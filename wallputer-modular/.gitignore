@@ -1,0 +1,34 @@
+# KiCad backups
+*-backups/
+*.bak
+
+# KiCad autosave files
+_autosave-*
+*.autosave
+
+# KiCad lock files
+~$*
+*.lck
+
+# KiCad temporary files
+*.tmp
+
+# KiCad cache files
+*-cache.lib
+
+# KiCad rescue files (older KiCad versions)
+*-rescue.lib
+*-rescue.dcm
+
+# Local/user-specific KiCad settings
+*.kicad_prl
+
+# Generated netlists / reports
+*.net
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
