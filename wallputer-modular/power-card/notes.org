@@ -1,0 +1,61 @@
+* TODO
+
+** [ ] rewire buffers
+** [ ] renumber leds and resistors
+** [X] perhaps relocate C's between buffers?
+** [?] replace parts around 555 with SMD?
+** [ ] find signals for NC's
+
+U3
+| LED | Rright | Rleft | out | in | header | signal |
+| D8  | R11    | R12   |   2 |  1 |     39 | CLK    |
+| D12 | R21    | R22   |   4 |  3 |      2 | NC2    |
+| D27 | R25    | R26   |   6 |  5 |      3 | NC3    |
+| D6  | R7     | R8    |   8 |  9 |     36 | NC36   |
+| D7  | R9     | R10   |  10 | 11 |     38 | NC38   |
+|     |        |       |  12 | 13 |        | SW_LED |
+
+U12
+| LED | Rright | Rleft | out | in | header | signal |
+| D1  | R70    | R15   |   2 |  1 |      5 | A0     |
+| D4  | R6     | R5    |  12 | 13 |     35 | CS/    |
+| D14 | R17    | R16   |   4 |  3 |      6 | A1     |
+| D9  | R68    | R18   |  10 | 11 |     34 | A2     |
+| D13 | R24    | R23   |   6 |  5 |      7 | NMI/   |
+| D17 | R71    | R69   |   8 |  9 |        | A3     |
+
+U2
+| LED | Rright | Rleft | out | in | header | signal |
+| D30 | R30    | R29   |   2 |  1 |     32 | IRQ/   |
+| D19 | R73    | R72   |  12 | 13 |      9 | A4     |
+| D29 | R28    | R27   |   4 |  3 |     31 | BE     |
+| D73 | R75    | R74   |  10 | 11 |     10 | A5     |
+| D11 | R20    | R19   |   6 |  5 |     30 | NC30   |
+| D5  | R36    | R35   |   8 |  9 |     11 | A6     |
+
+U16
+| LED | Rright | Rleft | out | in | header | signal |
+| D10 | R14    | R13   |   2 |  1 |     29 | RW/    |
+| D15 | R38    | R37   |  12 | 13 |     12 | A7     |
+| D28 | R58    | R57   |   4 |  3 |     28 | D7     |
+| D16 | R40    | R39   |  10 | 11 |     13 | A8     |
+| D26 | R56    | R55   |   6 |  5 |     27 | D6     |
+| D18 | R42    | R41   |   8 |  9 |     14 | A9     |
+
+U17
+| LED | Rright | Rleft | out | in | header | signal |
+| D25 | R54    | R53   |   2 |  1 |     26 | D5     |
+| D20 | R44    | R43   |  12 | 13 |     15 | A10    |
+| D24 | R52    | R51   |   4 |  3 |     25 | D4     |
+| D21 | R46    | R45   |  10 | 11 |     16 | A11    |
+| D23 | R50    | R49   |   6 |  5 |     24 | D3     |
+| D31 | R69    | R59   |   8 |  9 |     17 | A12    |
+
+U18
+| LED | Rright | Rleft | out | in | header | signal |
+| D22 | R48    | R47   |   2 |  1 |     23 | D2     |
+| D32 | R62    | R61   |  12 | 13 |     18 | A13    |
+| D36 | R78    | R77   |   4 |  3 |     22 | D1     |
+| D33 | R64    | R63   |  10 | 11 |     19 | A14    |
+| D35 | 76R    | R67   |   6 |  5 |     21 | D0     |
+| D34 | R66    | R65   |   8 |  9 |     20 | A15    |
