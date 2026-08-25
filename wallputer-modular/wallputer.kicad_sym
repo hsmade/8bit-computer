@@ -83,7 +83,7 @@
 			(pin passive line
 				(at 11.43 -7.62 0)
 				(length 2.54)
-				(name "NC"
+				(name "SYNC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -101,7 +101,7 @@
 			(pin passive line
 				(at 11.43 -10.16 0)
 				(length 2.54)
-				(name "NC"
+				(name "VP/"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -461,7 +461,7 @@
 			(pin passive line
 				(at 27.94 -10.16 180)
 				(length 2.54)
-				(name "NC"
+				(name "ACC/"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -497,7 +497,7 @@
 			(pin passive line
 				(at 27.94 -15.24 180)
 				(length 2.54)
-				(name "NC"
+				(name "ROM/"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -515,7 +515,7 @@
 			(pin passive line
 				(at 27.94 -17.78 180)
 				(length 2.54)
-				(name "CS/"
+				(name "RAM/"
 					(effects
 						(font
 							(size 1.27 1.27)
