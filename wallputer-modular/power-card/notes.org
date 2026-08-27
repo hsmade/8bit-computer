@@ -15,3 +15,4 @@
 *** NMI/
 *** VP/
 *** SYNC
+** [ ] line up connector board with connector placement
