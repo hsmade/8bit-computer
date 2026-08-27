@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "wallputer-backplane.kicad_pro",
+    "filename": "wallputer-backplane-card.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -489,7 +489,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "wallputer-backplane-card.step",
       "svg": "",
       "vrml": ""
     },
