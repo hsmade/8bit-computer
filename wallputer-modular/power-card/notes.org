@@ -1,8 +1,17 @@
 * TODO
 
-** [ ] rewire buffers
+** [X] rewire buffers
 ** [ ] renumber leds and resistors
 ** [X] perhaps relocate C's between buffers?
 ** [?] replace parts around 555 with SMD?
 ** [X] find signals for NC's
-** [ ]
+** [ ] replace resistors around usb-c with SMD
+** [X] replace leds to indicate only for:
+*** RAM/
+*** ROM/
+*** ACC/
+*** RES/
+*** IRQ/
+*** NMI/
+*** VP/
+*** SYNC

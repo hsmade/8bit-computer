@@ -1007,7 +1007,7 @@
 			(pin input line
 				(at -7.62 2.54 0)
 				(length 3.81)
-				(name "Red_K"
+				(name "Red_A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1025,7 +1025,7 @@
 			(pin input line
 				(at -7.62 -2.54 0)
 				(length 3.048)
-				(name "Green_A"
+				(name "Green_K"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1043,7 +1043,7 @@
 			(pin input line
 				(at 7.62 2.54 180)
 				(length 3.048)
-				(name "Red_A"
+				(name "Red_K"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1061,7 +1061,7 @@
 			(pin input line
 				(at 7.62 -2.54 180)
 				(length 3.81)
-				(name "Green_K"
+				(name "Green_A"
 					(effects
 						(font
 							(size 1.27 1.27)
