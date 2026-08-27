@@ -3,7 +3,7 @@
 ** [X] rewire buffers
 ** [ ] renumber leds and resistors
 ** [X] perhaps relocate C's between buffers?
-** [?] replace parts around 555 with SMD?
+** [?] replace parts around 555 with SMD? = so non-essential parts are all SMD
 ** [X] find signals for NC's
 ** [ ] replace resistors around usb-c with SMD
 ** [X] replace leds to indicate only for:
@@ -15,4 +15,4 @@
 *** NMI/
 *** VP/
 *** SYNC
-** [ ] line up connector board with connector placement (26.035 from the top to top pin)
+** [X] line up connector board with connector placement (26.035 from the top to top pin)

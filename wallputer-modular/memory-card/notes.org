@@ -1,0 +1,3 @@
+* TODO
+
+** [ ] put buffers on RAM/ and ROM/ and a blue led for activation
