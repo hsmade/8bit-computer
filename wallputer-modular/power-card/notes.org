@@ -15,4 +15,4 @@
 *** NMI/
 *** VP/
 *** SYNC
-** [ ] line up connector board with connector placement
+** [ ] line up connector board with connector placement (26.035 from the top to top pin)
