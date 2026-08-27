@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 2,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "wallputer-backplane.kicad_prl",
+    "filename": "wallputer-backplane-card.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
