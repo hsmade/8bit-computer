@@ -10985,7 +10985,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "791f0ed4-8dd5-4e55-9687-36546aa901fe")
+		(uuid "257b6f5a-27e3-4220-9143-e64d5c236550")
 	)
 	(gr_line
 		(start 138.43 50.8)
@@ -11006,6 +11006,30 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e3d89bcf-145f-40c3-a52d-44c51713f5d8")
+	)
+	(gr_text "CONNECT"
+		(at 50.8 146.685 0)
+		(layer "F.SilkS")
+		(uuid "46edd5f6-dea9-42de-ab92-b48755d20ce9")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "CARD\n"
+		(at 126.365 146.685 0)
+		(layer "F.SilkS")
+		(uuid "4bb7d1f9-48ae-40ff-b167-448330958f2f")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
 	)
 	(segment
 		(start 93.3475 95.979)
