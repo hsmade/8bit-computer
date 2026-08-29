@@ -1,4 +1,4 @@
 * TODO
 
-** [ ] put buffers on RAM/ and ROM/ and a blue led for activation
-** [ ] lower parts a bit down so the 'address decoder' text gets more space and stuff is in the middle (depends on point above)
+** [X] put buffers on RAM/ and ROM/ and a blue led for activation
+** [X] lower parts a bit down so the 'address decoder' text gets more space and stuff is in the middle (depends on point above)
