@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root="$(git rev-parse --show-toplevel)"
+project_dir="$repo_root/wallputer-modular"
+
+"$project_dir/render-board-images.sh"
+
+git -C "$project_dir" add -- '*/renders/*.svg' render-board-images.sh .githooks/pre-commit
