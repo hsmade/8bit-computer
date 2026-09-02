@@ -5,5 +5,13 @@ repo_root="$(git rev-parse --show-toplevel)"
 project_dir="$repo_root/wallputer-modular"
 
 "$project_dir/render-board-images.sh"
+"$project_dir/generate-gerbers.sh"
 
-git -C "$project_dir" add -- '*/renders/*.svg' render-board-images.sh .githooks/pre-commit
+git -C "$project_dir" add -- \
+  '*/renders/*.svg' \
+  '*/gerbers/*' \
+  '*/README.md' \
+  README.md \
+  render-board-images.sh \
+  generate-gerbers.sh \
+  .githooks/pre-commit

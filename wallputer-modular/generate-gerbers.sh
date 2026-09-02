@@ -33,8 +33,8 @@ fi
 for pcb in "${boards[@]}"; do
   board_dir="$(dirname "$pcb")"
   board_name="$(basename "$pcb" .kicad_pcb)"
-  out_dir="$board_dir/pcbway"
-  zip_file="$board_dir/${board_name}-pcbway.zip"
+  out_dir="$board_dir/gerbers"
+  zip_file="$out_dir/${board_name}-gerbers.zip"
 
   echo "==> $board_name"
 
@@ -59,7 +59,7 @@ for pcb in "${boards[@]}"; do
   rm -f "$zip_file"
   (
     cd "$out_dir"
-    zip -q "../$(basename "$zip_file")" ./*.gbr ./*.gbrjob ./*.drl
+    zip -q "$(basename "$zip_file")" ./*.gbr ./*.gbrjob ./*.drl
   )
 
   echo "    wrote $zip_file"
