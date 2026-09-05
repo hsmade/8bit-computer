@@ -1119,7 +1119,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "One digit 7 segment yellow, common anode"
+			(property "Description" "One digit 7 segment yellow, common cathode"
 				(at 0 0 0)
 				(effects
 					(font
