@@ -16,6 +16,8 @@
 * verify dual led circuit
 * design rp2040 circuit
 * verify clock switch circuit
+* brightness via bars
+* brightness RS-232 leds
 
 
 ## ACIA Card
