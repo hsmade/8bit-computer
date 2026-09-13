@@ -8,6 +8,16 @@
 |  | [Bus Display Card](#bus-display-card) | [ACIA Card](#acia-card) | [VIA Card](#via-card) |
 
 
+## TODO
+
+* finish up BOM using order
+* check all footprints
+* verify 555 circuits
+* verify dual led circuit
+* design rp2040 circuit
+* verify clock switch circuit
+
+
 ## ACIA Card
 Used for serial ports.
 
